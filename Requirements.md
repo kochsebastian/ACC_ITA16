@@ -16,10 +16,10 @@ Active ACC --> turn off --> check feedback --> check if ACC is off
 # On/Off
 While driving, the driver have to has [sic] the ability to turn the ACC on and off at any moment. After the ACC is turned off, the acceleration of the car is determined by the gas pedal and brake pedal, just like a car without ACC.
 ## Test
-1) ACC must be turned off
-2) The ACC will be turned on and state feedback displays this properly
-3a) press gas pedal - the vehicle responds as expected
-3b) press brake pedal - the vehicle responds as expected
+1 ACC must be turned off
+2 The ACC will be turned on and state feedback displays this properly
+3a press gas pedal - the vehicle responds as expected
+3b press brake pedal - the vehicle responds as expected
 
 # Fusi
 If the car had [sic] a crash the acc [sic] must turn itself of [sic].
