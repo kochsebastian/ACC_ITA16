@@ -16,17 +16,17 @@ Active ACC --> turn off --> check feedback --> check if ACC is off
 # On/Off
 While driving, the driver have to has [sic] the ability to turn the ACC on and off at any moment. After the ACC is turned off, the acceleration of the car is determined by the gas pedal and brake pedal, just like a car without ACC.
 ## Test
-* 1) ACC must be turned off
-* 2) The ACC will be turned on and state feedback displays this properly
-* 3a) press gas pedal - the vehicle responds as expected
-* 3b) press brake pedal - the vehicle responds as expected
+1) ACC must be turned off
+2) The ACC will be turned on and state feedback displays this properly
+3a) press gas pedal - the vehicle responds as expected
+3b) press brake pedal - the vehicle responds as expected
 
 # Fusi
 If the car had [sic] a crash the acc [sic] must turn itself of [sic].
 ## Test
-* 1. Turn the ACC on
-* 2. Trigger Crash
-* 3. Check if ACC is turned off
+1. Turn the ACC on
+2. Trigger Crash
+3. Check if ACC is turned off
 
 # Prototype ACC Control
 Provide a means for the ACC to keep a constant velocity.
@@ -42,16 +42,16 @@ Accelerate manually to some velocity v and then activate the set velocity functi
 Max. and min. supported speed of the ACC must be configurable by the manufacturer. ACC on and set speed is only possible if velocity is in range.
 ## Test
 On test track XY.
-* 1. Configure maximum and minimum speed of the ACC to 20km/h and 200 km/h
-* 2. Test a)
-** a. Drive and set ACC speed to 40km/h
-** b. ACC does not throw warning message and keeps speed of 40km/h
-* 3. Test b)
-** a. Drive and set ACC speed to 10km/h
-** b. ACC throws warning and does not keep speed of 10km/h
-* 4. Test c)
-** a. Drive and set ACC speed to 220km/h
-** b. ACC throws warning and does not keep speed of 220km/h
+1. Configure maximum and minimum speed of the ACC to 20km/h and 200 km/h
+2. Test a)
+a. Drive and set ACC speed to 40km/h
+b. ACC does not throw warning message and keeps speed of 40km/h
+3. Test b)
+a. Drive and set ACC speed to 10km/h
+b. ACC throws warning and does not keep speed of 10km/h
+4. Test c)
+a. Drive and set ACC speed to 220km/h
+b. ACC throws warning and does not keep speed of 220km/h
 
 # Speed increase / decrease
 When the ACC is active the ACC should provide the ability to increase or decrease the target-velocity in steps of z km/h. When the "Plus"-Button of the ACC is pressed the ACC must increment the target velocity by z km/h
