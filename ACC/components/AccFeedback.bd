@@ -2,7 +2,7 @@ classType components.AccFeedback
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_10, connection_19
+			connection_10, connection_19, connection_37, connection_49
 		}
 	}
 	simpleIdentifier acc_status_old at (491, 295) {
@@ -71,6 +71,109 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin
+		}
+	}
+	simpleIdentifier components.Globals.d_T at (191, 555) {
+		label at (0, -1)
+		inPin outPin {
+			connection_38
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier duration at (451, 565) {
+		label at (0, -1)
+		inPin connection_40
+		outPin {
+			connection_42, connection_41
+		}
+		sequenceCall {
+			inPin connection_39 {
+				bendpoints (0, 40), (-130, 40)
+			}
+		}
+	}
+	addition at (341, 556) {
+		inPin connection_38
+		inPin connection_41 {
+			bendpoints (0, 40), (-160, 40)
+		}
+		outPin {
+			connection_40
+		}
+	}
+	greaterOrEqual at (611, 576) {
+		inPin connection_42 {
+			bendpoints (110, 0)
+		}
+		inPin connection_43 {
+			bendpoints (10, 0), (10, -20)
+		}
+		outPin {
+			connection_50
+		}
+	}
+	if at (521, 451) {
+		inPin connection_44
+		ifControlFlowOutPin {
+			connection_39
+		}
+		sequenceCall {
+			inPin connection_37
+		}
+	}
+	literal Numeric "3.0" at (531, 613) size (49, 0) {
+		outPin {
+			connection_43
+		}
+	}
+	simpleIdentifier components.Globals.acc_feedback at (381, 455) {
+		label at (0, -1)
+		inPin outPin {
+			connection_44
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.acc_feedback at (841, 565) {
+		label at (0, -1)
+		inPin connection_46
+		outPin sequenceCall {
+			inPin connection_45 {
+				bendpoints (50, 0), (50, -40)
+			}
+		}
+	}
+	simpleIdentifier duration at (851, 645) {
+		label at (0, -1)
+		inPin connection_48 {
+			bendpoints (10, 0), (10, -10)
+		}
+		outPin sequenceCall {
+			inPin connection_47 {
+				bendpoints (50, 0), (50, 40)
+			}
+		}
+	}
+	literal Boolean "false" at (771, 563) size (49, 0) {
+		outPin {
+			connection_46
+		}
+	}
+	literal Numeric "0.0" at (771, 653) size (49, 0) {
+		outPin {
+			connection_48
+		}
+	}
+	if at (681, 581) {
+		inPin connection_50
+		ifControlFlowOutPin {
+			connection_45, connection_47
+		}
+		sequenceCall {
+			inPin connection_49
 		}
 	}
 }
