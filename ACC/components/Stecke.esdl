@@ -35,6 +35,7 @@ static class Stecke {
 	@generated("blockdiagram")
 	@thread
 	public void strecke_test() {
-		vCar(0.0,0.0);
+	
+		 vCar(0.0,20.0);
 	}
 }
