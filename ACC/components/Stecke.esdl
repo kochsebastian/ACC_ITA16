@@ -31,4 +31,10 @@ static class Stecke {
 		} // Main/vCar 8
 		return Globals.v; // Main/vCar 9
 	}
+
+	@generated("blockdiagram")
+	@thread
+	public void strecke_test() {
+		vCar(0.0,0.0);
+	}
 }
