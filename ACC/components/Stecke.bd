@@ -1,9 +1,12 @@
 classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
-		outPin active {
+		outPin {
 			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31, connection_1
 		}
+	}
+	methodBody strecke_test {
+		outPin active
 	}
 	simpleIdentifier h at (111, 355) {
 		label at (0, -1)
