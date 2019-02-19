@@ -1,0 +1,59 @@
+classType components.Stecke
+blockdiagramSpecification Main {
+	methodBody vCar {
+		outPin active {
+			connection_1
+		}
+	}
+	simpleIdentifier v at (101, 225) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier h at (101, 465) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier s at (121, 565) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier ds at (551, 285) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier momentum at (391, 215) {
+		label at (0, -1)
+		inPin outPin sequenceCall {
+			inPin
+		}
+	}
+	literal Numeric "9.81" at (491, 423) size (49, 0) {
+		outPin
+	}
+	methodArgumentIdentifier vCar.brakeCtrl at (101, 75) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	return at (861, 345) {
+		label at (0, 0)
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	methodArgumentIdentifier vCar.powerCtrl at (101, 145) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+}
