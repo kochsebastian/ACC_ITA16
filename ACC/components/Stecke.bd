@@ -2,16 +2,7 @@ classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
 		outPin active {
-			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_26, connection_31, connection_1
-		}
-	}
-	simpleIdentifier v at (101, 205) {
-		label at (0, -1)
-		inPin outPin {
-			connection_6, connection_5
-		}
-		sequenceCall {
-			inPin
+			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31, connection_1
 		}
 	}
 	simpleIdentifier h at (111, 355) {
@@ -68,8 +59,8 @@ blockdiagramSpecification Main {
 	}
 	return at (841, 525) {
 		label at (0, 0)
-		inPin connection_35 {
-			bendpoints (20, 0), (20, -30), (80, -30)
+		inPin connection_64 {
+			bendpoints (30, 0), (30, -30), (90, -30)
 		}
 		sequenceCall {
 			inPin connection_1
@@ -97,8 +88,8 @@ blockdiagramSpecification Main {
 	simpleIdentifier EngineMomentum at (301, 151) {
 		label at (0, 1)
 		inPin connection_3
-		inPin connection_5 {
-			bendpoints (70, 0), (70, -30)
+		inPin connection_57 {
+			bendpoints (110, 0), (110, -30)
 		}
 		outPin {
 			connection_8
@@ -109,8 +100,8 @@ blockdiagramSpecification Main {
 	}
 	simpleIdentifier AirFriction at (301, 221) {
 		label at (0, 1)
-		inPin connection_6 {
-			bendpoints (70, 0), (70, 30)
+		inPin connection_58 {
+			bendpoints (110, 0), (110, 30)
 		}
 		outPin {
 			connection_11
@@ -195,8 +186,8 @@ blockdiagramSpecification Main {
 			bendpoints (10, 0)
 		}
 		inPin connection_23
-		inPin connection_43 {
-			bendpoints (10, 0), (10, -50)
+		inPin connection_55 {
+			bendpoints (10, 0), (10, -40)
 		}
 		outPin {
 			connection_25
@@ -209,39 +200,20 @@ blockdiagramSpecification Main {
 	}
 	addition at (711, 156) {
 		inPin connection_25
-		inPin connection_28 {
-			bendpoints (10, 0), (10, 40), (-120, 40)
+		inPin connection_61 {
+			bendpoints (10, 0), (10, 30), (-120, 30)
 		}
 		outPin {
-			connection_27
-		}
-	}
-	simpleIdentifier v at (781, 165) {
-		label at (0, -1)
-		inPin connection_27
-		outPin {
-			connection_28
-		}
-		sequenceCall {
-			inPin connection_26
-		}
-	}
-	simpleIdentifier v at (711, 585) {
-		label at (0, -1)
-		inPin outPin {
-			connection_35, connection_29
-		}
-		sequenceCall {
-			inPin
+			connection_60
 		}
 	}
 	literal Numeric "0.0" at (711, 623) size (49, 0) {
 		outPin {
-			connection_34, connection_30
+			connection_66, connection_30
 		}
 	}
 	less at (821, 586) {
-		inPin connection_29
+		inPin connection_63
 		inPin connection_30 {
 			bendpoints (30, 0), (30, -20)
 		}
@@ -252,19 +224,10 @@ blockdiagramSpecification Main {
 	if at (901, 591) {
 		inPin connection_32
 		ifControlFlowOutPin {
-			connection_33
+			connection_65
 		}
 		sequenceCall {
 			inPin connection_31
-		}
-	}
-	simpleIdentifier v at (991, 625) {
-		label at (0, -1)
-		inPin connection_34
-		outPin sequenceCall {
-			inPin connection_33 {
-				bendpoints (30, 0)
-			}
 		}
 	}
 	simpleIdentifier s at (381, 845) {
@@ -317,36 +280,9 @@ blockdiagramSpecification Main {
 			connection_41
 		}
 	}
-	simpleIdentifier d_T at (571, 215) {
-		label at (0, -1)
-		inPin outPin {
-			connection_43
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier d_T at (71, 575) {
-		label at (0, -1)
-		inPin outPin {
-			connection_45
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier v at (71, 525) {
-		label at (0, -1)
-		inPin outPin {
-			connection_44
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	multiplication at (171, 526) {
-		inPin connection_44
-		inPin connection_45 {
+		inPin connection_62
+		inPin connection_56 {
 			bendpoints (20, 0), (20, -30)
 		}
 		outPin {
@@ -384,6 +320,70 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin connection_53
+		}
+	}
+	simpleIdentifier components.Globals.d_T at (571, 205) {
+		label at (0, -1)
+		inPin outPin {
+			connection_55
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.d_T at (71, 575) {
+		label at (0, -1)
+		inPin outPin {
+			connection_56
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (101, 205) {
+		label at (0, -1)
+		inPin outPin {
+			connection_58, connection_57
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (781, 165) {
+		label at (0, -1)
+		inPin connection_60
+		outPin {
+			connection_61
+		}
+		sequenceCall {
+			inPin connection_59
+		}
+	}
+	simpleIdentifier components.Globals.v at (71, 525) {
+		label at (0, -1)
+		inPin outPin {
+			connection_62
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (701, 585) {
+		label at (0, -1)
+		inPin outPin {
+			connection_64, connection_63
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (981, 625) {
+		label at (0, -1)
+		inPin connection_66
+		outPin sequenceCall {
+			inPin connection_65 {
+				bendpoints (10, 0), (10, 10)
+			}
 		}
 	}
 }

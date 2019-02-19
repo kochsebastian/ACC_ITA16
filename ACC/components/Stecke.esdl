@@ -4,7 +4,6 @@ type Kennlinie is table real -> real;
 type Kennfeld is table real, real -> real;
 
 static class Stecke {
-	real v;
 	real h;
 	real s;
 	real ds;
@@ -15,23 +14,21 @@ static class Stecke {
 	real dh;
 	characteristic Kennlinie Landscape = {{0.0, 100.0, 145.5657, 202.53, 221.52, 240.0, 259.49, 300.0, 350.0, 400.0, 450.0, 500.0, 600.0, 700.0, 750.0, 800.0, 810.0, 850.0, 900.0, 1000.0}, {0.0, 4.0, 7.125, 10.375, 10.75, 10.5, 9.0, 5.375, 2.625, 0.625, 1.25, 0.625, 0.0, 0.0, 1.375, 0.75, 0.375, 0.625, 0.0, 0.0}};
 	characteristic real TrackSize = 1000.0;
-	@dT
-	public real d_T;
 
 	@generated("blockdiagram")
 	public real vCar(real in brakeCtrl, real in powerCtrl) {
 		if (s > TrackSize) {
 			s = 0.0; // Main/vCar 1/if-then 1
 		} // Main/vCar 1
-		momentum = EngineMomentum.getAt(powerCtrl, v); // Main/vCar 2
-		ds = ((v * d_T) / 3.6); // Main/vCar 3
+		momentum = EngineMomentum.getAt(powerCtrl, Globals.v); // Main/vCar 2
+		ds = ((Globals.v * Globals.d_T) / 3.6); // Main/vCar 3
 		s = (ds + s); // Main/vCar 4
 		dh = (h - Landscape.getAt(s)); // Main/vCar 5
 		h = Landscape.getAt(s); // Main/vCar 6
-		v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(v) + (9.81 * (dh / ds))) * d_T) + v); // Main/vCar 7
-		if (v < 0.0) {
-			v = 0.0; // Main/vCar 8/if-then 1
+		Globals.v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(Globals.v) + (9.81 * (dh / ds))) * Globals.d_T) + Globals.v); // Main/vCar 7
+		if (Globals.v < 0.0) {
+			Globals.v = 0.0; // Main/vCar 8/if-then 1
 		} // Main/vCar 8
-		return v; // Main/vCar 9
+		return Globals.v; // Main/vCar 9
 	}
 }
