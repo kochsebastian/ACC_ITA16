@@ -1,0 +1,56 @@
+classType components.OnOff
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_5
+		}
+	}
+	simpleIdentifier components.Globals.v at (331, 215) {
+		label at (0, -1)
+		inPin outPin {
+			connection_1
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	greater at (481, 216) {
+		inPin connection_1
+		inPin connection_2
+		outPin {
+			connection_6
+		}
+	}
+	literal Numeric "0.0" at (411, 233) size (49, 0) {
+		outPin {
+			connection_2
+		}
+	}
+	simpleIdentifier components.Globals.acc_status_request at (301, 325) {
+		label at (0, -1)
+		inPin outPin {
+			connection_4
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (551, 325) {
+		label at (0, -1)
+		inPin connection_4
+		outPin sequenceCall {
+			inPin connection_3 {
+				bendpoints (0, 40), (-150, 40)
+			}
+		}
+	}
+	if at (641, 221) {
+		inPin connection_6
+		ifControlFlowOutPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin connection_5
+		}
+	}
+}

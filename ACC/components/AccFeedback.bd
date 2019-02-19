@@ -2,17 +2,17 @@ classType components.AccFeedback
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_10, connection_15
+			connection_10, connection_19
 		}
 	}
 	simpleIdentifier acc_status_old at (491, 295) {
 		label at (10, -1)
-		inPin connection_16
+		inPin connection_20
 		outPin {
 			connection_6
 		}
 		sequenceCall {
-			inPin connection_15
+			inPin connection_19
 		}
 	}
 	and at (831, 276) {
@@ -25,8 +25,8 @@ blockdiagramSpecification Main {
 		}
 	}
 	not at (761, 251) {
-		inPin connection_12 {
-			bendpoints (110, 0), (110, 40)
+		inPin connection_21 {
+			bendpoints (100, 0), (100, 50)
 		}
 		outPin {
 			connection_5
@@ -46,24 +46,6 @@ blockdiagramSpecification Main {
 			inPin connection_10
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (491, 215) {
-		label at (0, -1)
-		outPin {
-			connection_12
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.Globals.acc_status at (291, 295) {
-		label at (0, -1)
-		outPin {
-			connection_16
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	simpleIdentifier components.Globals.acc_feedback at (711, 385) {
 		label at (0, -1)
 		inPin connection_18
@@ -71,6 +53,24 @@ blockdiagramSpecification Main {
 			inPin connection_17 {
 				bendpoints (0, 40), (-240, 40)
 			}
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (501, 205) {
+		label at (0, -1)
+		inPin outPin {
+			connection_21
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (331, 295) {
+		label at (0, -1)
+		inPin outPin {
+			connection_20
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }
