@@ -1,0 +1,76 @@
+classType components.AccFeedback
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_10, connection_1
+		}
+	}
+	simpleIdentifier acc_status at (311, 295) {
+		label at (0, -1)
+		inPin outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier acc_status_old at (491, 295) {
+		label at (10, -1)
+		inPin connection_2
+		outPin {
+			connection_6
+		}
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	and at (831, 276) {
+		inPin connection_5 {
+			bendpoints (10, 0), (10, 20)
+		}
+		inPin connection_6
+		outPin {
+			connection_11
+		}
+	}
+	not at (761, 251) {
+		inPin connection_12 {
+			bendpoints (110, 0), (110, 40)
+		}
+		outPin {
+			connection_5
+		}
+	}
+	simpleIdentifier feedback at (721, 385) {
+		label at (0, -1)
+		inPin connection_9
+		outPin sequenceCall {
+			inPin connection_8 {
+				bendpoints (0, 40), (-230, 40)
+			}
+		}
+	}
+	literal Boolean "true" at (621, 383) size (49, 0) {
+		outPin {
+			connection_9
+		}
+	}
+	if at (891, 281) {
+		inPin connection_11
+		ifControlFlowOutPin {
+			connection_8
+		}
+		sequenceCall {
+			inPin connection_10
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (491, 215) {
+		label at (0, -1)
+		outPin {
+			connection_12
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+}
