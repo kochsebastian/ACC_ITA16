@@ -1,0 +1,24 @@
+classType components.FuSi
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_1
+		}
+	}
+	simpleIdentifier interfaces.interfaces.crash_detected at (181, 275) {
+		label at (0, -1)
+		outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	if at (371, 271) {
+		inPin connection_2
+		ifControlFlowOutPin
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+}
