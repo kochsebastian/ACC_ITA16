@@ -42,16 +42,16 @@ Accelerate manually to some velocity v and then activate the set velocity functi
 Max. and min. supported speed of the ACC must be configurable by the manufacturer. ACC on and set speed is only possible if velocity is in range.
 ## Test
 On test track XY.
-1. Configure maximum and minimum speed of the ACC to 20km/h and 200 km/h
+1. Configure maximum and minimum speed of the ACC to 20km/h and 200 km/h  
 2. Test a  
-a. Drive and set ACC speed to 40km/h
-b. ACC does not throw warning message and keeps speed of 40km/h
+a. Drive and set ACC speed to 40km/h  
+b. ACC does not throw warning message and keeps speed of 40km/h  
 3. Test b  
-a. Drive and set ACC speed to 10km/h
-b. ACC throws warning and does not keep speed of 10km/h
+a. Drive and set ACC speed to 10km/h  
+b. ACC throws warning and does not keep speed of 10km/h  
 4. Test c  
-a. Drive and set ACC speed to 220km/h
-b. ACC throws warning and does not keep speed of 220km/h
+a. Drive and set ACC speed to 220km/h  
+b. ACC throws warning and does not keep speed of 220km/h  
 
 # Speed increase / decrease
 When the ACC is active the ACC should provide the ability to increase or decrease the target-velocity in steps of z km/h. When the "Plus"-Button of the ACC is pressed the ACC must increment the target velocity by z km/h
