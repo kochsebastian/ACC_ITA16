@@ -10,7 +10,8 @@ Demonstrate that there is a continuous movement over the hills and valleys also 
 
 # State feedback
 When the driver disables the ACC with a switch the system must provide visual or acoustic feedback to the driver that it has been disabled in a short response time.
-## Test Active ACC --> turn off --> check feedback --> check if ACC is off
+## Test
+Active ACC --> turn off --> check feedback --> check if ACC is off
 
 # On/Off
 While driving, the driver have to has [sic] the ability to turn the ACC on and off at any moment. After the ACC is turned off, the acceleration of the car is determined by the gas pedal and brake pedal, just like a car without ACC.
