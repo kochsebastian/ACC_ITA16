@@ -16,9 +16,25 @@ blockdiagramSpecification Main {
 	}
 	if at (371, 271) {
 		inPin connection_2
-		ifControlFlowOutPin
+		ifControlFlowOutPin {
+			connection_3
+		}
 		sequenceCall {
 			inPin connection_1
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (511, 345) {
+		label at (0, -1)
+		inPin connection_4
+		outPin sequenceCall {
+			inPin connection_3 {
+				bendpoints (40, 0), (40, 50)
+			}
+		}
+	}
+	literal Boolean "false" at (361, 343) size (49, 0) {
+		outPin {
+			connection_4
 		}
 	}
 }
