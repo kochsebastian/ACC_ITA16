@@ -43,13 +43,13 @@ Max. and min. supported speed of the ACC must be configurable by the manufacture
 ## Test
 On test track XY.
 1. Configure maximum and minimum speed of the ACC to 20km/h and 200 km/h
-2. Test a
+2. Test a  
 a. Drive and set ACC speed to 40km/h
 b. ACC does not throw warning message and keeps speed of 40km/h
-3. Test b
+3. Test b  
 a. Drive and set ACC speed to 10km/h
 b. ACC throws warning and does not keep speed of 10km/h
-4. Test c
+4. Test c  
 a. Drive and set ACC speed to 220km/h
 b. ACC throws warning and does not keep speed of 220km/h
 
