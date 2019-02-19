@@ -1,0 +1,56 @@
+classType components.IncSpeed
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_3
+		}
+	}
+	simpleIdentifier components.Globals.v at (651, 245) {
+		label at (0, -1)
+		inPin connection_7
+		outPin {
+			connection_8
+		}
+		sequenceCall {
+			inPin connection_6 {
+				bendpoints (100, 0), (100, 30)
+			}
+		}
+	}
+	methodArgumentIdentifier calc.z at (471, 235) {
+		label at (0, -1)
+		outPin {
+			connection_5
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier interfaces.interfaces.plusButtonPressed at (151, 195) {
+		label at (0, -1)
+		outPin {
+			connection_9
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	if at (381, 191) {
+		inPin connection_9
+		ifControlFlowOutPin {
+			connection_6
+		}
+		sequenceCall {
+			inPin connection_3
+		}
+	}
+	addition at (591, 236) {
+		inPin connection_5
+		inPin connection_8 {
+			bendpoints (20, 0), (20, 40), (-120, 40), (-120, 10)
+		}
+		outPin {
+			connection_7
+		}
+	}
+}
