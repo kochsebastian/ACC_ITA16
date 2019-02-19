@@ -1,7 +1,7 @@
 package components;
 import interfaces.interfaces;
 
-class IncSpeed
+static class IncSpeed
 reads interfaces.plusButtonPressed {
 	@generated("blockdiagram")
 	public void calc(real in z) {
