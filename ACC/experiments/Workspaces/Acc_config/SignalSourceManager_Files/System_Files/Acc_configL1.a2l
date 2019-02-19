@@ -85,6 +85,21 @@
 		    ALIGNMENT_FLOAT64_IEEE 8 
 		/end MOD_COMMON
 
+		/begin CHARACTERISTIC components.Globals.acc_status_request
+			/* long identifier    */ ""
+			/* type               */ VALUE
+			/* ecu address        */ 0x451030
+			/* record layout      */ STANDARD_VALUE_U8
+			/* max diff value     */ 0.0
+			/* conversion         */ esdl_ident
+			/* lower limit        */ 0
+			/* upper limit        */ 1
+			BIT_MASK 0x1
+			/begin IF_DATA E_TARGET
+			    DP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 2
+			/end IF_DATA
+		/end CHARACTERISTIC
+
 		/begin CHARACTERISTIC components.Stecke.BrakeMomentum
 			/* long identifier    */ ""
 			/* type               */ CURVE
@@ -195,6 +210,20 @@
 			/end IF_DATA
 		/end CHARACTERISTIC
 
+		/begin CHARACTERISTIC components.AccFeedback.c
+			/* long identifier    */ ""
+			/* type               */ VALUE
+			/* ecu address        */ 0x451028
+			/* record layout      */ STANDARD_VALUE_R32
+			/* max diff value     */ 0.0
+			/* conversion         */ esdl_ident
+			/* lower limit        */ -3.4028234663852886E+38
+			/* upper limit        */ 3.4028234663852886E+38
+			/begin IF_DATA E_TARGET
+			    DP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1000 0
+			/end IF_DATA
+		/end CHARACTERISTIC
+
 		/begin MEASUREMENT components.Globals.acc_status
 			/* long identifier    */ ""
 			/* datatype           */ UBYTE
@@ -203,7 +232,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x451029
+			ECU_ADDRESS 0x451031
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 0
@@ -218,25 +247,10 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x45102A
+			ECU_ADDRESS 0x451032
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 1
-			/end IF_DATA
-		/end MEASUREMENT
-
-		/begin MEASUREMENT components.Globals.acc_status_request
-			/* long identifier    */ ""
-			/* datatype           */ UBYTE
-			/* conversion         */ esdl_ident
-			/* resolution         */ 1
-			/* accuracy           */ 100.0
-			/* lower limit        */ 0
-			/* upper limit        */ 1
-			ECU_ADDRESS 0x451028
-			BIT_MASK 0x1
-			/begin IF_DATA E_TARGET
-			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 2
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -248,7 +262,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x451024
+			ECU_ADDRESS 0x45102C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 3
 			/end IF_DATA
@@ -262,7 +276,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x451034
+			ECU_ADDRESS 0x45103C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 0
 			/end IF_DATA
@@ -276,7 +290,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x45103C
+			ECU_ADDRESS 0x451044
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 1
 			/end IF_DATA
@@ -290,7 +304,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x451030
+			ECU_ADDRESS 0x451038
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 2
 			/end IF_DATA
@@ -304,7 +318,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x451038
+			ECU_ADDRESS 0x451040
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 3
 			/end IF_DATA
@@ -318,9 +332,39 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x45102C
+			ECU_ADDRESS 0x451034
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 7
+			/end IF_DATA
+		/end MEASUREMENT
+
+		/begin MEASUREMENT components.AccFeedback.acc_status_old
+			/* long identifier    */ ""
+			/* datatype           */ UBYTE
+			/* conversion         */ esdl_ident
+			/* resolution         */ 1
+			/* accuracy           */ 100.0
+			/* lower limit        */ 0
+			/* upper limit        */ 1
+			ECU_ADDRESS 0x451024
+			BIT_MASK 0x1
+			/begin IF_DATA E_TARGET
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1000 1
+			/end IF_DATA
+		/end MEASUREMENT
+
+		/begin MEASUREMENT components.AccFeedback.feedback
+			/* long identifier    */ ""
+			/* datatype           */ UBYTE
+			/* conversion         */ esdl_ident
+			/* resolution         */ 1
+			/* accuracy           */ 100.0
+			/* lower limit        */ 0
+			/* upper limit        */ 1
+			ECU_ADDRESS 0x451025
+			BIT_MASK 0x1
+			/begin IF_DATA E_TARGET
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1000 2
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -337,15 +381,19 @@
 			/begin SUB_FUNCTION
 				components.Globals
 				components.Stecke
+				components.AccFeedback
+				components.OnOff
 			/end SUB_FUNCTION
 		/end FUNCTION
 		
 		/begin FUNCTION components.Globals
 			""
+			/begin DEF_CHARACTERISTIC
+				components.Globals.acc_status_request
+			/end DEF_CHARACTERISTIC
 			/begin LOC_MEASUREMENT
 				components.Globals.acc_feedback
 				components.Globals.acc_status
-				components.Globals.acc_status_request
 				components.Globals.v
 			/end LOC_MEASUREMENT
 		/end FUNCTION
@@ -367,6 +415,25 @@
 				components.Stecke.s
 			/end LOC_MEASUREMENT
 		/end FUNCTION
+		
+		/begin FUNCTION components.AccFeedback
+			""
+			/begin DEF_CHARACTERISTIC
+				components.AccFeedback.c
+			/end DEF_CHARACTERISTIC
+			/begin LOC_MEASUREMENT
+				components.AccFeedback.acc_status_old
+				components.AccFeedback.feedback
+			/end LOC_MEASUREMENT
+		/end FUNCTION
+		
+		/begin FUNCTION components.OnOff
+			""
+		/end FUNCTION
+		
+		/begin RECORD_LAYOUT STANDARD_VALUE_U8
+			/* value              */ FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+		/end RECORD_LAYOUT
 		
 		/begin RECORD_LAYOUT STANDARD_CURVE_R32R32
 		/* axis size          */ NO_AXIS_PTS_X 1 UWORD
@@ -392,15 +459,19 @@
 			/begin SUB_GROUP
 				components.Globals
 				components.Stecke
+				components.AccFeedback
+				components.OnOff
 			/end SUB_GROUP
 		/end GROUP
 		
 		/begin GROUP components.Globals
 			""
+			/begin REF_CHARACTERISTIC
+				components.Globals.acc_status_request
+			/end REF_CHARACTERISTIC
 			/begin REF_MEASUREMENT
 				components.Globals.acc_feedback
 				components.Globals.acc_status
-				components.Globals.acc_status_request
 				components.Globals.v
 			/end REF_MEASUREMENT
 		/end GROUP
@@ -421,6 +492,21 @@
 				components.Stecke.momentum
 				components.Stecke.s
 			/end REF_MEASUREMENT
+		/end GROUP
+		
+		/begin GROUP components.AccFeedback
+			""
+			/begin REF_CHARACTERISTIC
+				components.AccFeedback.c
+			/end REF_CHARACTERISTIC
+			/begin REF_MEASUREMENT
+				components.AccFeedback.acc_status_old
+				components.AccFeedback.feedback
+			/end REF_MEASUREMENT
+		/end GROUP
+		
+		/begin GROUP components.OnOff
+			""
 		/end GROUP
 		
 	/end MODULE
