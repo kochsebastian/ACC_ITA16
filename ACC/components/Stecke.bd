@@ -2,58 +2,388 @@ classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
 		outPin active {
-			connection_1
+			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_26, connection_31, connection_1
 		}
 	}
-	simpleIdentifier v at (101, 225) {
+	simpleIdentifier v at (101, 205) {
 		label at (0, -1)
-		inPin outPin sequenceCall {
+		inPin outPin {
+			connection_6, connection_5
+		}
+		sequenceCall {
 			inPin
 		}
 	}
-	simpleIdentifier h at (101, 465) {
+	simpleIdentifier h at (111, 355) {
 		label at (0, -1)
-		inPin outPin sequenceCall {
+		inPin outPin {
+			connection_18
+		}
+		sequenceCall {
 			inPin
 		}
 	}
-	simpleIdentifier s at (121, 565) {
+	simpleIdentifier s at (71, 425) {
 		label at (0, -1)
-		inPin outPin sequenceCall {
+		inPin outPin {
+			connection_22
+		}
+		sequenceCall {
 			inPin
 		}
 	}
-	simpleIdentifier ds at (551, 285) {
+	simpleIdentifier ds at (311, 545) {
 		label at (0, -1)
-		inPin outPin sequenceCall {
-			inPin
+		inPin connection_49
+		outPin {
+			connection_51, connection_50
+		}
+		sequenceCall {
+			inPin connection_48
 		}
 	}
-	simpleIdentifier momentum at (391, 215) {
+	simpleIdentifier momentum at (391, 165) {
 		label at (0, -1)
-		inPin outPin sequenceCall {
-			inPin
+		inPin connection_8
+		outPin {
+			connection_10
+		}
+		sequenceCall {
+			inPin connection_7
 		}
 	}
-	literal Numeric "9.81" at (491, 423) size (49, 0) {
-		outPin
+	literal Numeric "9.81" at (431, 313) size (49, 0) {
+		outPin {
+			connection_13
+		}
 	}
 	methodArgumentIdentifier vCar.brakeCtrl at (101, 75) {
 		label at (0, -1)
-		outPin sequenceCall {
+		outPin {
+			connection_2
+		}
+		sequenceCall {
 			inPin
 		}
 	}
-	return at (861, 345) {
+	return at (841, 525) {
 		label at (0, 0)
+		inPin connection_35 {
+			bendpoints (20, 0), (20, -30), (80, -30)
+		}
 		sequenceCall {
 			inPin connection_1
 		}
 	}
-	methodArgumentIdentifier vCar.powerCtrl at (101, 145) {
+	methodArgumentIdentifier vCar.powerCtrl at (101, 155) {
 		label at (0, -1)
-		outPin sequenceCall {
+		outPin {
+			connection_3
+		}
+		sequenceCall {
 			inPin
+		}
+	}
+	simpleIdentifier BrakeMomentum at (301, 61) {
+		label at (0, 1)
+		inPin connection_2
+		outPin {
+			connection_9
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier EngineMomentum at (301, 151) {
+		label at (0, 1)
+		inPin connection_3
+		inPin connection_5 {
+			bendpoints (70, 0), (70, -30)
+		}
+		outPin {
+			connection_8
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier AirFriction at (301, 221) {
+		label at (0, 1)
+		inPin connection_6 {
+			bendpoints (70, 0), (70, 30)
+		}
+		outPin {
+			connection_11
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	addition at (561, 136) {
+		inPin connection_9 {
+			bendpoints (180, 0), (180, 60)
+		}
+		inPin connection_10 {
+			bendpoints (60, 0), (60, -20)
+		}
+		inPin connection_11 {
+			bendpoints (180, 0), (180, -70)
+		}
+		inPin connection_12 {
+			bendpoints (10, 0), (10, -150)
+		}
+		outPin {
+			connection_23
+		}
+	}
+	multiplication at (501, 316) {
+		inPin connection_13
+		inPin connection_14 {
+			bendpoints (10, 0), (10, -40)
+		}
+		outPin {
+			connection_12
+		}
+	}
+	subtraction at (241, 356) {
+		inPin connection_18
+		inPin connection_19 {
+			bendpoints (30, 0)
+		}
+		outPin {
+			connection_17
+		}
+	}
+	simpleIdentifier dh at (321, 365) {
+		label at (0, -1)
+		inPin connection_17
+		outPin {
+			connection_15
+		}
+		sequenceCall {
+			inPin connection_16
+		}
+	}
+	division at (441, 366) {
+		inPin connection_15
+		inPin connection_50 {
+			bendpoints (40, 0), (40, -160)
+		}
+		outPin {
+			connection_14
+		}
+	}
+	simpleIdentifier h at (321, 425) {
+		label at (0, -1)
+		inPin connection_21
+		outPin sequenceCall {
+			inPin connection_20
+		}
+	}
+	simpleIdentifier Landscape at (151, 411) {
+		label at (0, 1)
+		inPin connection_22
+		outPin {
+			connection_21, connection_19
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (651, 146) {
+		inPin connection_24 {
+			bendpoints (10, 0)
+		}
+		inPin connection_23
+		inPin connection_43 {
+			bendpoints (10, 0), (10, -50)
+		}
+		outPin {
+			connection_25
+		}
+	}
+	literal Numeric "3.6" at (591, 113) size (49, 0) {
+		outPin {
+			connection_24
+		}
+	}
+	addition at (711, 156) {
+		inPin connection_25
+		inPin connection_28 {
+			bendpoints (10, 0), (10, 40), (-120, 40)
+		}
+		outPin {
+			connection_27
+		}
+	}
+	simpleIdentifier v at (781, 165) {
+		label at (0, -1)
+		inPin connection_27
+		outPin {
+			connection_28
+		}
+		sequenceCall {
+			inPin connection_26
+		}
+	}
+	simpleIdentifier v at (711, 585) {
+		label at (0, -1)
+		inPin outPin {
+			connection_35, connection_29
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	literal Numeric "0.0" at (711, 623) size (49, 0) {
+		outPin {
+			connection_34, connection_30
+		}
+	}
+	less at (821, 586) {
+		inPin connection_29
+		inPin connection_30 {
+			bendpoints (30, 0), (30, -20)
+		}
+		outPin {
+			connection_32
+		}
+	}
+	if at (901, 591) {
+		inPin connection_32
+		ifControlFlowOutPin {
+			connection_33
+		}
+		sequenceCall {
+			inPin connection_31
+		}
+	}
+	simpleIdentifier v at (991, 625) {
+		label at (0, -1)
+		inPin connection_34
+		outPin sequenceCall {
+			inPin connection_33 {
+				bendpoints (30, 0)
+			}
+		}
+	}
+	simpleIdentifier s at (381, 845) {
+		label at (0, -1)
+		inPin connection_41
+		outPin sequenceCall {
+			inPin connection_40 {
+				bendpoints (20, 0), (20, 30)
+			}
+		}
+	}
+	simpleIdentifier s at (101, 785) {
+		label at (0, -1)
+		inPin outPin {
+			connection_36
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	greater at (191, 786) {
+		inPin connection_36
+		inPin connection_37 {
+			bendpoints (20, 0), (20, -20)
+		}
+		outPin {
+			connection_39
+		}
+	}
+	simpleIdentifier TrackSize at (111, 825) {
+		label at (0, -1)
+		outPin {
+			connection_37
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	if at (281, 791) {
+		inPin connection_39
+		ifControlFlowOutPin {
+			connection_40
+		}
+		sequenceCall {
+			inPin connection_38
+		}
+	}
+	literal Numeric "0.0" at (291, 843) size (49, 0) {
+		outPin {
+			connection_41
+		}
+	}
+	simpleIdentifier d_T at (571, 215) {
+		label at (0, -1)
+		inPin outPin {
+			connection_43
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier d_T at (71, 575) {
+		label at (0, -1)
+		inPin outPin {
+			connection_45
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier v at (71, 525) {
+		label at (0, -1)
+		inPin outPin {
+			connection_44
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (171, 526) {
+		inPin connection_44
+		inPin connection_45 {
+			bendpoints (20, 0), (20, -30)
+		}
+		outPin {
+			connection_46
+		}
+	}
+	literal Numeric "3.6" at (181, 563) size (49, 0) {
+		outPin {
+			connection_47
+		}
+	}
+	division at (241, 536) {
+		inPin connection_46
+		inPin connection_47 {
+			bendpoints (10, 0)
+		}
+		outPin {
+			connection_49
+		}
+	}
+	addition at (441, 546) {
+		inPin connection_51
+		inPin connection_52 {
+			bendpoints (0, 40), (-130, 40), (-130, 10)
+		}
+		outPin {
+			connection_54
+		}
+	}
+	simpleIdentifier s at (511, 555) {
+		label at (0, -1)
+		inPin connection_54
+		outPin {
+			connection_52
+		}
+		sequenceCall {
+			inPin connection_53
 		}
 	}
 }
