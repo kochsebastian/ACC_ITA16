@@ -3,7 +3,7 @@ application {
 	class components.Stecke
 	class components.AccFeedback
 	class components.OnOff
-	class components.FuSi
+	class components.FuSi_bak
 }
 schedule {
 	startup {
@@ -14,6 +14,6 @@ schedule {
 		process components.Stecke.strecke_test
 		process components.OnOff.calc
 		process components.AccFeedback.calc
-		process components.FuSi.calc
+		process components.FuSi_bak.calc
 	}
 }

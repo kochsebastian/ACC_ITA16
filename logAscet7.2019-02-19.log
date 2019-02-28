@@ -1,0 +1,125 @@
+15:40:33.579 INFO  c.e.e.c.c.CodeGenerationConfiguration [94] Validating launcher options of 'ACC_PC'
+15:40:33.595 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+15:40:33.595 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start PC experiment build with /ACC/components/ACC.app
+15:40:33.610 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+15:40:33.610 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start code generation ...
+15:40:33.798 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Model dependency analysis                (took: 100,5 ms)
+15:40:33.813 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Validating generation resources          (took: 23,48 ms)
+15:40:34.157 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Intermediate code generation             (took: 332,9 ms)
+15:40:34.204 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code pre-processing                    (took: 10,89 ms)
+15:40:40.656 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code generation                        (took: 6,452 s)
+15:40:41.140 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code post-processing                   (took: 477,9 ms)
+15:40:41.187 INFO  c.e.a.b.c.i.builder.l1.L1Builder [69] L1 code generation                       (took: 53,45 ms)
+15:40:41.249 INFO  c.e.a.p.pc.internal.PlatformBuilder [225] Start generating OS [C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtabuild.exe, -kC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\rtabuild.log, -DestDir_h=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -DestDir_c=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil]
+15:40:44.014 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished code generation                 (took: 10,41 s)
+15:40:44.030 INFO  c.e.a.b.i.PcExperimentBuildParticipantComponent [94] back animation preparation               (took: 15,71 ms)
+15:40:44.030 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start compile and link...
+15:40:46.920 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished compile and link                (took: 2,890 s)
+15:40:46.920 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start ASAP2 generation...
+15:40:47.107 INFO  c.e.a.b.c.i.executer.A2lGeneration [79] Writing a2l file...
+15:40:47.154 INFO  c.e.a.b.c.i.executer.A2lGeneration [130] C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\ACC_PCL1.a2l done
+15:40:47.154 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished ASAP2 generation                (took: 233,4 ms)
+15:40:47.154 INFO  c.e.a.p.p.i.PcBuildServiceComponent [188] starting experiment environment for ACC_PC
+15:40:54.922 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+15:40:54.922 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished successfully PC experiment build (took: 21,33 s)
+15:40:54.922 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+15:42:27.078 INFO  c.e.e.c.c.CodeGenerationConfiguration [94] Validating launcher options of 'ACC_PC'
+15:42:27.078 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+15:42:27.078 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start PC experiment build with /ACC/components/ACC.app
+15:42:27.094 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+15:42:27.109 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start code generation ...
+15:42:27.141 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Model dependency analysis                (took: 16,32 ms)
+15:42:27.156 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Validating generation resources          (took: 12,95 ms)
+15:42:27.344 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Intermediate code generation             (took: 185,4 ms)
+15:42:27.469 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code pre-processing                    (took: 123,8 ms)
+15:42:29.140 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code generation                        (took: 1,664 s)
+15:42:29.312 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code post-processing                   (took: 169,2 ms)
+15:42:29.328 INFO  c.e.a.b.c.i.builder.l1.L1Builder [69] L1 code generation                       (took: 19,51 ms)
+15:42:29.421 INFO  c.e.a.p.pc.internal.PlatformBuilder [225] Start generating OS [C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtabuild.exe, -kC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\rtabuild.log, -DestDir_h=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -DestDir_c=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil]
+15:42:32.202 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished code generation                 (took: 5,103 s)
+15:42:32.218 INFO  c.e.a.b.i.PcExperimentBuildParticipantComponent [94] back animation preparation               (took: 3,070 ms)
+15:42:32.218 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start compile and link...
+15:42:35.014 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished compile and link                (took: 2,800 s)
+15:42:35.014 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start ASAP2 generation...
+15:42:35.170 INFO  c.e.a.b.c.i.executer.A2lGeneration [79] Writing a2l file...
+15:42:35.186 INFO  c.e.a.b.c.i.executer.A2lGeneration [130] C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\ACC_PCL1.a2l done
+15:42:35.186 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished ASAP2 generation                (took: 171,8 ms)
+15:42:35.186 INFO  c.e.a.p.p.i.PcBuildServiceComponent [188] starting experiment environment for ACC_PC
+15:42:42.954 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+15:42:42.969 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished successfully PC experiment build (took: 15,89 s)
+15:42:42.969 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:05:47.379 INFO  c.e.e.c.c.CodeGenerationConfiguration [94] Validating launcher options of 'ACC_PC'
+16:05:47.379 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:05:47.379 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start PC experiment build with /ACC/components/ACC.app
+16:05:47.410 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:05:47.410 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start code generation ...
+16:05:47.566 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Model dependency analysis                (took: 73,35 ms)
+16:05:47.613 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Validating generation resources          (took: 40,67 ms)
+16:05:47.957 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Intermediate code generation             (took: 346,8 ms)
+16:05:48.425 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code pre-processing                    (took: 442,0 ms)
+16:05:55.268 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code generation                        (took: 6,841 s)
+16:05:55.502 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code post-processing                   (took: 233,3 ms)
+16:05:55.658 INFO  c.e.a.b.c.i.builder.l1.L1Builder [69] L1 code generation                       (took: 155,5 ms)
+16:05:55.752 INFO  c.e.a.p.pc.internal.PlatformBuilder [225] Start generating OS [C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtabuild.exe, -kC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\rtabuild.log, -DestDir_h=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -DestDir_c=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil]
+16:05:58.454 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished code generation                 (took: 11,03 s)
+16:05:58.470 INFO  c.e.a.b.i.PcExperimentBuildParticipantComponent [94] back animation preparation               (took: 10,14 ms)
+16:05:58.470 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start compile and link...
+16:06:01.750 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished compile and link                (took: 3,290 s)
+16:06:01.750 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start ASAP2 generation...
+16:06:01.938 INFO  c.e.a.b.c.i.executer.A2lGeneration [79] Writing a2l file...
+16:06:01.969 INFO  c.e.a.b.c.i.executer.A2lGeneration [130] C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\ACC_PCL1.a2l done
+16:06:01.969 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished ASAP2 generation                (took: 216,6 ms)
+16:06:01.969 INFO  c.e.a.p.p.i.PcBuildServiceComponent [188] starting experiment environment for ACC_PC
+16:06:09.904 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:06:09.920 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished successfully PC experiment build (took: 22,52 s)
+16:06:09.920 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:08:12.780 INFO  c.e.e.c.c.CodeGenerationConfiguration [94] Validating launcher options of 'ACC_PC'
+16:08:12.780 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:08:12.780 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start PC experiment build with /ACC/components/ACC.app
+16:08:12.811 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:08:12.811 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start code generation ...
+16:08:12.921 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Model dependency analysis                (took: 35,85 ms)
+16:08:12.936 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Validating generation resources          (took: 17,38 ms)
+16:08:13.202 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Intermediate code generation             (took: 271,4 ms)
+16:08:13.327 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code pre-processing                    (took: 115,5 ms)
+16:08:14.951 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code generation                        (took: 1,620 s)
+16:08:15.108 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code post-processing                   (took: 149,1 ms)
+16:08:15.123 INFO  c.e.a.b.c.i.builder.l1.L1Builder [69] L1 code generation                       (took: 24,52 ms)
+16:08:15.217 INFO  c.e.a.p.pc.internal.PlatformBuilder [225] Start generating OS [C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtabuild.exe, -kC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\rtabuild.log, -DestDir_h=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -DestDir_c=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil]
+16:08:17.966 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished code generation                 (took: 5,159 s)
+16:08:17.982 INFO  c.e.a.b.i.PcExperimentBuildParticipantComponent [94] back animation preparation               (took: 3,555 ms)
+16:08:17.982 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start compile and link...
+16:08:20.981 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished compile and link                (took: 2,997 s)
+16:08:20.981 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start ASAP2 generation...
+16:08:21.137 INFO  c.e.a.b.c.i.executer.A2lGeneration [79] Writing a2l file...
+16:08:21.153 INFO  c.e.a.b.c.i.executer.A2lGeneration [130] C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\ACC_PCL1.a2l done
+16:08:21.153 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished ASAP2 generation                (took: 179,6 ms)
+16:08:21.153 INFO  c.e.a.p.p.i.PcBuildServiceComponent [188] starting experiment environment for ACC_PC
+16:08:28.928 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:08:28.937 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished successfully PC experiment build (took: 16,15 s)
+16:08:28.939 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:15:35.315 INFO  c.e.e.c.c.CodeGenerationConfiguration [94] Validating launcher options of 'ACC_PC'
+16:15:35.315 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------
+16:15:35.315 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start PC experiment build with /ACC/components/ACC.app
+16:15:35.346 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:15:35.362 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start code generation ...
+16:15:35.409 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Model dependency analysis                (took: 25,81 ms)
+16:15:35.424 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Validating generation resources          (took: 14,68 ms)
+16:15:35.721 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] Intermediate code generation             (took: 291,2 ms)
+16:15:35.830 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code pre-processing                    (took: 96,42 ms)
+16:15:37.580 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code generation                        (took: 1,751 s)
+16:15:37.705 INFO  c.e.a.b.c.BuildStatusMonitorLogging [21] C code post-processing                   (took: 125,9 ms)
+16:15:37.736 INFO  c.e.a.b.c.i.builder.l1.L1Builder [69] L1 code generation                       (took: 27,94 ms)
+16:15:37.861 INFO  c.e.a.p.pc.internal.PlatformBuilder [225] Start generating OS [C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtabuild.exe, -kC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\rtabuild.log, -DestDir_h=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, -DestDir_c=C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform, C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil]
+16:15:40.392 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished code generation                 (took: 5,033 s)
+16:15:40.392 INFO  c.e.a.b.i.PcExperimentBuildParticipantComponent [94] back animation preparation               (took: 3,840 ms)
+16:15:40.407 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start compile and link...
+16:15:43.407 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished compile and link                (took: 3,004 s)
+16:15:43.407 INFO  c.e.a.b.c.AscetBuildProgressLogger [32] Start ASAP2 generation...
+16:15:43.563 INFO  c.e.a.b.c.i.executer.A2lGeneration [79] Writing a2l file...
+16:15:43.578 INFO  c.e.a.b.c.i.executer.A2lGeneration [130] C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\ACC_PCL1.a2l done
+16:15:43.578 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished ASAP2 generation                (took: 178,1 ms)
+16:15:43.578 INFO  c.e.a.p.p.i.PcBuildServiceComponent [188] starting experiment environment for ACC_PC
+16:15:51.236 INFO  c.e.a.b.core.BuildOutputController [102] Output project: ACC_CGen
+16:15:51.236 INFO  c.e.a.b.c.AscetBuildProgressLogger [43] Finished successfully PC experiment build (took: 15,92 s)
+16:15:51.236 INFO  c.e.a.b.c.AscetBuildProgressLogger [71] --------------------------------------------------------------------------------

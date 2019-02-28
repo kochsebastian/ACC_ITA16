@@ -1,0 +1,78 @@
+RTABuild version 5.0.1
+Copyright © LiveDevices Ltd 2001-2006.
+
+Input type: STC
+Operation selected: Build target files 
+
+RTABuild running: C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\RTA-OSEK.exe "-g" "-oC:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc" "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.oil" 
+
+Return code was 0
+
+RTABuild running: C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\stc.exe "-a0" "-W" "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.pp" "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.cfg" 
+
+Time Compiler version 5.0.1
+Copyright © LiveDevices Ltd 2001-2006.
+
+
+'No analysis' selected.
+
+
+
+Information I0408: (no line number available: no input file is currently open).
+	Warnings were generated.
+	
+Return code was 0
+
+RTABuild running: C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtkcfg.exe "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.cfg" 
+
+RTK Configuration Tool version 5.0.56
+
+
+Information I0012: at line 11 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.cfg".
+	Warning W2201 from STC:
+		Taskset "osek_bcc1_tasks" is readonly and contains no tasks.
+
+
+Information I0012: at line 14 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.cfg".
+	Warning W2201 from STC:
+		Taskset "osek_ecc_tasks" is readonly and contains no tasks.
+
+
+Information I4106: at line 42 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc".
+	Max value for timebase "sys_timebase" evaluates to 4294967295
+	ticks.
+	
+
+Information I4106: at line 50 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc".
+	Max value for timebase "cpu_clock" evaluates to 4294967295
+	ticks.
+	
+
+Information I4106: at line 58 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc".
+	Max value for timebase "real_time" evaluates to 4294967295
+	ticks.
+	
+
+Information I4106: at line 61 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc".
+	Max value for timebase "ts_etasCounter" evaluates to
+	4294967295 ticks.
+	
+
+Information I0012: at line 188 of file "C:\Users\Admin\ETAS\ASCET-DEVELOPER-7.4.0\Projektarbeit\ACC_CGen\platform\conf.stc".
+	Information I0408 from STC:
+		Warnings were generated.
+
+
+Information I0902: (no line number available: no input file is currently open).
+	RAM 0x64, near RAM 0x198, ROM 0x978
+	
+
+Information I0408: (no line number available: no input file is currently open).
+	Warnings were generated.
+	
+Return code was 0
+
+RTABuild running: C:\ETAS\ASCET-DEVELOPER7.4\plugins\com.etas.rta_osek_1.0.4\rta\bin\rtarecon.exe "-quiet" 
+Return code was 0
+
+RTABuild exit code was 0

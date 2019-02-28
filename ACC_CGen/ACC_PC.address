@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DwarfReader>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crt1.c">
+		<SymbolAddress Name="_argc" Type="int" Address="0x00451004" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_argv" Type="char" Address="0x00451000" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="src/ACC_PC_Automatic.c">
+		<SymbolAddress Name="ASD_DT_SCALED" Type="float32" Address="0x00451020" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="src/components_AccFeedback_Automatic.c">
+		<SymbolAddress Name="components_AccFeedback_CAL_MEM" Type="components_AccFeedback_Automatic_CAL_MEM_SUBSTRUCT" Address="0x0045102C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_AccFeedback_CAL_MEM.c" Type="float32" Address="0x0045102C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_AccFeedback_RAM" Type="components_AccFeedback_Automatic_RAM_SUBSTRUCT" Address="0x00451024" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_AccFeedback_RAM.duration" Type="float32" Address="0x00451024" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_AccFeedback_RAM.acc_status_old" Type="uint8" Address="0x00451028" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_AccFeedback_RAM.feedback" Type="uint8" Address="0x00451029" Size="1" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="src/components_Globals_Automatic.c">
+		<SymbolAddress Name="components_Globals_acc_feedback" Type="uint8" Address="0x00451036" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Globals_acc_status" Type="uint8" Address="0x00451035" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Globals_acc_status_request" Type="uint8" Address="0x00451034" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Globals_v" Type="float32" Address="0x00451030" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="src/components_OnOff_Automatic.c" />
+	<CompilationUnit Name="src/components_Stecke_Automatic.c">
+		<SymbolAddress Name="components_Stecke_CAL_MEM" Type="components_Stecke_Automatic_CAL_MEM_SUBSTRUCT" Address="0x00434000" Size="468" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.TrackSize" Type="float32" Address="0x00434000" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.AirFriction" Type="CharTable1_real32_6_real32_TYPE" Address="0x00434004" Size="52" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.AirFriction.xSize" Type="uint16" Address="0x00434004" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.AirFriction.xDist" Type="float32" Address="0x00434008" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.AirFriction.values" Type="float32" Address="0x00434020" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.BrakeMomentum" Type="CharTable1_real32_6_real32_TYPE" Address="0x00434038" Size="52" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.BrakeMomentum.xSize" Type="uint16" Address="0x00434038" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.BrakeMomentum.xDist" Type="float32" Address="0x0043403C" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.BrakeMomentum.values" Type="float32" Address="0x00434054" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum" Type="CharTable2_real32_6_real32_6_real32_TYPE" Address="0x0043406C" Size="196" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum.xSize" Type="uint16" Address="0x0043406C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum.ySize" Type="uint16" Address="0x0043406E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum.xDist" Type="float32" Address="0x00434070" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum.yDist" Type="float32" Address="0x00434088" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.EngineMomentum.values" Type="float32" Address="0x004340A0" Size="144" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.Landscape" Type="CharTable1_real32_20_real32_TYPE" Address="0x00434130" Size="164" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.Landscape.xSize" Type="uint16" Address="0x00434130" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.Landscape.xDist" Type="float32" Address="0x00434134" Size="80" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_CAL_MEM.Landscape.values" Type="float32" Address="0x00434184" Size="80" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM" Type="components_Stecke_Automatic_RAM_SUBSTRUCT" Address="0x00451038" Size="20" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM.dh" Type="float32" Address="0x00451038" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM.ds" Type="float32" Address="0x0045103C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM.h" Type="float32" Address="0x00451040" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM.momentum" Type="float32" Address="0x00451044" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="components_Stecke_RAM.s" Type="float32" Address="0x00451048" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/ACC_PC.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451054" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00434208" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader" Type="" Address="0x004341F8" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x004341F8" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.noOfClassMethods" Type="uint16" Address="0x004341FA" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.noOfObjectVars" Type="uint16" Address="0x004341FC" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.noOfClassVars" Type="uint16" Address="0x004341FE" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.objectMethods" Type="MethodList" Address="0x00434200" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PC_ClassHeader.classMethods" Type="MethodList" Address="0x00434204" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj" Type="" Address="0x004341E0" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader" Type="" Address="0x004341E0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.states" Type="uint32" Address="0x004341E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.ref" Type="" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x004341E4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x004341E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.size" Type="" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x004341E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.components_Globals_Automatic" Type="L1_components_Globals_Automatic_Obj" Address="0x004341EC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.components_Stecke_Automatic" Type="L1_components_Stecke_Automatic_Obj" Address="0x004341F0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PC_ClassObj.components_AccFeedback_Automatic" Type="L1_components_AccFeedback_Automatic_Obj" Address="0x004341F4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_ACC_PCInstance" Type="L1_ACC_PC_Obj" Address="0x00451050" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_ACC_PC" Type="bool" Address="0x0045104C" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_Globals_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451064" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451060" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader" Type="" Address="0x0043422C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x0043422C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043422E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434230" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x00434232" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434234" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434238" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj" Type="" Address="0x00434210" Size="28" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader" Type="" Address="0x00434210" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434210" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434214" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434214" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434214" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434218" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434218" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434218" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.acc_status" Type="scalarWrapper_Obj" Address="0x0043421C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.acc_feedback" Type="scalarWrapper_Obj" Address="0x00434220" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.acc_status_request" Type="scalarWrapper_Obj" Address="0x00434224" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_Automatic_ClassObj.v" Type="scalarWrapper_Obj" Address="0x00434228" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Globals_AutomaticInstance" Type="L1_components_Globals_Automatic_Obj" Address="0x0045105C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_Globals_Automatic" Type="bool" Address="0x00451058" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_Stecke_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451074" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451070" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader" Type="" Address="0x00434248" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434248" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x0043424A" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x0043424C" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x0043424E" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x00434250" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434254" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj" Type="" Address="0x0043423C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader" Type="" Address="0x0043423C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x0043423C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x00434240" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434240" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434240" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434244" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434244" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434244" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_Stecke_AutomaticInstance" Type="L1_components_Stecke_Automatic_Obj" Address="0x0045106C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_Stecke_Automatic" Type="bool" Address="0x00451068" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="l1/components_AccFeedback_Automatic.l1.c">
+		<SymbolAddress Name="_ObjectMethodList" Type="MethodPtr" Address="0x00451084" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_ClassMethodList" Type="MethodPtr" Address="0x00451080" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader" Type="" Address="0x00434264" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.noOfObjectMethods" Type="uint16" Address="0x00434264" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.noOfClassMethods" Type="uint16" Address="0x00434266" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.noOfObjectVars" Type="uint16" Address="0x00434268" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.noOfClassVars" Type="uint16" Address="0x0043426A" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.objectMethods" Type="MethodList" Address="0x0043426C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassHeader.classMethods" Type="MethodList" Address="0x00434270" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj" Type="" Address="0x00434258" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader" Type="" Address="0x00434258" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.states" Type="uint32" Address="0x00434258" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.ref" Type="" Address="0x0043425C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x0043425C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x0043425C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.size" Type="" Address="0x00434260" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434260" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_Automatic_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434260" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="L1_components_AccFeedback_AutomaticInstance" Type="L1_components_AccFeedback_Automatic_Obj" Address="0x0045107C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized_components_AccFeedback_Automatic" Type="bool" Address="0x00451078" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasConfigTask.c">
+		<SymbolAddress Name="etasConfigTaskMon" Type="struct_taskMonitor" Address="0x00434280" Size="56" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.startTime" Type="TickType" Address="0x00434280" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.startRt" Type="TickType" Address="0x00434284" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.grossRunTime" Type="TickType" Address="0x00434288" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.netRunTime" Type="TickType" Address="0x0043428C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.minRunTime" Type="TickType" Address="0x00434290" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.maxRunTime" Type="TickType" Address="0x00434294" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.dT" Type="TickType" Address="0x00434298" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.savedT" Type="TickType" Address="0x0043429C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.dTVirtual" Type="TickType" Address="0x004342A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.dTSavedVirtual" Type="TickType" Address="0x004342A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.startTimeVirtual" Type="TickType" Address="0x004342A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasConfigTaskMon.ptrMeasGroup" Type="" Address="0x004342AC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="etasConfigTaskMon.ptrLogGroup" Type="" Address="0x004342B0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="etasConfigTaskMon.ptrMonSaved" Type="struct_taskMonitor" Address="0x004342B4" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasL1Isr.c" />
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasL1Task.c">
+		<SymbolAddress Name="etasL1TaskMon" Type="struct_taskMonitor" Address="0x004342C0" Size="56" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.startTime" Type="TickType" Address="0x004342C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.startRt" Type="TickType" Address="0x004342C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.grossRunTime" Type="TickType" Address="0x004342C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.netRunTime" Type="TickType" Address="0x004342CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.minRunTime" Type="TickType" Address="0x004342D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.maxRunTime" Type="TickType" Address="0x004342D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.dT" Type="TickType" Address="0x004342D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.savedT" Type="TickType" Address="0x004342DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.dTVirtual" Type="TickType" Address="0x004342E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.dTSavedVirtual" Type="TickType" Address="0x004342E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.startTimeVirtual" Type="TickType" Address="0x004342E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1TaskMon.ptrMeasGroup" Type="" Address="0x004342EC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="etasL1TaskMon.ptrLogGroup" Type="" Address="0x004342F0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="etasL1TaskMon.ptrMonSaved" Type="struct_taskMonitor" Address="0x004342F4" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasStopOsIsr.c" />
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/etasTimerIsr.c" />
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/HardwareConfigurationDefinitions.c">
+		<SymbolAddress Name="rtioTaskTable" Type="rtioTaskTableEntry" Address="0x004510AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="rtioDriverTable" Type="driverTableEntry" Address="0x004510C0" Size="56" Const="False" Pointer="False" />
+		<SymbolAddress Name="rtioMapFuncTable" Type="mapFuncTableEntry" Address="0x004510A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="rtioFormulaTable" Type="formulaTableEntry" Address="0x004510A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="rtioIsrFuncTable" Type="isrFuncTableEntry" Address="0x004510A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="crossbarCopyFuncTable" Type="copyFuncTableEntry" Address="0x00434300" Size="56" Const="False" Pointer="False" />
+		<SymbolAddress Name="l1RtioRequestRecord" Type="" Address="0x0043B070" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1RtioRequestRecord.configId" Type="uint32" Address="0x0043B070" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1RtioRequestRecord.nofMessages" Type="uint32" Address="0x0043B074" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1RtioRequestRecord.messages" Type="char" Address="0x0043B078" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="l1CrossbarRequestRecord" Type="" Address="0x0043B094" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1CrossbarRequestRecord.configId" Type="uint32" Address="0x0043B094" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1CrossbarRequestRecord.nofMessages" Type="uint32" Address="0x0043B098" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="l1CrossbarRequestRecord.messages" Type="char" Address="0x0043B09C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="crossbarRequestMessages" Type="char" Address="0x0043B0A0" Size="1" Const="True" Pointer="False" />
+		<SymbolAddress Name="rtioRequestMessages" Type="char" Address="0x0043B07C" Size="21" Const="True" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/code/rtaInterface.c">
+		<SymbolAddress Name="UserAppModeAppMode" Type="AppModeType" Address="0x00434340" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasStartupAppMode" Type="AppModeType" Address="0x00434348" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasInactiveAppMode" Type="AppModeType" Address="0x00434344" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="platform/etasVpOs.c">
+		<SymbolAddress Name="osAdmin" Type="" Address="0x0043435C" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="osAdmin.ptrAppModeTable" Type="T_appModeTable" Address="0x0043435C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="osAdmin.ptrTaskTable" Type="T_taskTable" Address="0x00434360" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="crossbarTaskTable" Type="crossbarTaskTableEntry" Address="0x0043434C" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="sgTaskTable" Type="sgTaskTableEntry" Address="0x00451108" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="appModeEntries" Type="T_appModeTableEntry" Address="0x00434390" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="appModeTable" Type="" Address="0x00434384" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="appModeTable.nofAppModes" Type="uint32" Address="0x00434384" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="appModeTable.defaultIndex" Type="uint32" Address="0x00434388" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="appModeTable.entries" Type="T_appModeTableEntry" Address="0x0043438C" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="taskTableEntries" Type="T_taskTableEntry" Address="0x0043436C" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="taskTable" Type="" Address="0x00434364" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="taskTable.nofTasks" Type="uint32" Address="0x00434364" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="taskTable.entries" Type="T_taskTableEntry" Address="0x00434368" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="crossbarHookTableTask0" Type="crossbarHookTableEntry" Address="0x00451104" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="crossbarHookTableEtasInitTask" Type="crossbarHookTableEntry" Address="0x00451100" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="platform/i_osgen_wrapper.cpp">
+		<SymbolAddress Name="osOSEKLinkageTablePtr" Type="osOSEKLinkageTableType" Address="0x004593D4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="OS_L000A" Type="" Address="0x00434F48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000A._0" Type="unsigned int" Address="0x00434F48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0001" Type="" Address="0x00434EC0" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0001._0" Type="unsigned int" Address="0x00434EC0" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0002" Type="" Address="0x00434EA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0002._0" Type="unsigned int" Address="0x00434EA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0004" Type="" Address="0x00434E20" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0004._0" Type="unsigned int" Address="0x00434E20" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000B" Type="" Address="0x00434E1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000B._0" Type="unsigned int" Address="0x00434E1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0007" Type="" Address="0x00434E18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0007._0" Type="unsigned int" Address="0x00434E18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0043" Type="" Address="0x00434E0C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0043._0" Type="unsigned int" Address="0x00434E0C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0043._1" Type="unsigned int" Address="0x00434E10" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0043._2" Type="unsigned int" Address="0x00434E14" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0042" Type="" Address="0x00434E00" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0042._0" Type="unsigned int" Address="0x00434E00" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0042._1" Type="unsigned int" Address="0x00434E04" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0042._2" Type="unsigned int" Address="0x00434E08" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0041" Type="" Address="0x00434DF4" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0041._0" Type="unsigned int" Address="0x00434DF4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0041._1" Type="unsigned int" Address="0x00434DF8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0041._2" Type="unsigned int" Address="0x00434DFC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0040" Type="" Address="0x00434DE8" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0040._0" Type="unsigned int" Address="0x00434DE8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0040._1" Type="unsigned int" Address="0x00434DEC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0040._2" Type="unsigned int" Address="0x00434DF0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0046" Type="" Address="0x00434DDC" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0046._0" Type="unsigned int" Address="0x00434DDC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0046._1" Type="unsigned int" Address="0x00434DE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0046._2" Type="unsigned int" Address="0x00434DE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0045" Type="" Address="0x00434DD0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0045._0" Type="unsigned int" Address="0x00434DD0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0045._1" Type="unsigned int" Address="0x00434DD4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0045._2" Type="unsigned int" Address="0x00434DD8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0044" Type="" Address="0x00434DC4" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0044._0" Type="unsigned int" Address="0x00434DC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0044._1" Type="unsigned int" Address="0x00434DC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0044._2" Type="unsigned int" Address="0x00434DCC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003D" Type="" Address="0x00434DBC" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003D._0" Type="unsigned int" Address="0x00434DBC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003D._1" Type="unsigned int" Address="0x00434DC0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000F" Type="" Address="0x00434DB8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000F._0" Type="unsigned int" Address="0x00434DB8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0010" Type="" Address="0x00434DB4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0010._0" Type="unsigned int" Address="0x00434DB4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0008" Type="" Address="0x00434DB0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0008._0" Type="unsigned int" Address="0x00434DB0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000D" Type="" Address="0x00434DAC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000D._0" Type="unsigned int" Address="0x00434DAC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0005" Type="" Address="0x00434DA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0005._0" Type="unsigned int" Address="0x00434DA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0006" Type="" Address="0x00434DA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0006._0" Type="unsigned int" Address="0x00434DA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000E" Type="" Address="0x00434DA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000E._0" Type="unsigned int" Address="0x00434DA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0011" Type="" Address="0x00434D9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0011._0" Type="unsigned int" Address="0x00434D9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_oim" Type="" Address="0x00434D98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_oim._0" Type="unsigned int" Address="0x00434D98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_VRTA_e_5_00" Type="" Address="0x00434D90" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_VRTA_e_5_00._0" Type="unsigned int" Address="0x00434D90" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_VRTA_e_5_00._1" Type="unsigned int" Address="0x00434D94" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001F" Type="" Address="0x004593D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001F._0" Type="unsigned int" Address="0x004593D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0020" Type="" Address="0x004593CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0020._0" Type="unsigned int" Address="0x004593CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0021" Type="" Address="0x004593C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0021._0" Type="unsigned int" Address="0x004593C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0022" Type="" Address="0x004593C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0022._0" Type="unsigned int" Address="0x004593C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0023" Type="" Address="0x004593C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0023._0" Type="unsigned int" Address="0x004593C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0024" Type="" Address="0x004593BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0024._0" Type="unsigned int" Address="0x004593BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0025" Type="" Address="0x004593B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0025._0" Type="unsigned int" Address="0x004593B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0026" Type="" Address="0x004593B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0026._0" Type="unsigned int" Address="0x004593B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0027" Type="" Address="0x004593B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0027._0" Type="unsigned int" Address="0x004593B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0028" Type="" Address="0x004593AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0028._0" Type="unsigned int" Address="0x004593AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0029" Type="" Address="0x004593A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0029._0" Type="unsigned int" Address="0x004593A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002A" Type="" Address="0x004593A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002A._0" Type="unsigned int" Address="0x004593A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002B" Type="" Address="0x004593A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002B._0" Type="unsigned int" Address="0x004593A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002C" Type="" Address="0x0045939C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002C._0" Type="unsigned int" Address="0x0045939C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0019" Type="" Address="0x00434D8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0019._0" Type="unsigned int" Address="0x00434D8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D" Type="" Address="0x00434D00" Size="140" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._0" Type="unsigned int" Address="0x00434D00" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._1" Type="unsigned int" Address="0x00434D04" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._2" Type="unsigned int" Address="0x00434D08" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._3" Type="unsigned int" Address="0x00434D0C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._4" Type="unsigned int" Address="0x00434D10" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._5" Type="unsigned int" Address="0x00434D14" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._6" Type="unsigned int" Address="0x00434D18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._7" Type="unsigned int" Address="0x00434D1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._8" Type="unsigned int" Address="0x00434D20" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._9" Type="unsigned int" Address="0x00434D24" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._10" Type="unsigned int" Address="0x00434D28" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._11" Type="unsigned int" Address="0x00434D2C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._12" Type="unsigned int" Address="0x00434D30" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._13" Type="unsigned int" Address="0x00434D34" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._14" Type="unsigned int" Address="0x00434D38" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._15" Type="unsigned int" Address="0x00434D3C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._16" Type="unsigned int" Address="0x00434D40" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._17" Type="unsigned int" Address="0x00434D44" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._18" Type="unsigned int" Address="0x00434D48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._19" Type="unsigned int" Address="0x00434D4C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._20" Type="unsigned int" Address="0x00434D50" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._21" Type="unsigned int" Address="0x00434D54" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._22" Type="unsigned int" Address="0x00434D58" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._23" Type="unsigned int" Address="0x00434D5C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._24" Type="unsigned int" Address="0x00434D60" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._25" Type="unsigned int" Address="0x00434D64" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._26" Type="unsigned int" Address="0x00434D68" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._27" Type="unsigned int" Address="0x00434D6C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._28" Type="unsigned int" Address="0x00434D70" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._29" Type="unsigned int" Address="0x00434D74" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._30" Type="unsigned int" Address="0x00434D78" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._31" Type="unsigned int" Address="0x00434D7C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._32" Type="unsigned int" Address="0x00434D80" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._33" Type="unsigned int" Address="0x00434D84" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002D._34" Type="unsigned int" Address="0x00434D88" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001A" Type="" Address="0x00434CE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001A._0" Type="unsigned int" Address="0x00434CE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0015" Type="" Address="0x00434CE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0015._0" Type="unsigned int" Address="0x00434CE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000" Type="" Address="0x00434C40" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._0" Type="unsigned int" Address="0x00434C40" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._1" Type="unsigned int" Address="0x00434C44" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._2" Type="unsigned int" Address="0x00434C48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._3" Type="unsigned int" Address="0x00434C4C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._4" Type="unsigned int" Address="0x00434C50" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._5" Type="unsigned int" Address="0x00434C54" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._6" Type="unsigned int" Address="0x00434C58" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._7" Type="unsigned int" Address="0x00434C5C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._8" Type="unsigned int" Address="0x00434C60" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._9" Type="unsigned int" Address="0x00434C64" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._10" Type="unsigned int" Address="0x00434C68" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._11" Type="unsigned int" Address="0x00434C6C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._12" Type="unsigned int" Address="0x00434C70" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._13" Type="unsigned int" Address="0x00434C74" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._14" Type="unsigned int" Address="0x00434C78" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._15" Type="unsigned int" Address="0x00434C7C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._16" Type="unsigned int" Address="0x00434C80" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._17" Type="unsigned int" Address="0x00434C84" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._18" Type="unsigned int" Address="0x00434C88" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._19" Type="unsigned int" Address="0x00434C8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._20" Type="unsigned int" Address="0x00434C90" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._21" Type="unsigned int" Address="0x00434C94" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._22" Type="unsigned int" Address="0x00434C98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._23" Type="unsigned int" Address="0x00434C9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._24" Type="unsigned int" Address="0x00434CA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._25" Type="unsigned int" Address="0x00434CA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._26" Type="unsigned int" Address="0x00434CA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._27" Type="unsigned int" Address="0x00434CAC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._28" Type="unsigned int" Address="0x00434CB0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._29" Type="unsigned int" Address="0x00434CB4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._30" Type="unsigned int" Address="0x00434CB8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._31" Type="unsigned int" Address="0x00434CBC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._32" Type="unsigned int" Address="0x00434CC0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._33" Type="unsigned int" Address="0x00434CC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._34" Type="unsigned int" Address="0x00434CC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._35" Type="funcptr" Address="0x00434CCC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._36" Type="dataptr" Address="0x00434CD0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._37" Type="unsigned int" Address="0x00434CD4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._38" Type="unsigned int" Address="0x00434CD8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0000._39" Type="unsigned int" Address="0x00434CDC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033" Type="" Address="0x00434BA0" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._0" Type="unsigned int" Address="0x00434BA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._1" Type="unsigned int" Address="0x00434BA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._2" Type="unsigned int" Address="0x00434BA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._3" Type="unsigned int" Address="0x00434BAC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._4" Type="unsigned int" Address="0x00434BB0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._5" Type="unsigned int" Address="0x00434BB4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._6" Type="unsigned int" Address="0x00434BB8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._7" Type="unsigned int" Address="0x00434BBC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._8" Type="unsigned int" Address="0x00434BC0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._9" Type="unsigned int" Address="0x00434BC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._10" Type="unsigned int" Address="0x00434BC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._11" Type="unsigned int" Address="0x00434BCC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._12" Type="unsigned int" Address="0x00434BD0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._13" Type="unsigned int" Address="0x00434BD4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._14" Type="unsigned int" Address="0x00434BD8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._15" Type="unsigned int" Address="0x00434BDC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._16" Type="unsigned int" Address="0x00434BE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._17" Type="unsigned int" Address="0x00434BE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._18" Type="unsigned int" Address="0x00434BE8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._19" Type="unsigned int" Address="0x00434BEC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._20" Type="unsigned int" Address="0x00434BF0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._21" Type="unsigned int" Address="0x00434BF4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._22" Type="unsigned int" Address="0x00434BF8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._23" Type="unsigned int" Address="0x00434BFC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._24" Type="unsigned int" Address="0x00434C00" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._25" Type="unsigned int" Address="0x00434C04" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._26" Type="unsigned int" Address="0x00434C08" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._27" Type="unsigned int" Address="0x00434C0C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._28" Type="unsigned int" Address="0x00434C10" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._29" Type="unsigned int" Address="0x00434C14" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._30" Type="unsigned int" Address="0x00434C18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._31" Type="unsigned int" Address="0x00434C1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._32" Type="unsigned int" Address="0x00434C20" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._33" Type="unsigned int" Address="0x00434C24" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._34" Type="unsigned int" Address="0x00434C28" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._35" Type="funcptr" Address="0x00434C2C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._36" Type="dataptr" Address="0x00434C30" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._37" Type="unsigned int" Address="0x00434C34" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._38" Type="unsigned int" Address="0x00434C38" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0033._39" Type="unsigned int" Address="0x00434C3C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034" Type="" Address="0x00434B00" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._0" Type="unsigned int" Address="0x00434B00" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._1" Type="unsigned int" Address="0x00434B04" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._2" Type="unsigned int" Address="0x00434B08" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._3" Type="unsigned int" Address="0x00434B0C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._4" Type="unsigned int" Address="0x00434B10" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._5" Type="unsigned int" Address="0x00434B14" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._6" Type="unsigned int" Address="0x00434B18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._7" Type="unsigned int" Address="0x00434B1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._8" Type="unsigned int" Address="0x00434B20" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._9" Type="unsigned int" Address="0x00434B24" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._10" Type="unsigned int" Address="0x00434B28" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._11" Type="unsigned int" Address="0x00434B2C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._12" Type="unsigned int" Address="0x00434B30" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._13" Type="unsigned int" Address="0x00434B34" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._14" Type="unsigned int" Address="0x00434B38" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._15" Type="unsigned int" Address="0x00434B3C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._16" Type="unsigned int" Address="0x00434B40" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._17" Type="unsigned int" Address="0x00434B44" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._18" Type="unsigned int" Address="0x00434B48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._19" Type="unsigned int" Address="0x00434B4C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._20" Type="unsigned int" Address="0x00434B50" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._21" Type="unsigned int" Address="0x00434B54" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._22" Type="unsigned int" Address="0x00434B58" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._23" Type="unsigned int" Address="0x00434B5C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._24" Type="unsigned int" Address="0x00434B60" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._25" Type="unsigned int" Address="0x00434B64" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._26" Type="unsigned int" Address="0x00434B68" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._27" Type="unsigned int" Address="0x00434B6C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._28" Type="unsigned int" Address="0x00434B70" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._29" Type="unsigned int" Address="0x00434B74" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._30" Type="unsigned int" Address="0x00434B78" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._31" Type="unsigned int" Address="0x00434B7C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._32" Type="unsigned int" Address="0x00434B80" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._33" Type="unsigned int" Address="0x00434B84" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._34" Type="unsigned int" Address="0x00434B88" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._35" Type="funcptr" Address="0x00434B8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._36" Type="dataptr" Address="0x00434B90" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._37" Type="unsigned int" Address="0x00434B94" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._38" Type="unsigned int" Address="0x00434B98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0034._39" Type="unsigned int" Address="0x00434B9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035" Type="" Address="0x00434A60" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._0" Type="unsigned int" Address="0x00434A60" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._1" Type="unsigned int" Address="0x00434A64" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._2" Type="unsigned int" Address="0x00434A68" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._3" Type="unsigned int" Address="0x00434A6C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._4" Type="unsigned int" Address="0x00434A70" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._5" Type="unsigned int" Address="0x00434A74" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._6" Type="unsigned int" Address="0x00434A78" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._7" Type="unsigned int" Address="0x00434A7C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._8" Type="unsigned int" Address="0x00434A80" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._9" Type="unsigned int" Address="0x00434A84" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._10" Type="unsigned int" Address="0x00434A88" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._11" Type="unsigned int" Address="0x00434A8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._12" Type="unsigned int" Address="0x00434A90" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._13" Type="unsigned int" Address="0x00434A94" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._14" Type="unsigned int" Address="0x00434A98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._15" Type="unsigned int" Address="0x00434A9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._16" Type="unsigned int" Address="0x00434AA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._17" Type="unsigned int" Address="0x00434AA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._18" Type="unsigned int" Address="0x00434AA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._19" Type="unsigned int" Address="0x00434AAC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._20" Type="unsigned int" Address="0x00434AB0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._21" Type="unsigned int" Address="0x00434AB4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._22" Type="unsigned int" Address="0x00434AB8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._23" Type="unsigned int" Address="0x00434ABC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._24" Type="unsigned int" Address="0x00434AC0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._25" Type="unsigned int" Address="0x00434AC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._26" Type="unsigned int" Address="0x00434AC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._27" Type="unsigned int" Address="0x00434ACC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._28" Type="unsigned int" Address="0x00434AD0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._29" Type="unsigned int" Address="0x00434AD4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._30" Type="unsigned int" Address="0x00434AD8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._31" Type="unsigned int" Address="0x00434ADC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._32" Type="unsigned int" Address="0x00434AE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._33" Type="unsigned int" Address="0x00434AE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._34" Type="unsigned int" Address="0x00434AE8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._35" Type="funcptr" Address="0x00434AEC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._36" Type="dataptr" Address="0x00434AF0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._37" Type="unsigned int" Address="0x00434AF4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._38" Type="unsigned int" Address="0x00434AF8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0035._39" Type="unsigned int" Address="0x00434AFC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039" Type="" Address="0x004349C0" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._0" Type="unsigned int" Address="0x004349C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._1" Type="unsigned int" Address="0x004349C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._2" Type="unsigned int" Address="0x004349C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._3" Type="unsigned int" Address="0x004349CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._4" Type="unsigned int" Address="0x004349D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._5" Type="unsigned int" Address="0x004349D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._6" Type="unsigned int" Address="0x004349D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._7" Type="unsigned int" Address="0x004349DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._8" Type="unsigned int" Address="0x004349E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._9" Type="unsigned int" Address="0x004349E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._10" Type="unsigned int" Address="0x004349E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._11" Type="unsigned int" Address="0x004349EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._12" Type="unsigned int" Address="0x004349F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._13" Type="unsigned int" Address="0x004349F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._14" Type="unsigned int" Address="0x004349F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._15" Type="unsigned int" Address="0x004349FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._16" Type="unsigned int" Address="0x00434A00" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._17" Type="unsigned int" Address="0x00434A04" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._18" Type="unsigned int" Address="0x00434A08" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._19" Type="unsigned int" Address="0x00434A0C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._20" Type="unsigned int" Address="0x00434A10" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._21" Type="unsigned int" Address="0x00434A14" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._22" Type="unsigned int" Address="0x00434A18" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._23" Type="unsigned int" Address="0x00434A1C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._24" Type="unsigned int" Address="0x00434A20" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._25" Type="unsigned int" Address="0x00434A24" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._26" Type="unsigned int" Address="0x00434A28" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._27" Type="unsigned int" Address="0x00434A2C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._28" Type="unsigned int" Address="0x00434A30" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._29" Type="unsigned int" Address="0x00434A34" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._30" Type="unsigned int" Address="0x00434A38" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._31" Type="unsigned int" Address="0x00434A3C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._32" Type="unsigned int" Address="0x00434A40" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._33" Type="unsigned int" Address="0x00434A44" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._34" Type="unsigned int" Address="0x00434A48" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._35" Type="funcptr" Address="0x00434A4C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._36" Type="dataptr" Address="0x00434A50" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._37" Type="unsigned int" Address="0x00434A54" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._38" Type="unsigned int" Address="0x00434A58" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0039._39" Type="unsigned int" Address="0x00434A5C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A" Type="" Address="0x00434920" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._0" Type="unsigned int" Address="0x00434920" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._1" Type="unsigned int" Address="0x00434924" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._2" Type="unsigned int" Address="0x00434928" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._3" Type="unsigned int" Address="0x0043492C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._4" Type="unsigned int" Address="0x00434930" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._5" Type="unsigned int" Address="0x00434934" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._6" Type="unsigned int" Address="0x00434938" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._7" Type="unsigned int" Address="0x0043493C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._8" Type="unsigned int" Address="0x00434940" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._9" Type="unsigned int" Address="0x00434944" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._10" Type="unsigned int" Address="0x00434948" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._11" Type="unsigned int" Address="0x0043494C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._12" Type="unsigned int" Address="0x00434950" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._13" Type="unsigned int" Address="0x00434954" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._14" Type="unsigned int" Address="0x00434958" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._15" Type="unsigned int" Address="0x0043495C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._16" Type="unsigned int" Address="0x00434960" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._17" Type="unsigned int" Address="0x00434964" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._18" Type="unsigned int" Address="0x00434968" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._19" Type="unsigned int" Address="0x0043496C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._20" Type="unsigned int" Address="0x00434970" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._21" Type="unsigned int" Address="0x00434974" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._22" Type="unsigned int" Address="0x00434978" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._23" Type="unsigned int" Address="0x0043497C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._24" Type="unsigned int" Address="0x00434980" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._25" Type="unsigned int" Address="0x00434984" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._26" Type="unsigned int" Address="0x00434988" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._27" Type="unsigned int" Address="0x0043498C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._28" Type="unsigned int" Address="0x00434990" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._29" Type="unsigned int" Address="0x00434994" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._30" Type="unsigned int" Address="0x00434998" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._31" Type="unsigned int" Address="0x0043499C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._32" Type="unsigned int" Address="0x004349A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._33" Type="unsigned int" Address="0x004349A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._34" Type="unsigned int" Address="0x004349A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._35" Type="funcptr" Address="0x004349AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._36" Type="dataptr" Address="0x004349B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._37" Type="unsigned int" Address="0x004349B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._38" Type="unsigned int" Address="0x004349B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003A._39" Type="unsigned int" Address="0x004349BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B" Type="" Address="0x00434880" Size="160" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._0" Type="unsigned int" Address="0x00434880" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._1" Type="unsigned int" Address="0x00434884" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._2" Type="unsigned int" Address="0x00434888" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._3" Type="unsigned int" Address="0x0043488C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._4" Type="unsigned int" Address="0x00434890" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._5" Type="unsigned int" Address="0x00434894" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._6" Type="unsigned int" Address="0x00434898" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._7" Type="unsigned int" Address="0x0043489C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._8" Type="unsigned int" Address="0x004348A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._9" Type="unsigned int" Address="0x004348A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._10" Type="unsigned int" Address="0x004348A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._11" Type="unsigned int" Address="0x004348AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._12" Type="unsigned int" Address="0x004348B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._13" Type="unsigned int" Address="0x004348B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._14" Type="unsigned int" Address="0x004348B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._15" Type="unsigned int" Address="0x004348BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._16" Type="unsigned int" Address="0x004348C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._17" Type="unsigned int" Address="0x004348C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._18" Type="unsigned int" Address="0x004348C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._19" Type="unsigned int" Address="0x004348CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._20" Type="unsigned int" Address="0x004348D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._21" Type="unsigned int" Address="0x004348D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._22" Type="unsigned int" Address="0x004348D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._23" Type="unsigned int" Address="0x004348DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._24" Type="unsigned int" Address="0x004348E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._25" Type="unsigned int" Address="0x004348E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._26" Type="unsigned int" Address="0x004348E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._27" Type="unsigned int" Address="0x004348EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._28" Type="unsigned int" Address="0x004348F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._29" Type="unsigned int" Address="0x004348F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._30" Type="unsigned int" Address="0x004348F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._31" Type="unsigned int" Address="0x004348FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._32" Type="unsigned int" Address="0x00434900" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._33" Type="unsigned int" Address="0x00434904" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._34" Type="unsigned int" Address="0x00434908" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._35" Type="funcptr" Address="0x0043490C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._36" Type="dataptr" Address="0x00434910" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._37" Type="unsigned int" Address="0x00434914" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._38" Type="unsigned int" Address="0x00434918" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L003B._39" Type="unsigned int" Address="0x0043491C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0016" Type="" Address="0x00434868" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0016._0" Type="unsigned int" Address="0x00434868" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D" Type="" Address="0x004347E0" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._0" Type="unsigned int" Address="0x004347E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._1" Type="unsigned int" Address="0x004347E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._2" Type="unsigned int" Address="0x004347E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._3" Type="unsigned int" Address="0x004347EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._4" Type="unsigned int" Address="0x004347F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._5" Type="unsigned int" Address="0x004347F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._6" Type="unsigned int" Address="0x004347F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._7" Type="unsigned int" Address="0x004347FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._8" Type="unsigned int" Address="0x00434800" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._9" Type="unsigned int" Address="0x00434804" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._10" Type="unsigned int" Address="0x00434808" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._11" Type="unsigned int" Address="0x0043480C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._12" Type="unsigned int" Address="0x00434810" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._13" Type="unsigned int" Address="0x00434814" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._14" Type="unsigned int" Address="0x00434818" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._15" Type="unsigned int" Address="0x0043481C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._16" Type="unsigned int" Address="0x00434820" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._17" Type="unsigned int" Address="0x00434824" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._18" Type="unsigned int" Address="0x00434828" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._19" Type="unsigned int" Address="0x0043482C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._20" Type="unsigned int" Address="0x00434830" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._21" Type="unsigned int" Address="0x00434834" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._22" Type="unsigned int" Address="0x00434838" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._23" Type="unsigned int" Address="0x0043483C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._24" Type="unsigned int" Address="0x00434840" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._25" Type="unsigned int" Address="0x00434844" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._26" Type="unsigned int" Address="0x00434848" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._27" Type="unsigned int" Address="0x0043484C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._28" Type="unsigned int" Address="0x00434850" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._29" Type="unsigned int" Address="0x00434854" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._30" Type="unsigned int" Address="0x00434858" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._31" Type="unsigned int" Address="0x0043485C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._32" Type="unsigned int" Address="0x00434860" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001D._33" Type="unsigned int" Address="0x00434864" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E" Type="" Address="0x00434740" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._0" Type="unsigned int" Address="0x00434740" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._1" Type="unsigned int" Address="0x00434744" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._2" Type="unsigned int" Address="0x00434748" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._3" Type="unsigned int" Address="0x0043474C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._4" Type="unsigned int" Address="0x00434750" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._5" Type="unsigned int" Address="0x00434754" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._6" Type="unsigned int" Address="0x00434758" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._7" Type="unsigned int" Address="0x0043475C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._8" Type="unsigned int" Address="0x00434760" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._9" Type="unsigned int" Address="0x00434764" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._10" Type="unsigned int" Address="0x00434768" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._11" Type="unsigned int" Address="0x0043476C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._12" Type="unsigned int" Address="0x00434770" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._13" Type="unsigned int" Address="0x00434774" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._14" Type="unsigned int" Address="0x00434778" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._15" Type="unsigned int" Address="0x0043477C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._16" Type="unsigned int" Address="0x00434780" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._17" Type="unsigned int" Address="0x00434784" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._18" Type="unsigned int" Address="0x00434788" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._19" Type="unsigned int" Address="0x0043478C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._20" Type="unsigned int" Address="0x00434790" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._21" Type="unsigned int" Address="0x00434794" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._22" Type="unsigned int" Address="0x00434798" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._23" Type="unsigned int" Address="0x0043479C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._24" Type="unsigned int" Address="0x004347A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._25" Type="unsigned int" Address="0x004347A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._26" Type="unsigned int" Address="0x004347A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._27" Type="unsigned int" Address="0x004347AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._28" Type="unsigned int" Address="0x004347B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._29" Type="unsigned int" Address="0x004347B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._30" Type="unsigned int" Address="0x004347B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._31" Type="unsigned int" Address="0x004347BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._32" Type="unsigned int" Address="0x004347C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001E._33" Type="unsigned int" Address="0x004347C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts" Type="" Address="0x004346A0" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._0" Type="unsigned int" Address="0x004346A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._1" Type="unsigned int" Address="0x004346A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._2" Type="unsigned int" Address="0x004346A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._3" Type="unsigned int" Address="0x004346AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._4" Type="unsigned int" Address="0x004346B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._5" Type="unsigned int" Address="0x004346B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._6" Type="unsigned int" Address="0x004346B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._7" Type="unsigned int" Address="0x004346BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._8" Type="unsigned int" Address="0x004346C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._9" Type="unsigned int" Address="0x004346C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._10" Type="unsigned int" Address="0x004346C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._11" Type="unsigned int" Address="0x004346CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._12" Type="unsigned int" Address="0x004346D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._13" Type="unsigned int" Address="0x004346D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._14" Type="unsigned int" Address="0x004346D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._15" Type="unsigned int" Address="0x004346DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._16" Type="unsigned int" Address="0x004346E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._17" Type="unsigned int" Address="0x004346E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._18" Type="unsigned int" Address="0x004346E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._19" Type="unsigned int" Address="0x004346EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._20" Type="unsigned int" Address="0x004346F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._21" Type="unsigned int" Address="0x004346F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._22" Type="unsigned int" Address="0x004346F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._23" Type="unsigned int" Address="0x004346FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._24" Type="unsigned int" Address="0x00434700" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._25" Type="unsigned int" Address="0x00434704" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._26" Type="unsigned int" Address="0x00434708" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._27" Type="unsigned int" Address="0x0043470C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._28" Type="unsigned int" Address="0x00434710" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._29" Type="unsigned int" Address="0x00434714" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._30" Type="unsigned int" Address="0x00434718" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._31" Type="unsigned int" Address="0x0043471C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._32" Type="unsigned int" Address="0x00434720" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_bcc1_ts._33" Type="unsigned int" Address="0x00434724" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts" Type="" Address="0x00434600" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._0" Type="unsigned int" Address="0x00434600" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._1" Type="unsigned int" Address="0x00434604" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._2" Type="unsigned int" Address="0x00434608" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._3" Type="unsigned int" Address="0x0043460C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._4" Type="unsigned int" Address="0x00434610" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._5" Type="unsigned int" Address="0x00434614" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._6" Type="unsigned int" Address="0x00434618" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._7" Type="unsigned int" Address="0x0043461C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._8" Type="unsigned int" Address="0x00434620" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._9" Type="unsigned int" Address="0x00434624" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._10" Type="unsigned int" Address="0x00434628" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._11" Type="unsigned int" Address="0x0043462C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._12" Type="unsigned int" Address="0x00434630" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._13" Type="unsigned int" Address="0x00434634" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._14" Type="unsigned int" Address="0x00434638" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._15" Type="unsigned int" Address="0x0043463C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._16" Type="unsigned int" Address="0x00434640" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._17" Type="unsigned int" Address="0x00434644" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._18" Type="unsigned int" Address="0x00434648" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._19" Type="unsigned int" Address="0x0043464C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._20" Type="unsigned int" Address="0x00434650" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._21" Type="unsigned int" Address="0x00434654" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._22" Type="unsigned int" Address="0x00434658" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._23" Type="unsigned int" Address="0x0043465C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._24" Type="unsigned int" Address="0x00434660" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._25" Type="unsigned int" Address="0x00434664" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._26" Type="unsigned int" Address="0x00434668" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._27" Type="unsigned int" Address="0x0043466C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._28" Type="unsigned int" Address="0x00434670" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._29" Type="unsigned int" Address="0x00434674" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._30" Type="unsigned int" Address="0x00434678" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._31" Type="unsigned int" Address="0x0043467C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._32" Type="unsigned int" Address="0x00434680" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_cc2_ts._33" Type="unsigned int" Address="0x00434684" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts" Type="" Address="0x00434560" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._0" Type="unsigned int" Address="0x00434560" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._1" Type="unsigned int" Address="0x00434564" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._2" Type="unsigned int" Address="0x00434568" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._3" Type="unsigned int" Address="0x0043456C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._4" Type="unsigned int" Address="0x00434570" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._5" Type="unsigned int" Address="0x00434574" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._6" Type="unsigned int" Address="0x00434578" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._7" Type="unsigned int" Address="0x0043457C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._8" Type="unsigned int" Address="0x00434580" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._9" Type="unsigned int" Address="0x00434584" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._10" Type="unsigned int" Address="0x00434588" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._11" Type="unsigned int" Address="0x0043458C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._12" Type="unsigned int" Address="0x00434590" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._13" Type="unsigned int" Address="0x00434594" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._14" Type="unsigned int" Address="0x00434598" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._15" Type="unsigned int" Address="0x0043459C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._16" Type="unsigned int" Address="0x004345A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._17" Type="unsigned int" Address="0x004345A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._18" Type="unsigned int" Address="0x004345A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._19" Type="unsigned int" Address="0x004345AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._20" Type="unsigned int" Address="0x004345B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._21" Type="unsigned int" Address="0x004345B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._22" Type="unsigned int" Address="0x004345B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._23" Type="unsigned int" Address="0x004345BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._24" Type="unsigned int" Address="0x004345C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._25" Type="unsigned int" Address="0x004345C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._26" Type="unsigned int" Address="0x004345C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._27" Type="unsigned int" Address="0x004345CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._28" Type="unsigned int" Address="0x004345D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._29" Type="unsigned int" Address="0x004345D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._30" Type="unsigned int" Address="0x004345D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._31" Type="unsigned int" Address="0x004345DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._32" Type="unsigned int" Address="0x004345E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_ecc_ts._33" Type="unsigned int" Address="0x004345E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002F" Type="" Address="0x00434550" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L002F._0" Type="unsigned int" Address="0x00434550" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0030" Type="" Address="0x0043454C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0030._0" Type="unsigned int" Address="0x0043454C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0031" Type="" Address="0x00434548" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0031._0" Type="unsigned int" Address="0x00434548" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0032" Type="" Address="0x00434544" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0032._0" Type="unsigned int" Address="0x00434544" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0017" Type="" Address="0x00434540" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0017._0" Type="unsigned int" Address="0x00434540" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter" Type="" Address="0x00434520" Size="32" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._0" Type="dataptr" Address="0x00434520" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._1" Type="dataptr" Address="0x00434524" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._2" Type="dataptr" Address="0x00434528" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._3" Type="funcptr" Address="0x0043452C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._4" Type="funcptr" Address="0x00434530" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._5" Type="funcptr" Address="0x00434534" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._6" Type="funcptr" Address="0x00434538" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_EtasCounter._7" Type="unsigned int" Address="0x0043453C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0018" Type="" Address="0x00434518" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0018._0" Type="unsigned int" Address="0x00434518" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001B" Type="" Address="0x00434514" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001B._0" Type="unsigned int" Address="0x00434514" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001C" Type="" Address="0x00434510" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L001C._0" Type="unsigned int" Address="0x00434510" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0012" Type="" Address="0x0043450C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0012._0" Type="unsigned int" Address="0x0043450C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000C" Type="" Address="0x00434508" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L000C._0" Type="unsigned int" Address="0x00434508" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000" Type="" Address="0x00434480" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._0" Type="unsigned int" Address="0x00434480" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._1" Type="unsigned int" Address="0x00434484" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._2" Type="unsigned int" Address="0x00434488" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._3" Type="unsigned int" Address="0x0043448C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._4" Type="unsigned int" Address="0x00434490" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._5" Type="unsigned int" Address="0x00434494" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._6" Type="unsigned int" Address="0x00434498" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._7" Type="unsigned int" Address="0x0043449C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._8" Type="unsigned int" Address="0x004344A0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._9" Type="unsigned int" Address="0x004344A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._10" Type="unsigned int" Address="0x004344A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._11" Type="unsigned int" Address="0x004344AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._12" Type="unsigned int" Address="0x004344B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._13" Type="unsigned int" Address="0x004344B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._14" Type="unsigned int" Address="0x004344B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._15" Type="unsigned int" Address="0x004344BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._16" Type="unsigned int" Address="0x004344C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._17" Type="unsigned int" Address="0x004344C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._18" Type="unsigned int" Address="0x004344C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._19" Type="unsigned int" Address="0x004344CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._20" Type="unsigned int" Address="0x004344D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._21" Type="unsigned int" Address="0x004344D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._22" Type="unsigned int" Address="0x004344D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._23" Type="unsigned int" Address="0x004344DC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._24" Type="unsigned int" Address="0x004344E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._25" Type="unsigned int" Address="0x004344E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._26" Type="unsigned int" Address="0x004344E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._27" Type="unsigned int" Address="0x004344EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._28" Type="unsigned int" Address="0x004344F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._29" Type="unsigned int" Address="0x004344F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._30" Type="unsigned int" Address="0x004344F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._31" Type="unsigned int" Address="0x004344FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._32" Type="unsigned int" Address="0x00434500" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0000._33" Type="unsigned int" Address="0x00434504" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0001" Type="" Address="0x00459398" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0001._0" Type="unsigned int" Address="0x00459398" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002" Type="" Address="0x004343E0" Size="136" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._0" Type="unsigned int" Address="0x004343E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._1" Type="unsigned int" Address="0x004343E4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._2" Type="unsigned int" Address="0x004343E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._3" Type="unsigned int" Address="0x004343EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._4" Type="unsigned int" Address="0x004343F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._5" Type="unsigned int" Address="0x004343F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._6" Type="unsigned int" Address="0x004343F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._7" Type="unsigned int" Address="0x004343FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._8" Type="unsigned int" Address="0x00434400" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._9" Type="unsigned int" Address="0x00434404" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._10" Type="unsigned int" Address="0x00434408" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._11" Type="unsigned int" Address="0x0043440C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._12" Type="unsigned int" Address="0x00434410" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._13" Type="unsigned int" Address="0x00434414" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._14" Type="unsigned int" Address="0x00434418" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._15" Type="unsigned int" Address="0x0043441C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._16" Type="unsigned int" Address="0x00434420" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._17" Type="unsigned int" Address="0x00434424" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._18" Type="unsigned int" Address="0x00434428" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._19" Type="unsigned int" Address="0x0043442C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._20" Type="unsigned int" Address="0x00434430" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._21" Type="unsigned int" Address="0x00434434" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._22" Type="unsigned int" Address="0x00434438" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._23" Type="unsigned int" Address="0x0043443C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._24" Type="unsigned int" Address="0x00434440" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._25" Type="unsigned int" Address="0x00434444" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._26" Type="unsigned int" Address="0x00434448" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._27" Type="unsigned int" Address="0x0043444C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._28" Type="unsigned int" Address="0x00434450" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._29" Type="unsigned int" Address="0x00434454" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._30" Type="unsigned int" Address="0x00434458" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._31" Type="unsigned int" Address="0x0043445C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._32" Type="unsigned int" Address="0x00434460" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0002._33" Type="unsigned int" Address="0x00434464" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0014" Type="" Address="0x004343D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0014._0" Type="unsigned int" Address="0x004343D0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0009" Type="" Address="0x004343CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0009._0" Type="unsigned int" Address="0x004343CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0003" Type="" Address="0x0045938C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0003._0" Type="unsigned int" Address="0x0045938C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0003._1" Type="unsigned int" Address="0x00459390" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0003._2" Type="unsigned int" Address="0x00459394" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0004" Type="" Address="0x00459380" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0004._0" Type="unsigned int" Address="0x00459380" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0004._1" Type="unsigned int" Address="0x00459384" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0004._2" Type="unsigned int" Address="0x00459388" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0005" Type="" Address="0x00459374" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0005._0" Type="unsigned int" Address="0x00459374" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0005._1" Type="unsigned int" Address="0x00459378" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0005._2" Type="unsigned int" Address="0x0045937C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0006" Type="" Address="0x00459368" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0006._0" Type="unsigned int" Address="0x00459368" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0006._1" Type="unsigned int" Address="0x0045936C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0006._2" Type="unsigned int" Address="0x00459370" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0007" Type="" Address="0x0045935C" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0007._0" Type="unsigned int" Address="0x0045935C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0007._1" Type="unsigned int" Address="0x00459360" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0007._2" Type="unsigned int" Address="0x00459364" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0008" Type="" Address="0x00459350" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0008._0" Type="unsigned int" Address="0x00459350" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0008._1" Type="unsigned int" Address="0x00459354" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0008._2" Type="unsigned int" Address="0x00459358" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0009" Type="" Address="0x00459344" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0009._0" Type="unsigned int" Address="0x00459344" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0009._1" Type="unsigned int" Address="0x00459348" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0009._2" Type="unsigned int" Address="0x0045934C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0010" Type="" Address="0x004343C4" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0010._0" Type="dataptr" Address="0x004343C4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_iL0010._1" Type="unsigned int" Address="0x004343C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0013" Type="" Address="0x004343C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="OS_L0013._0" Type="unsigned int" Address="0x004343C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osVectorTable" Type="" Address="0x0043C120" Size="388" Const="True" Pointer="False" />
+		<SymbolAddress Name="osVectorTable.numVectors" Type="unsigned int" Address="0x0043C120" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osVectorTable.vectors" Type="vrtaIntVector" Address="0x0043C124" Size="384" Const="True" Pointer="False" />
+		<SymbolAddress Name="DLLSendAction" Type="vrtaSendActionPtr" Address="0x0045943C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLRaiseEvent" Type="vrtaRaiseEventPtr" Address="0x00459438" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLGetState" Type="vrtaGetStatePtr" Address="0x00459434" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLEventRegister" Type="vrtaEventRegisterPtr" Address="0x00459430" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLEventUnregister" Type="vrtaEventUnregisterPtr" Address="0x0045942C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLHookEvent" Type="vrtaHookEventPtr" Address="0x00459428" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLInitializeOS" Type="vrtaInitializeOSPtr" Address="0x00459424" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLOSSetIPL" Type="vrtaOSSetIPLPtr" Address="0x00459420" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLOSGetIPL" Type="vrtaOSGetIPLPtr" Address="0x0045941C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLStart" Type="vrtaStartPtr" Address="0x00459418" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLTerminate" Type="vrtaTerminatePtr" Address="0x00459414" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLReset" Type="vrtaResetPtr" Address="0x00459410" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLEnterUninterruptibleSection" Type="vrtaEnterUninterruptibleSectionPtr" Address="0x0045940C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLLeaveUninterruptibleSection" Type="vrtaLeaveUninterruptibleSectionPtr" Address="0x00459408" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLIsIdle" Type="vrtaIsIdlePtr" Address="0x00459404" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLSpawnThread" Type="vrtaSpawnThreadPtr" Address="0x00459400" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLInitialize" Type="vrtaInitializePtr" Address="0x004593FC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLRegisterVirtualDevice" Type="vrtaRegisterVirtualDevicePtr" Address="0x004593F8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLIsAppThread" Type="vrtaIsAppThreadPtr" Address="0x004593F4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLIsAppFinished" Type="vrtaIsAppFinishedPtr" Address="0x004593F0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="DLLNoneUserThread" Type="vrtaNoneUserThreadPtr" Address="0x004593EC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="dllHandle" Type="HMODULE" Address="0x004593E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ticks_per_s" Type="LARGE_INTEGER" Address="0x004593E0" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="ticks_at_start" Type="LARGE_INTEGER" Address="0x004593D8" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="IntecrioL1Buffer" Type="" Address="0x00451340" Size="-32764" Const="False" Pointer="False" />
+		<SymbolAddress Name="IntecrioL1Buffer.length" Type="unsigned int" Address="0x00451340" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="IntecrioL1Buffer.message" Type="unsigned char" Address="0x00451344" Size="32768" Const="False" Pointer="False" />
+		<SymbolAddress Name="clockDevice" Type="VirtualClockDevice" Address="0x004512A0" Size="0" Const="False" Pointer="False" />
+		<SymbolAddress Name="adminDevice" Type="VirtualAdminDevice" Address="0x00451160" Size="0" Const="False" Pointer="False" />
+		<SymbolAddress Name="intecrioDevice" Type="vrtaMessageDevice" Address="0x00451120" Size="0" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="platform/osekdefs.c">
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER" Type="osek_resource_dyn" Address="0x0045960C" Size="8" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER.save" Type="" Address="0x0045960C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER.save.apri" Type="" Address="0x0045960C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER.save.apri.priority" Type="osPsetMaskType" Address="0x0045960C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER.save.imask" Type="os_imask" Address="0x0045960C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_RES_SCHEDULER.osek_nesting" Type="osSmallType" Address="0x00459610" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_RES_SCHEDULER" Type="osek_resource" Address="0x0043C484" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="_RES_SCHEDULER.osek_rtk_resource" Type="os_r_handle" Address="0x0043C484" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_RES_SCHEDULER.osek_ceiling_object" Type="os_t_handle" Address="0x0043C488" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_RES_SCHEDULER.osek_dyn" Type="osek_resource_dyn" Address="0x0043C48C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="osek_RAM_osek_idle_task" Type="osek_task_dynL" Address="0x00459608" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_osek_idle_task.osek_nesting" Type="osSmallType" Address="0x00459608" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_osek_fifo1" Type="TaskType" Address="0x004595FC" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1D" Type="os_task_fifo_dyn" Address="0x004595F8" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1D.begin" Type="osByteType" Address="0x004595F8" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1D.end" Type="osByteType" Address="0x004595F9" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1C" Type="os_task_fifo_const" Address="0x0043C46C" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1C.fifo_base" Type="TaskRefType" Address="0x0043C46C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1C.fifo_control_task" Type="os_t_handle" Address="0x0043C470" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo1C.fifo_size" Type="osByteType" Address="0x0043C474" Size="1" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_fifo0" Type="TaskType" Address="0x004595E8" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0D" Type="os_task_fifo_dyn" Address="0x004595E4" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0D.begin" Type="osByteType" Address="0x004595E4" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0D.end" Type="osByteType" Address="0x004595E5" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0C" Type="os_task_fifo_const" Address="0x0043C460" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0C.fifo_base" Type="TaskRefType" Address="0x0043C460" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0C.fifo_control_task" Type="os_t_handle" Address="0x0043C464" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_fifo0C.fifo_size" Type="osByteType" Address="0x0043C468" Size="1" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasConfigTask" Type="osek_task_dynH_count" Address="0x004595D8" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasConfigTask.osek_nesting" Type="osSmallType" Address="0x004595D8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasConfigTask.osek_buf" Type="os_jump_buf" Address="0x004595DC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="osek_RAM_etasConfigTask.activations" Type="osSmallType" Address="0x004595E0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasL1Task" Type="osek_task_dynH_count" Address="0x004595CC" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasL1Task.osek_nesting" Type="osSmallType" Address="0x004595CC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasL1Task.osek_buf" Type="os_jump_buf" Address="0x004595D0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="osek_RAM_etasL1Task.activations" Type="osSmallType" Address="0x004595D4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_Task0" Type="osek_task_dynH_count" Address="0x004595C0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_Task0.osek_nesting" Type="osSmallType" Address="0x004595C0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_Task0.osek_buf" Type="os_jump_buf" Address="0x004595C4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="osek_RAM_Task0.activations" Type="osSmallType" Address="0x004595C8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasTimerIsr" Type="osek_task_dynL" Address="0x004595BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasTimerIsr.osek_nesting" Type="osSmallType" Address="0x004595BC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasL1Isr" Type="osek_task_dynL" Address="0x004595B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasL1Isr.osek_nesting" Type="osSmallType" Address="0x004595B8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasStopOsIsr" Type="osek_task_dynL" Address="0x004595B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasStopOsIsr.osek_nesting" Type="osSmallType" Address="0x004595B4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task" Type="osek_taskL1" Address="0x0043C448" Size="24" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task.basic_task" Type="osek_task" Address="0x0043C448" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C448" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task.basic_task.osek_disp" Type="" Address="0x0043C44C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_osek_idle_task.basic_task.osek_entry" Type="" Address="0x0043C450" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_osek_idle_task.basic_task.task_conformance" Type="osSmallType" Address="0x0043C454" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C458" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_osek_idle_task.osek_dyn" Type="osek_task_dynL" Address="0x0043C45C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0" Type="osek_task2F" Address="0x0043C420" Size="40" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.basic_task" Type="osek_task" Address="0x0043C420" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C420" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.basic_task.osek_disp" Type="" Address="0x0043C424" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0.basic_task.osek_entry" Type="" Address="0x0043C428" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0.basic_task.task_conformance" Type="osSmallType" Address="0x0043C42C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C430" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.osek_dyn" Type="osek_task_dynH_count" Address="0x0043C434" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0.fifo_state" Type="os_task_fifo_dyn" Address="0x0043C438" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0.fifo" Type="os_task_fifo_const" Address="0x0043C43C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_Task0.max_activations" Type="osSmallType" Address="0x0043C440" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_Task0.startup_stack_data" Type="osStackInit" Address="0x0043C444" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask" Type="osek_task2F" Address="0x0043C3E0" Size="40" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.basic_task" Type="osek_task" Address="0x0043C3E0" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C3E0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.basic_task.osek_disp" Type="" Address="0x0043C3E4" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasConfigTask.basic_task.osek_entry" Type="" Address="0x0043C3E8" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasConfigTask.basic_task.task_conformance" Type="osSmallType" Address="0x0043C3EC" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C3F0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.osek_dyn" Type="osek_task_dynH_count" Address="0x0043C3F4" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasConfigTask.fifo_state" Type="os_task_fifo_dyn" Address="0x0043C3F8" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasConfigTask.fifo" Type="os_task_fifo_const" Address="0x0043C3FC" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasConfigTask.max_activations" Type="osSmallType" Address="0x0043C400" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasConfigTask.startup_stack_data" Type="osStackInit" Address="0x0043C404" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task" Type="osek_task2F" Address="0x0043C3A0" Size="40" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.basic_task" Type="osek_task" Address="0x0043C3A0" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C3A0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.basic_task.osek_disp" Type="" Address="0x0043C3A4" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Task.basic_task.osek_entry" Type="" Address="0x0043C3A8" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Task.basic_task.task_conformance" Type="osSmallType" Address="0x0043C3AC" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C3B0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.osek_dyn" Type="osek_task_dynH_count" Address="0x0043C3B4" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Task.fifo_state" Type="os_task_fifo_dyn" Address="0x0043C3B8" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Task.fifo" Type="os_task_fifo_const" Address="0x0043C3BC" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Task.max_activations" Type="osSmallType" Address="0x0043C3C0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Task.startup_stack_data" Type="osStackInit" Address="0x0043C3C4" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr" Type="osek_taskL1" Address="0x0043C388" Size="24" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task" Type="osek_task" Address="0x0043C388" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C388" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task.osek_disp" Type="" Address="0x0043C38C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task.osek_entry" Type="" Address="0x0043C390" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task.task_conformance" Type="osSmallType" Address="0x0043C394" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C398" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasTimerIsr.osek_dyn" Type="osek_task_dynL" Address="0x0043C39C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Isr" Type="osek_taskL1" Address="0x0043C370" Size="24" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Isr.basic_task" Type="osek_task" Address="0x0043C370" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Isr.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C370" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Isr.basic_task.osek_disp" Type="" Address="0x0043C374" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Isr.basic_task.osek_entry" Type="" Address="0x0043C378" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasL1Isr.basic_task.task_conformance" Type="osSmallType" Address="0x0043C37C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Isr.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C380" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasL1Isr.osek_dyn" Type="osek_task_dynL" Address="0x0043C384" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasStopOsIsr" Type="osek_taskL1" Address="0x0043C358" Size="24" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task" Type="osek_task" Address="0x0043C358" Size="20" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task.osek_rtk_task" Type="os_t_handle" Address="0x0043C358" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task.osek_disp" Type="" Address="0x0043C35C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task.osek_entry" Type="" Address="0x0043C360" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task.task_conformance" Type="osSmallType" Address="0x0043C364" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasStopOsIsr.basic_task.is_lightweight" Type="osBooleanType" Address="0x0043C368" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasStopOsIsr.osek_dyn" Type="osek_task_dynL" Address="0x0043C36C" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="osek_RAM_etasCounter" Type="osek_counter_dyn" Address="0x004595B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_etasCounter.count" Type="TickType" Address="0x004595B0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_etasCounter" Type="osek_counter" Address="0x0043C300" Size="32" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasCounter.dyn" Type="osek_counter_dyn" Address="0x0043C300" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasCounter.counter_base" Type="" Address="0x0043C304" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasCounter.counter_base.maxallowedvalue" Type="TickType" Address="0x0043C304" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasCounter.counter_base.ticksperbase" Type="TickType" Address="0x0043C308" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasCounter.counter_base.mincycle" Type="TickType" Address="0x0043C30C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="_etasCounter.act" Type="os_activator" Address="0x0043C310" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasCounter.running" Type="osBooleanType" Address="0x0043C314" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasCounter.last" Type="TickType" Address="0x0043C318" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_etasCounter.start" Type="os_ctrstart_ptr" Address="0x0043C31C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_alarm_Task0" Type="osek_alarm_dyn" Address="0x004595A4" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_alarm_Task0.match" Type="TickType" Address="0x004595A4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_alarm_Task0.period" Type="TickType" Address="0x004595A8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_RAM_alarm_Task0.running" Type="osBooleanType" Address="0x004595AC" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_alarm_Task0" Type="osek_alarm" Address="0x0043C2E0" Size="8" Const="True" Pointer="False" />
+		<SymbolAddress Name="_alarm_Task0.dyn" Type="osek_alarm_dyn" Address="0x0043C2E0" Size="4" Const="True" Pointer="True" />
+		<SymbolAddress Name="_alarm_Task0.counter" Type="osCounterType" Address="0x0043C2E4" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="os_fp_stack" Type="OS_FP_CONTEXT" Address="0x00459460" Size="324" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_last_error" Type="StatusType" Address="0x00459440" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_serviceId" Type="osSmallType" Address="0x0046F150" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_serviceArgs" Type="os_serviceAllArgs" Address="0x0046F144" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_serviceArgs.os_serviceArg1" Type="os_serviceArg" Address="0x0046F144" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_serviceArgs.os_serviceArg2" Type="os_serviceArg" Address="0x0046F148" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_serviceArgs.os_serviceArg3" Type="os_serviceArg" Address="0x0046F14C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_tasks" Type="TaskType" Address="0x0043C33C" Size="28" Const="True" Pointer="False" />
+		<SymbolAddress Name="os_fp_sp" Type="OS_FP_CONTEXT" Address="0x00434F64" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="osek_cur_task" Type="TaskType" Address="0x00434F60" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="etasL1Task" Type="TaskType" Address="0x0043C338" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="etasConfigTask" Type="TaskType" Address="0x0043C334" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="Task0" Type="TaskType" Address="0x0043C330" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_idle_task" Type="TaskType" Address="0x0043C32C" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="etasTimerIsr" Type="TaskType" Address="0x0043C328" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="etasL1Isr" Type="TaskType" Address="0x0043C324" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="etasStopOsIsr" Type="TaskType" Address="0x0043C320" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="alarm_Task0" Type="AlarmType" Address="0x0043C2DC" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="etasCounter" Type="osCounterType" Address="0x0043C2F0" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="RES_SCHEDULER" Type="ResourceType" Address="0x0043C480" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_resources" Type="ResourceType" Address="0x0043C478" Size="8" Const="True" Pointer="False" />
+		<SymbolAddress Name="os_etasCounter_running" Type="osBooleanType" Address="0x0046F154" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="os_etasCounter_last" Type="TickType" Address="0x0046F140" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="osek_counters" Type="osCounterType" Address="0x0043C2E8" Size="8" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_alarms" Type="AlarmType" Address="0x0043C2D4" Size="8" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_e_3_1_0" Type="osByteType" Address="0x0043C2D0" Size="1" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_allow_upward_activation" Type="osBooleanType" Address="0x0043C2CC" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_num_tasks" Type="osSmallType" Address="0x0043C2C8" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_num_resources" Type="osSmallType" Address="0x0043C2C4" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="osek_num_alarms" Type="osSmallType" Address="0x0043C2C0" Size="4" Const="True" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="platform/Task0.c">
+		<SymbolAddress Name="Task0Mon" Type="struct_taskMonitor" Address="0x00434F80" Size="56" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.startTime" Type="TickType" Address="0x00434F80" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.startRt" Type="TickType" Address="0x00434F84" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.grossRunTime" Type="TickType" Address="0x00434F88" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.netRunTime" Type="TickType" Address="0x00434F8C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.minRunTime" Type="TickType" Address="0x00434F90" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.maxRunTime" Type="TickType" Address="0x00434F94" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.dT" Type="TickType" Address="0x00434F98" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.savedT" Type="TickType" Address="0x00434F9C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.dTVirtual" Type="TickType" Address="0x00434FA0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.dTSavedVirtual" Type="TickType" Address="0x00434FA4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.startTimeVirtual" Type="TickType" Address="0x00434FA8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="Task0Mon.ptrMeasGroup" Type="" Address="0x00434FAC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="Task0Mon.ptrLogGroup" Type="" Address="0x00434FB0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="Task0Mon.ptrMonSaved" Type="struct_taskMonitor" Address="0x00434FB4" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="platform/StartupHook.c" />
+	<CompilationUnit Name="platform/ShutdownHook.c" />
+	<CompilationUnit Name="platform/ACC_PC.init.c">
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC" Type="" Address="0x00434FD0" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.noOfObjectMethods" Type="uint16" Address="0x00434FD0" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.noOfClassMethods" Type="uint16" Address="0x00434FD2" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.noOfObjectVars" Type="uint16" Address="0x00434FD4" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.noOfClassVars" Type="uint16" Address="0x00434FD6" Size="2" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.objectMethods" Type="MethodList" Address="0x00434FD8" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="ROOT_ClassHeader_ACC_PC.classMethods" Type="MethodList" Address="0x00434FDC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj" Type="" Address="0x00434FC0" Size="16" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader" Type="" Address="0x00434FC0" Size="12" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.states" Type="uint32" Address="0x00434FC0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.ref" Type="" Address="0x00434FC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.ref.classHeader" Type="ASDClassHeader" Address="0x00434FC4" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.ref.classPtr" Type="ASDObjectPtr" Address="0x00434FC4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.size" Type="" Address="0x00434FC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.size.type" Type="unsigned int" Address="0x00434FC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.objectHeader.size.obj" Type="unsigned int" Address="0x00434FC8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="ROOT_ACC_PC_ClassObj.ASCET_TOP_Ptr" Type="L1_ACC_PC_Obj" Address="0x00434FCC" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="programIdentifier" Type="uint32" Address="0x00434FE4" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="maxLockedWays" Type="uint32" Address="0x00434FE0" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="cacheLockKind" Type="uint32" Address="0x00459620" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/tlssup.c">
+		<SymbolAddress Name="__xd_a" Type="_PVFV" Address="0x00471010" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__xd_z" Type="_PVFV" Address="0x00471014" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_tls_index" Type="ULONG" Address="0x0046E70C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_tls_start" Type="char" Address="0x00472018" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="_tls_end" Type="char" Address="0x0047201C" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="__xl_a" Type="PIMAGE_TLS_CALLBACK" Address="0x00471000" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__xl_z" Type="PIMAGE_TLS_CALLBACK" Address="0x0047100C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="_tls_used" Type="IMAGE_TLS_DIRECTORY" Address="0x00472000" Size="24" Const="True" Pointer="False" />
+		<SymbolAddress Name="__dyn_tls_init_callback" Type="PIMAGE_TLS_CALLBACK" Address="0x0043F4DC" Size="4" Const="True" Pointer="False" />
+		<SymbolAddress Name="__xl_c" Type="PIMAGE_TLS_CALLBACK" Address="0x00471004" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__xl_d" Type="PIMAGE_TLS_CALLBACK" Address="0x00471008" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="mingw_initltsdrot_force" Type="int" Address="0x0046E708" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="mingw_initltsdyn_force" Type="int" Address="0x0046E704" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="mingw_initltssuo_force" Type="int" Address="0x0046E700" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/CRTglob.c">
+		<SymbolAddress Name="_CRT_glob" Type="int" Address="0x00436040" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/CRTfmode.c">
+		<SymbolAddress Name="_CRT_fmode" Type="int" Address="0x0046E710" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/txtmode.c">
+		<SymbolAddress Name="_fmode" Type="int" Address="0x00436044" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/CRT_fp10.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/cpu_features.c">
+		<SymbolAddress Name="__cpu_features" Type="unsigned int" Address="0x0046E714" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/pseudo-reloc.c">
+		<SymbolAddress Name="was_init" Type="int" Address="0x0046E718" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/gccmain.c">
+		<SymbolAddress Name="p" Type="func_ptr" Address="0x00436048" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="initialized" Type="int" Address="0x0046E71C" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/crtst.c">
+		<SymbolAddress Name="_CRT_MT" Type="int" Address="0x0046E720" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/tlsthrd.c">
+		<SymbolAddress Name="__mingwthr_cs" Type="_CRITICAL_SECTION" Address="0x0046E72C" Size="24" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.DebugInfo" Type="PCRITICAL_SECTION_DEBUG" Address="0x0046E72C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.LockCount" Type="LONG" Address="0x0046E730" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.RecursionCount" Type="LONG" Address="0x0046E734" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.OwningThread" Type="HANDLE" Address="0x0046E738" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.LockSemaphore" Type="HANDLE" Address="0x0046E73C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs.SpinCount" Type="DWORD" Address="0x0046E740" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="__mingwthr_cs_init" Type="int" Address="0x0046E728" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="key_dtor_list" Type="__mingwthr_key_t" Address="0x0046E724" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/pseudo-reloc-list.c">
+		<SymbolAddress Name="__RUNTIME_PSEUDO_RELOC_LIST_END__" Type="char" Address="0x0046E745" Size="1" Const="False" Pointer="False" />
+		<SymbolAddress Name="__RUNTIME_PSEUDO_RELOC_LIST__" Type="char" Address="0x0046E744" Size="1" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/misc/glob.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/stdio/vsnprintf.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/stdio/vprintf.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/stdio/vsprintf.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/stdio/snprintf.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/posix/libgen/dirname.c">
+		<SymbolAddress Name="retfail" Type="char" Address="0x0046E788" Size="4" Const="False" Pointer="True" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/tchar/dirent.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/misc/src/libcrt/stdio/pformat.c">
+		<SymbolAddress Name="fpi" Type="FPI" Address="0x00436064" Size="20" Const="False" Pointer="False" />
+		<SymbolAddress Name="fpi.nbits" Type="int" Address="0x00436064" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="fpi.emin" Type="int" Address="0x00436068" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="fpi.emax" Type="int" Address="0x0043606C" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="fpi.rounding" Type="int" Address="0x00436070" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="fpi.sudden_underflow" Type="int" Address="0x00436074" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/misc/src/libcrt/gdtoa/gdtoa.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/wchar/wcrtomb.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/wchar/mbrtowc.c">
+		<SymbolAddress Name="internal_mbstate" Type="mbstate_t" Address="0x0046E794" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="internal_mbstate" Type="mbstate_t" Address="0x0046E790" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="s_mbstate" Type="mbstate_t" Address="0x0046E78C" Size="4" Const="False" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/misc/src/libcrt/gdtoa/dmisc.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/misc/src/libcrt/gdtoa/misc.c">
+		<SymbolAddress Name="p05" Type="int" Address="0x004416C0" Size="12" Const="True" Pointer="False" />
+		<SymbolAddress Name="dtoa_CritSec" Type="CRITICAL_SECTION" Address="0x0046F100" Size="48" Const="False" Pointer="False" />
+		<SymbolAddress Name="dtoa_CS_init" Type="long int" Address="0x0046F0E8" Size="4" Const="False" Pointer="False" />
+		<SymbolAddress Name="freelist" Type="__Bigint" Address="0x0046F0C0" Size="40" Const="False" Pointer="False" />
+		<SymbolAddress Name="private_mem" Type="double" Address="0x0046E7C0" Size="2304" Const="False" Pointer="False" />
+		<SymbolAddress Name="pmem_next" Type="double" Address="0x00436078" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="p5s" Type="__Bigint" Address="0x0046E7A0" Size="4" Const="False" Pointer="True" />
+		<SymbolAddress Name="__bigtens_D2A" Type="double" Address="0x004417E0" Size="40" Const="True" Pointer="False" />
+		<SymbolAddress Name="__tens_D2A" Type="double" Address="0x004416E0" Size="184" Const="True" Pointer="False" />
+		<SymbolAddress Name="__tinytens_D2A" Type="double" Address="0x004417A0" Size="40" Const="True" Pointer="False" />
+	</CompilationUnit>
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/misc/src/libcrt/gdtoa/gmisc.c" />
+	<CompilationUnit Name="../mingwrt-4.0.3-1-mingw32-src/src/libcrt/crt/tlsmthread.c" />
+</DwarfReader>
