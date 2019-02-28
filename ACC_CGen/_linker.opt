@@ -1,0 +1,27 @@
+-Wl,--allow-multiple-definition
+obj/ACC_PC_Automatic.o
+obj/components_AccFeedback_Automatic.o
+obj/components_Globals_Automatic.o
+obj/components_OnOff_Automatic.o
+obj/components_Stecke_Automatic.o
+obj/ACC_PC.l1.o
+obj/components_Globals_Automatic.l1.o
+obj/components_Stecke_Automatic.l1.o
+obj/components_AccFeedback_Automatic.l1.o
+obj/etasConfigTask.o
+obj/etasL1Isr.o
+obj/etasL1Task.o
+obj/etasStopOsIsr.o
+obj/etasTimerIsr.o
+obj/HardwareConfigurationDefinitions.o
+obj/rtaInterface.o
+obj/etasVpOs.o
+obj/i_osgen_wrapper.o
+obj/osekdefs.o
+obj/Task0.o
+obj/StartupHook.o
+obj/ShutdownHook.o
+obj/ACC_PC.init.o
+-L"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/lib"
+-lsystem_gnu47 -lmingw32 -luser32 -lkernel32 -lgdi32 -lm -lws2_32 -lwinmm -lmsvcrt -lgcc -liphlpapi -lstdc++
+"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/lib/ESDL_Linear_Interpolation_x86.lib"
