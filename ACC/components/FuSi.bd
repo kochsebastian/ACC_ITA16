@@ -5,7 +5,7 @@ blockdiagramSpecification Main {
 			connection_1
 		}
 	}
-	if at (371, 271) {
+	if at (341, 151) {
 		inPin connection_5
 		ifControlFlowOutPin {
 			connection_3
@@ -14,21 +14,21 @@ blockdiagramSpecification Main {
 			inPin connection_1
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (511, 345) {
+	simpleIdentifier components.Globals.acc_status at (461, 235) {
 		label at (0, -1)
 		inPin connection_4
 		outPin sequenceCall {
 			inPin connection_3 {
-				bendpoints (40, 0), (40, 50)
+				bendpoints (30, 0), (30, 60)
 			}
 		}
 	}
-	literal Boolean "false" at (361, 343) size (49, 0) {
+	literal Boolean "false" at (311, 233) size (49, 0) {
 		outPin {
 			connection_4
 		}
 	}
-	simpleIdentifier crash_detec_param at (161, 275) {
+	simpleIdentifier components.Globals.crash_detected at (131, 155) {
 		label at (0, -1)
 		inPin outPin {
 			connection_5
