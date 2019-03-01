@@ -2,8 +2,8 @@
 #include <gtest/gtest.h>
 
 extern "C" {
-	#include "components_FuSi_Automatic.h"
 	#include "components_Globals_Automatic.h"
+	#include "components_FuSi_Automatic.h"
 	#include "components_FuSiTest_Automatic.h"
 }
 
