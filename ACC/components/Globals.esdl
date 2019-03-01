@@ -10,4 +10,5 @@ static class Globals {
 	@dT
 	public real d_T;
 	public real v;
+	public real z;
 }
