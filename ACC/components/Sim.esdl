@@ -10,5 +10,4 @@ static class Sim {
 		o.calc();
 		a.calc();
 	}
-	
 }
