@@ -6,7 +6,7 @@ static class Sim {
 	AccFeedback a;
 	@thread
 	public void runSim(){
-		s.vCar(0.0,20.0);
+		s.vCar(0.0,20.0,Globals.d_T);
 		o.calc();
 		a.calc();
 	}

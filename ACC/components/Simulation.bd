@@ -1,0 +1,26 @@
+classType components.Simulation
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_3
+		}
+	}
+	complexIdentifier Stecke_instance at (221, 91) size (14, 8) {
+		label at (0, 1)
+		methodCall components.Stecke.vCar {
+			argumentPin brakeCtrl at (left, 0) argumentPin powerCtrl at (left, 2) argumentPin my_dT at (left, 4) sequenceCall {
+				inPin
+			}
+		}
+		methodCall components.Stecke.strecke_test {
+			methodVoidPin at (top, 0) sequenceCall at (-14, -36) {
+				inPin connection_3
+			}
+		}
+		methodCall components.Stecke.getV {
+			returnPin at (right, 0) sequenceCall {
+				inPin
+			}
+		}
+	}
+}

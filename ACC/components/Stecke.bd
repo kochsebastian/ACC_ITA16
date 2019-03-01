@@ -2,11 +2,16 @@ classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
 		outPin {
-			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31, connection_1
+			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31
 		}
 	}
 	methodBody strecke_test {
-		outPin active
+		outPin
+	}
+	methodBody getV {
+		outPin active {
+			connection_68
+		}
 	}
 	simpleIdentifier h at (111, 355) {
 		label at (0, -1)
@@ -58,15 +63,6 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin
-		}
-	}
-	return at (841, 525) {
-		label at (0, 0)
-		inPin connection_64 {
-			bendpoints (30, 0), (30, -30), (90, -30)
-		}
-		sequenceCall {
-			inPin connection_1
 		}
 	}
 	methodArgumentIdentifier vCar.powerCtrl at (101, 155) {
@@ -189,8 +185,8 @@ blockdiagramSpecification Main {
 			bendpoints (10, 0)
 		}
 		inPin connection_23
-		inPin connection_55 {
-			bendpoints (10, 0), (10, -40)
+		inPin connection_67 {
+			bendpoints (10, 0)
 		}
 		outPin {
 			connection_25
@@ -325,18 +321,6 @@ blockdiagramSpecification Main {
 			inPin connection_53
 		}
 	}
-	simpleIdentifier components.Globals.d_T at (571, 205) {
-		comment at (0, 25) {
-			""
-		}
-		label at (0, -1)
-		inPin outPin {
-			connection_55
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	simpleIdentifier components.Globals.d_T at (71, 575) {
 		label at (0, -1)
 		inPin outPin {
@@ -377,7 +361,7 @@ blockdiagramSpecification Main {
 	simpleIdentifier components.Globals.v at (701, 585) {
 		label at (0, -1)
 		inPin outPin {
-			connection_64, connection_63
+			connection_63
 		}
 		sequenceCall {
 			inPin
@@ -390,6 +374,33 @@ blockdiagramSpecification Main {
 			inPin connection_65 {
 				bendpoints (10, 0), (10, 10)
 			}
+		}
+	}
+	methodArgumentIdentifier vCar.my_dT at (601, 225) {
+		label at (0, -1)
+		outPin {
+			connection_67
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (741, 325) {
+		label at (0, 0)
+		inPin connection_69 {
+			bendpoints (10, 0), (10, -10)
+		}
+		sequenceCall {
+			inPin connection_68
+		}
+	}
+	simpleIdentifier components.Globals.v at (661, 335) {
+		label at (0, -1)
+		inPin outPin {
+			connection_69
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }
