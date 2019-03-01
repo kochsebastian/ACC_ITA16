@@ -1,6 +1,6 @@
 package components;
 
-class OnOff {
+static class OnOff {
 	
 	@generated("blockdiagram")
 	public boolean onoff(real in v, boolean in request) {
