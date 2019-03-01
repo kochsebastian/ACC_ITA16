@@ -1,0 +1,21 @@
+CPU rta_cpu {
+	TASK Task0 {
+		PRIORITY = 0;
+		SCHEDULE = FULL;
+		ACTIVATION = 1;
+		AUTOSTART = FALSE;
+		//RTAOILCFG OS_USES_FP TRUE;
+	};
+	
+	ALARM alarm_Task0 {
+		COUNTER = etasCounter;
+		ACTION = ACTIVATETASK {
+			TASK = Task0;
+		};
+		AUTOSTART = TRUE {
+			ALARMTIME = 1;
+			CYCLETIME = 1;
+			APPMODE = UserAppMode;
+		};
+	};
+}; // CPU rta_cpu

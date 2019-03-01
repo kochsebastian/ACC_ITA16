@@ -1,0 +1,15 @@
+-gdwarf-2 -c -fno-diagnostics-show-option -fmessage-length=0 -pipe -O2   -DPC -DOBJECT -DARCH_INTEL -DDENDIANESS_LSB -DWIN32 -DWIN32_LEAN_AND_MEAN -D_POSIX_SOURCE -DVRTA_EXCLUDE_SAMPLE_DEVICES -DVRTA_INCLUDE_DEVICES -DOSEK_RTA -DOSENV_UNSUPPORTED -DASD_OS_INTEGRATION_RTA -DENV_INTECRIO -DTARGET_VP -DASCET_PLATFORM_BUILD -DSTOPWATCH_TICK_DURATION=50 -DL1_PROTOCOL -DCOMPILE_UNUSED_CODE -DASCET_PLATFORM_BUILD
+-I.
+-I"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/l1"
+-I"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/platform"
+-I"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/include"
+-I"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/src"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/plugins/com.etas.rta_osek_1.0.4/rta/VRTA/inc"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/rta_osek"
+-I"C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_CGen/platform"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/rta_osek"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/support"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/inc"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/common"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/configuration/org.eclipse.osgi/50/0/.cp/platform/rtio/global"
+-I"C:/ETAS/ASCET-DEVELOPER7.4/plugins/org.mingw.gcc.x86_Win32_4.8.1.1/mingw/include"
