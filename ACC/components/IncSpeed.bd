@@ -17,15 +17,6 @@ blockdiagramSpecification Main {
 			}
 		}
 	}
-	methodArgumentIdentifier calc.z at (471, 235) {
-		label at (0, -1)
-		outPin {
-			connection_5
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	simpleIdentifier interfaces.interfaces.plusButtonPressed at (151, 195) {
 		label at (0, -1)
 		outPin {
@@ -45,12 +36,21 @@ blockdiagramSpecification Main {
 		}
 	}
 	addition at (591, 236) {
-		inPin connection_5
+		inPin connection_10
 		inPin connection_8 {
 			bendpoints (20, 0), (20, 40), (-120, 40), (-120, 10)
 		}
 		outPin {
 			connection_7
+		}
+	}
+	simpleIdentifier components.Globals.z at (461, 235) {
+		label at (0, -1)
+		inPin outPin {
+			connection_10
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }

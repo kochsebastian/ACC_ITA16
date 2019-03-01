@@ -3,7 +3,7 @@
 # Remark: contains hard dependencies to google test framework
 
 OUTPUT_CONFIG=Debug
-TEST_BASE_NAME=Component
+TEST_BASE_NAME=ACC_UnitTest
 TEST_EXE=$(OUTPUT_CONFIG)/$(TEST_BASE_NAME).exe
 MKDIR_CMD=mkdir -p
 
@@ -18,9 +18,9 @@ COMMON_FLAGS=-O0 -g3 -Wall -c -fmessage-length=0 -DSINGLE_THREADED
 CPPFLAGS=$(COMMON_FLAGS)
 CFLAGS=$(COMMON_FLAGS) -Wno-unused -ansi
 
-MODEL_OBJECTS=$(OUTPUT_CONFIG)/src/ACC_UnitTest_Automatic.o $(OUTPUT_CONFIG)/src/components_Component_Automatic.o $(OUTPUT_CONFIG)/src/assertLib_Assert_Impl.o 
-LIB_PATHS=$(pathcnv SN, //Mac/Home/Documents/ASCET/ACC_UnitTest_CGen/lib\
-  C:/ETAS)
+MODEL_OBJECTS=$(OUTPUT_CONFIG)/src/ACC_UnitTest_Automatic.o $(OUTPUT_CONFIG)/src/components_circleTest_Automatic.o $(OUTPUT_CONFIG)/src/components_Component_Automatic.o $(OUTPUT_CONFIG)/src/assertLib_Assert_Impl.o 
+LIB_PATHS=$(pathcnv SN, C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_UnitTest_CGen/lib\
+  C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_UnitTest)
 LIB_PATHS_OPTIONS := $(foreach PATH,$(LIB_PATHS),-L$(PATH))
 LIB_FILES_OPTIONS=-lESDL_Linear_Interpolation_x86 
 
@@ -33,6 +33,9 @@ $(OUTPUT_CONFIG)/tests/AllTests.o: tests/AllTests.cpp $(OUTPUT_CONFIG)/tests
 	g++ $(INC) $(CPPFLAGS) -o $@ $<
 
 $(OUTPUT_CONFIG)/src/ACC_UnitTest_Automatic.o: src/ACC_UnitTest_Automatic.c src/ACC_UnitTest_Automatic.h $(OUTPUT_CONFIG)/src
+	gcc $(INC) $(CFLAGS) -o $@ $<
+
+$(OUTPUT_CONFIG)/src/components_circleTest_Automatic.o: src/components_circleTest_Automatic.c src/components_circleTest_Automatic.h $(OUTPUT_CONFIG)/src
 	gcc $(INC) $(CFLAGS) -o $@ $<
 
 $(OUTPUT_CONFIG)/src/components_Component_Automatic.o: src/components_Component_Automatic.c src/components_Component_Automatic.h $(OUTPUT_CONFIG)/src
