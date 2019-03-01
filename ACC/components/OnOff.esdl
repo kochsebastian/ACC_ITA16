@@ -1,6 +1,6 @@
 package components;
 
-class OnOff {
+static class OnOff {
 	@generated("blockdiagram")
 	public void calc() {
 		if (Globals.v > 0.0) {
