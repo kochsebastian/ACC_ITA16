@@ -66,22 +66,13 @@ blockdiagramSpecification Main {
 			argumentPin v at (left, 0) connection_10 {
 				bendpoints (0, 110)
 			}
-			argumentPin request at (left, 4) connection_11
+			argumentPin request at (left, 4) connection_25
 			returnPin at (right, 0) {
 				connection_18
 			}
 			sequenceCall {
 				inPin
 			}
-		}
-	}
-	simpleIdentifier components.Globals.acc_status_request at (441, 315) {
-		label at (0, -1)
-		outPin {
-			connection_11
-		}
-		sequenceCall {
-			inPin
 		}
 	}
 	simpleIdentifier brakePadel at (771, 435) {
@@ -166,6 +157,15 @@ blockdiagramSpecification Main {
 			inPin connection_23 {
 				bendpoints (10, 0)
 			}
+		}
+	}
+	simpleIdentifier components.Globals.acc_status_request at (441, 315) {
+		label at (0, -1)
+		outPin {
+			connection_25
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }
