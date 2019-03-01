@@ -279,7 +279,7 @@ blockdiagramSpecification Main {
 	multiplication at (171, 526) {
 		inPin connection_62
 		inPin connection_70 {
-			bendpoints (0, -10), (60, -10)
+  		bendpoints (20, 0), (20, -10)
 		}
 		outPin {
 			connection_46
@@ -391,7 +391,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	methodArgumentIdentifier vCar.my_dT at (71, 565) {
+	methodArgumentIdentifier vCar.my_dT at (81, 555) {
 		label at (0, -1)
 		outPin {
 			connection_70
