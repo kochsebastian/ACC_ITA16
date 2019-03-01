@@ -21,7 +21,7 @@ class Stecke {
 			s = 0.0; // Main/vCar 1/if-then 1
 		} // Main/vCar 1
 		momentum = EngineMomentum.getAt(powerCtrl, Globals.v); // Main/vCar 2
-		ds = ((Globals.v * Globals.d_T) / 3.6); // Main/vCar 3
+		ds = ((Globals.v * my_dT) / 3.6); // Main/vCar 3
 		s = (ds + s); // Main/vCar 4
 		dh = (h - Landscape.getAt(s)); // Main/vCar 5
 		h = Landscape.getAt(s); // Main/vCar 6

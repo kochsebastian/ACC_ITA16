@@ -278,8 +278,8 @@ blockdiagramSpecification Main {
 	}
 	multiplication at (171, 526) {
 		inPin connection_62
-		inPin connection_56 {
-			bendpoints (20, 0), (20, -30)
+		inPin connection_70 {
+			bendpoints (0, -10), (60, -10)
 		}
 		outPin {
 			connection_46
@@ -316,15 +316,6 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin connection_53
-		}
-	}
-	simpleIdentifier components.Globals.d_T at (71, 575) {
-		label at (0, -1)
-		inPin outPin {
-			connection_56
-		}
-		sequenceCall {
-			inPin
 		}
 	}
 	simpleIdentifier components.Globals.v at (101, 205) {
@@ -395,6 +386,15 @@ blockdiagramSpecification Main {
 		label at (0, -1)
 		inPin outPin {
 			connection_69
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier vCar.my_dT at (71, 565) {
+		label at (0, -1)
+		outPin {
+			connection_70
 		}
 		sequenceCall {
 			inPin
