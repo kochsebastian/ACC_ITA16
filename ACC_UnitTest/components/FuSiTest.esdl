@@ -1,14 +1,13 @@
 package components;
 
-import interfaces.interfaces;
 import assertLib.Assert;
 
-static class FuSiTest writes interfaces.crash_detected{
+static class FuSiTest{
 	
 	@Test
 	public void testFuSi(){
 		
-		interfaces.crash_detected = false;
+		FuSi.onCrash(true);
 		Assert.assertFalse(Globals.acc_status);
 	}
 }
