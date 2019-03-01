@@ -1,6 +1,6 @@
 application {
 	class components.Globals
-	class components.Sim
+	class components.Simulation
 }
 schedule {
 	startup {
@@ -8,6 +8,6 @@ schedule {
 	shutdown {
 	}
 	task Task0 priority 0 period 10ms delay 0ms {
-		process components.Sim.runSim
+		process components.Simulation.calc
 	}
 }

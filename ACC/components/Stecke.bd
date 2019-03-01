@@ -1,15 +1,12 @@
 classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
-		outPin {
+		outPin active {
 			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31
 		}
 	}
-	methodBody strecke_test {
-		outPin
-	}
 	methodBody getV {
-		outPin active {
+		outPin {
 			connection_68
 		}
 	}

@@ -32,10 +32,6 @@ class Stecke {
 	}
 
 	@generated("blockdiagram")
-	public void strecke_test() {
-	}
-
-	@generated("blockdiagram")
 	public real getV() {
 		return Globals.v; // Main/getV 1
 	}
