@@ -5,8 +5,17 @@ blockdiagramSpecification Main {
 			connection_1
 		}
 	}
+	simpleIdentifier interfaces.interfaces.crash_detected at (181, 275) {
+		label at (0, -1)
+		outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
 	if at (371, 271) {
-		inPin connection_5
+		inPin connection_2
 		ifControlFlowOutPin {
 			connection_3
 		}
@@ -26,15 +35,6 @@ blockdiagramSpecification Main {
 	literal Boolean "false" at (361, 343) size (49, 0) {
 		outPin {
 			connection_4
-		}
-	}
-	simpleIdentifier crash_detec_param at (161, 275) {
-		label at (0, -1)
-		inPin outPin {
-			connection_5
-		}
-		sequenceCall {
-			inPin
 		}
 	}
 }

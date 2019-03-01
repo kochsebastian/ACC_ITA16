@@ -1,0 +1,22 @@
+<?SCHEMA schemaVersion="1.0"?>
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Program%20Files%20(x86)/Common%20Files/ETAS/Experiment%20Environment/3.7/Schemas/EE.Data.Workspace.xsd" xsi:type="ETAS.EE.Data.WorkspaceType">
+  <PluginData xsi:type="ETAS.EE.Data.PluginDataListType">
+    <Item xsi:type="ETAS.EE.Data.PluginDataType" id="IDdf4bbcde-f609-4cca-909a-ccdabfa68a36" pluginID="Options" rootFolder="Options_Files">
+      <Documents xsi:type="ETAS.EE.Data.ExternalDocumentListType">
+        <Item xsi:type="ETAS.EE.Data.ExternalDocumentType" id="ID377c2169-4036-406f-b969-2349868e2a93" type="" name="Options" file="Options.opt" />
+      </Documents>
+    </Item>
+    <Item xsi:type="ETAS.EE.Data.PluginDataType" id="ID714a60c5-3823-4de2-ace9-c4877bd5d4e8" pluginID="SignalSourceManager" rootFolder="SignalSourceManager_Files">
+      <Documents xsi:type="ETAS.EE.Data.ExternalDocumentListType">
+        <Item xsi:type="ETAS.EE.Data.ExternalDocumentType" id="ID093e1444-89ed-4d63-a95d-6b3749123bcf" type="" name="SignalSourcesData" file="SignalSources.xml" />
+      </Documents>
+    </Item>
+  </PluginData>
+  <RecentExperiments xsi:type="ETAS.EE.Data.FileReferenceListType">
+    <Item xsi:type="ETAS.EE.Data.FileReferenceType" id="IDad51811f-00f6-4852-a7ac-cc1766f31d99" path="\\MAC\Home\Downloads\ACC_ITA16-83ce30109ecb596fdf9c1fc70930718f487d8b54\ACC\experiments\Experiments\system\ACC_PC\ACC_PC.eex" hintPath="..\..\Experiments\system\ACC_PC\ACC_PC.eex" />
+  </RecentExperiments>
+  <WorkspaceInfo xsi:type="ETAS.EE.Data.WorkspaceInfoType">
+    <DateTime xsi:type="ETAS.EE.Data.DateTimeInfoType" id="IDa661cb25-46de-4d84-b90b-309e33f7d197" Created="2019-02-28T10:41:51.825Z" LastOpened="2019-02-28T21:42:59.478Z" LastSaved="2019-02-28T21:42:28.293Z" />
+    <Version xsi:type="ETAS.EE.Data.VersionInfoType" id="ID351ace88-701c-420d-91b3-a636e83a4bca" Created="3.7.6.132" LastSaved="3.7.6.132" MinRequired="3.3.1" />
+  </WorkspaceInfo>
+</Workspace>

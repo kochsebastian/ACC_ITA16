@@ -3,7 +3,7 @@ package components;
 type Kennlinie is table real -> real;
 type Kennfeld is table real, real -> real;
 
-static class Stecke {
+class Stecke {
 	real h;
 	real s;
 	real ds;
@@ -33,9 +33,6 @@ static class Stecke {
 	}
 
 	@generated("blockdiagram")
-	@thread
 	public void strecke_test() {
-	
-		 vCar(0.0,20.0);
 	}
 }

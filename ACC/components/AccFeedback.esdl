@@ -1,13 +1,12 @@
 package components;
 
-static class AccFeedback {
+class AccFeedback {
 	characteristic real c = 0.0;
 	boolean acc_status_old;
 	boolean feedback;
 	real duration;
 
 	@generated("blockdiagram")
-	@thread
 	public void calc() {
 		if ((!Globals.acc_status) && acc_status_old) {
 			Globals.acc_feedback = true; // Main/calc 1/if-then 1
