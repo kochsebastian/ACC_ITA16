@@ -4,7 +4,7 @@
     <PropertySet name="WorkspaceHandling">
       <Property name="OpenMode" type="StringProperty">LastExperiment</Property>
       <Property name="DefaultExperiment" type="StringProperty" />
-      <Property name="LastWorkspaceLocation" type="StringProperty">C:\Users\louis\Documents\Semester 5\Graphische_Programmierung\ASCET\ACC_ITA16\ACC\experiments\Workspaces\ACC_PC\ACC_PC.eew</Property>
+      <Property name="LastWorkspaceLocation" type="StringProperty">\\MAC\Home\Documents\ACC_ITA16\ACC_ITA16\ACC\experiments\Workspaces\ACC_PC\ACC_PC.eew</Property>
     </PropertySet>
     <PropertySet name="ETargetINTECRIO">
       <PropertySet name="Options">

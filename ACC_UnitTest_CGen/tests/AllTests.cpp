@@ -3,7 +3,6 @@
 #include "Etas_Ascet_Assertion.h"
 #include "EUnit_components_circleTest_Automatic.cpp"
 #include "EUnit_components_Component_Automatic.cpp"
-#include "EUnit_components_FuSiTest_Automatic.cpp"
 
 int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);

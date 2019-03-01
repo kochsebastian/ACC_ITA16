@@ -13,10 +13,10 @@
     </Item>
   </PluginData>
   <RecentExperiments xsi:type="ETAS.EE.Data.FileReferenceListType">
-    <Item xsi:type="ETAS.EE.Data.FileReferenceType" id="IDd0b8e48b-39ec-4217-bb02-a029a5bd4ac2" path="C:\Users\louis\Documents\Semester 5\Graphische_Programmierung\ASCET\ACC_ITA16\ACC\experiments\Experiments\system\ACC_PC\ACC_PC.eex" hintPath="..\..\Experiments\system\ACC_PC\ACC_PC.eex" />
+    <Item xsi:type="ETAS.EE.Data.FileReferenceType" id="ID370cdc55-5033-4480-bc46-c5db45504e9f" path="\\MAC\Home\Documents\ACC_ITA16\ACC_ITA16\ACC\experiments\Experiments\system\ACC_PC\ACC_PC.eex" hintPath="..\..\Experiments\system\ACC_PC\ACC_PC.eex" />
   </RecentExperiments>
   <WorkspaceInfo xsi:type="ETAS.EE.Data.WorkspaceInfoType">
-    <DateTime xsi:type="ETAS.EE.Data.DateTimeInfoType" id="IDa661cb25-46de-4d84-b90b-309e33f7d197" Created="2019-02-28T10:41:51.825Z" LastOpened="2019-03-01T10:04:09.066Z" LastSaved="2019-03-01T10:06:25.109Z" />
+    <DateTime xsi:type="ETAS.EE.Data.DateTimeInfoType" id="IDa661cb25-46de-4d84-b90b-309e33f7d197" Created="2019-02-28T10:41:51.825Z" LastOpened="2019-03-01T09:20:02.048Z" LastSaved="2019-03-01T09:19:35.681Z" />
     <Version xsi:type="ETAS.EE.Data.VersionInfoType" id="ID351ace88-701c-420d-91b3-a636e83a4bca" Created="3.7.6.132" LastSaved="3.7.6.132" MinRequired="3.3.1" />
   </WorkspaceInfo>
 </Workspace>
