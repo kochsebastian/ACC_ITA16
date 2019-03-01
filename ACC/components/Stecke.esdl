@@ -16,23 +16,23 @@ class Stecke {
 	characteristic real TrackSize = 1000.0;
 
 	@generated("blockdiagram")
-	public real vCar(real in brakeCtrl, real in powerCtrl) {
+	public void vCar(real in brakeCtrl, real in powerCtrl, real in my_dT) {
 		if (s > TrackSize) {
 			s = 0.0; // Main/vCar 1/if-then 1
 		} // Main/vCar 1
 		momentum = EngineMomentum.getAt(powerCtrl, Globals.v); // Main/vCar 2
-		ds = ((Globals.v * Globals.d_T) / 3.6); // Main/vCar 3
+		ds = ((Globals.v * my_dT) / 3.6); // Main/vCar 3
 		s = (ds + s); // Main/vCar 4
 		dh = (h - Landscape.getAt(s)); // Main/vCar 5
 		h = Landscape.getAt(s); // Main/vCar 6
-		Globals.v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(Globals.v) + (9.81 * (dh / ds))) * Globals.d_T) + Globals.v); // Main/vCar 7
+		Globals.v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(Globals.v) + (9.81 * (dh / ds))) * my_dT) + Globals.v); // Main/vCar 7
 		if (Globals.v < 0.0) {
 			Globals.v = 0.0; // Main/vCar 8/if-then 1
 		} // Main/vCar 8
-		return Globals.v; // Main/vCar 9
 	}
 
 	@generated("blockdiagram")
-	public void strecke_test() {
+	public real getV() {
+		return Globals.v; // Main/getV 1
 	}
 }

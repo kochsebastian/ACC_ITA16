@@ -1,10 +1,14 @@
 package components;
 
 class OnOff {
+	
 	@generated("blockdiagram")
-	public void calc() {
-		if (Globals.v > 0.0) {
-			Globals.acc_status = Globals.acc_status_request; // Main/calc 1/if-then 1
-		} // Main/calc 1
+	public boolean onoff(real in v, boolean in request) {
+		if (v > 0.0) {
+			Globals.acc_status = request; // Main/onoff 1/if-then 1
+		} else {
+			Globals.acc_status = false; // Main/onoff 1/if-else 1
+		} // Main/onoff 1
+		return Globals.acc_status; // Main/onoff 2
 	}
 }

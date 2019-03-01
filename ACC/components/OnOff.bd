@@ -1,56 +1,91 @@
 classType components.OnOff
 blockdiagramSpecification Main {
-	methodBody calc {
+	methodBody onoff {
 		outPin active {
-			connection_5
+			connection_8, connection_16
 		}
 	}
-	simpleIdentifier components.Globals.v at (331, 215) {
-		label at (0, -1)
-		inPin outPin {
-			connection_1
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	greater at (481, 216) {
-		inPin connection_1
+	greater at (221, 206) {
+		inPin connection_7
 		inPin connection_2
 		outPin {
-			connection_6
+			connection_9
 		}
 	}
-	literal Numeric "0.0" at (411, 233) size (49, 0) {
+	literal Numeric "0.0" at (151, 223) size (49, 0) {
 		outPin {
 			connection_2
 		}
 	}
-	simpleIdentifier components.Globals.acc_status_request at (301, 325) {
+	simpleIdentifier components.Globals.acc_status at (341, 325) {
 		label at (0, -1)
-		inPin outPin {
-			connection_4
+		inPin connection_15
+		outPin sequenceCall {
+			inPin connection_14 {
+				bendpoints (0, 20), (-20, 20)
+			}
+		}
+	}
+	methodArgumentIdentifier onoff.v at (51, 205) {
+		label at (0, -1)
+		outPin {
+			connection_7
 		}
 		sequenceCall {
 			inPin
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (551, 325) {
+	methodArgumentIdentifier onoff.request at (461, 265) {
 		label at (0, -1)
-		inPin connection_4
+		outPin {
+			connection_13
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	ifElse at (331, 231) {
+		inPin connection_9 {
+			bendpoints (30, 0), (30, 20)
+		}
+		ifControlFlowOutPin {
+			connection_12
+		}
+		elseControlFlowOutPin {
+			connection_14
+		}
+		sequenceCall {
+			inPin connection_8
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (651, 265) {
+		label at (0, -1)
+		inPin connection_13
 		outPin sequenceCall {
-			inPin connection_3 {
-				bendpoints (0, 40), (-150, 40)
+			inPin connection_12 {
+				bendpoints (130, 0), (130, 10)
 			}
 		}
 	}
-	if at (641, 221) {
-		inPin connection_6
-		ifControlFlowOutPin {
-			connection_3
+	literal Boolean "false" at (231, 323) size (49, 0) {
+		outPin {
+			connection_15
+		}
+	}
+	return at (351, 435) {
+		label at (0, 0)
+		inPin connection_17
+		sequenceCall {
+			inPin connection_16
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (171, 435) {
+		label at (0, -1)
+		inPin outPin {
+			connection_17
 		}
 		sequenceCall {
-			inPin connection_5
+			inPin
 		}
 	}
 }
