@@ -18,7 +18,7 @@ COMMON_FLAGS=-O0 -g3 -Wall -c -fmessage-length=0 -DSINGLE_THREADED
 CPPFLAGS=$(COMMON_FLAGS)
 CFLAGS=$(COMMON_FLAGS) -Wno-unused -ansi
 
-MODEL_OBJECTS=$(OUTPUT_CONFIG)/src/ACC_UnitTest_Automatic.o $(OUTPUT_CONFIG)/src/components_circleTest_Automatic.o $(OUTPUT_CONFIG)/src/components_Component_Automatic.o $(OUTPUT_CONFIG)/src/assertLib_Assert_Impl.o 
+MODEL_OBJECTS=$(OUTPUT_CONFIG)/src/ACC_UnitTest_Automatic.o $(OUTPUT_CONFIG)/src/components_circleTest_Automatic.o $(OUTPUT_CONFIG)/src/components_Component_Automatic.o $(OUTPUT_CONFIG)/src/components_FuSiTest_Automatic.o $(OUTPUT_CONFIG)/src/assertLib_Assert_Impl.o $(OUTPUT_CONFIG)/src/components_FuSi_Automatic.o $(OUTPUT_CONFIG)/src/components_Globals_Automatic.o $(OUTPUT_CONFIG)/src/interfaces_interfaces_Automatic.o 
 LIB_PATHS=$(pathcnv SN, C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_UnitTest_CGen/lib\
   C:/Users/Admin/ETAS/ASCET-DEVELOPER-7.4.0/Projektarbeit/ACC_UnitTest)
 LIB_PATHS_OPTIONS := $(foreach PATH,$(LIB_PATHS),-L$(PATH))
@@ -41,7 +41,19 @@ $(OUTPUT_CONFIG)/src/components_circleTest_Automatic.o: src/components_circleTes
 $(OUTPUT_CONFIG)/src/components_Component_Automatic.o: src/components_Component_Automatic.c src/components_Component_Automatic.h $(OUTPUT_CONFIG)/src
 	gcc $(INC) $(CFLAGS) -o $@ $<
 
+$(OUTPUT_CONFIG)/src/components_FuSiTest_Automatic.o: src/components_FuSiTest_Automatic.c src/components_FuSiTest_Automatic.h $(OUTPUT_CONFIG)/src
+	gcc $(INC) $(CFLAGS) -o $@ $<
+
 $(OUTPUT_CONFIG)/src/assertLib_Assert_Impl.o: src/assertLib_Assert_Impl.c src/assertLib_Assert_Impl.h $(OUTPUT_CONFIG)/src
+	gcc $(INC) $(CFLAGS) -o $@ $<
+
+$(OUTPUT_CONFIG)/src/components_FuSi_Automatic.o: src/components_FuSi_Automatic.c src/components_FuSi_Automatic.h $(OUTPUT_CONFIG)/src
+	gcc $(INC) $(CFLAGS) -o $@ $<
+
+$(OUTPUT_CONFIG)/src/components_Globals_Automatic.o: src/components_Globals_Automatic.c src/components_Globals_Automatic.h $(OUTPUT_CONFIG)/src
+	gcc $(INC) $(CFLAGS) -o $@ $<
+
+$(OUTPUT_CONFIG)/src/interfaces_interfaces_Automatic.o: src/interfaces_interfaces_Automatic.c src/interfaces_interfaces_Automatic.h $(OUTPUT_CONFIG)/src
 	gcc $(INC) $(CFLAGS) -o $@ $<
 
 
