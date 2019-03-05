@@ -3,7 +3,7 @@ package components;
 type Kennlinie is table real -> real;
 type Kennfeld is table real, real -> real;
 
-static class Stecke {
+class Stecke {
 	real h;
 	public real s;
 	real ds;
