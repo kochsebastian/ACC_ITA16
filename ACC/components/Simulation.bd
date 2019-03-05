@@ -9,9 +9,9 @@ blockdiagramSpecification Main {
 		label at (0, 1)
 		methodCall components.Stecke.vCar {
 			argumentPin brakeCtrl at (left, 0) connection_14
-			argumentPin powerCtrl at (left, 1) connection_12
-			argumentPin my_dT at (left, 2) connection_4 {
-				bendpoints (30, 0), (30, -110)
+			argumentPin powerCtrl at (left, 3) connection_12
+			argumentPin my_dT at (left, 6) connection_4 {
+				bendpoints (30, 0), (30, -70)
 			}
 			sequenceCall at (0, -44) {
 				inPin connection_13
@@ -57,7 +57,7 @@ blockdiagramSpecification Main {
 			}
 		}
 	}
-	simpleIdentifier brakePadel at (771, 435) {
+	simpleIdentifier brakePadel at (641, 435) {
 		label at (0, -1)
 		outPin {
 			connection_16
@@ -66,7 +66,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier gasPadel at (771, 475) {
+	simpleIdentifier gasPadel at (641, 485) {
 		label at (0, -1)
 		outPin {
 			connection_20
@@ -84,7 +84,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier powerVal at (331, 175) {
+	simpleIdentifier powerVal at (311, 195) {
 		label at (0, -1)
 		inPin outPin {
 			connection_12
@@ -93,7 +93,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier brakeVal at (911, 435) {
+	simpleIdentifier brakeVal at (981, 435) {
 		label at (-10, -1)
 		inPin connection_16
 		outPin sequenceCall {
@@ -125,12 +125,12 @@ blockdiagramSpecification Main {
 			}
 		}
 	}
-	simpleIdentifier powerVal at (911, 475) {
+	simpleIdentifier powerVal at (1041, 485) {
 		label at (0, -1)
 		inPin connection_20
 		outPin sequenceCall {
 			inPin connection_19 {
-				bendpoints (0, 150)
+				bendpoints (0, 160)
 			}
 		}
 	}
