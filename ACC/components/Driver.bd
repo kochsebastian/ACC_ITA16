@@ -1,0 +1,30 @@
+classType components.Driver
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+	simpleIdentifier brakePadel at (111, 175) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier gasPadel at (121, 245) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.acc_status_request at (111, 115) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier crash at (121, 305) {
+		label at (0, -1)
+		outPin sequenceCall {
+			inPin
+		}
+	}
+}

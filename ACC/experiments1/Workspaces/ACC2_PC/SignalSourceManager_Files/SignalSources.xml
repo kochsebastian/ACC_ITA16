@@ -1,0 +1,13 @@
+<?SCHEMA schemaVersion="1.0"?>
+<SignalSourcesConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Program%20Files%20(x86)/Common%20Files/ETAS/Experiment%20Environment/3.7/Schemas/EE.Data.SignalSources.xsd" xsi:type="ETAS.EE.Data.SignalSourcesConfigurationType">
+  <SignalSourcesData xsi:type="ETAS.EE.Data.PluginDataListType">
+    <Item xsi:type="ETAS.EE.Data.PluginDataType" id="IDb648ddbe-670b-4e00-b4c7-f31e44952e27" pluginID="System" rootFolder="System_Files">
+      <Documents xsi:type="ETAS.EE.Data.ExternalDocumentListType">
+        <Item xsi:type="ETAS.EE.Data.ExternalDocumentType" id="ID63b965a7-abaa-4f01-9a66-344af7c33b3f" type="" name="Configuration" file="Configuration.xml" />
+      </Documents>
+    </Item>
+  </SignalSourcesData>
+  <SignalSourceDeclarations xsi:type="ETAS.EE.Data.SignalSourceDeclarationListType">
+    <Item xsi:type="ETAS.EE.Data.SignalSourceDeclarationType" id="IDaabf4e6b-c775-42c7-a467-ba8ccd0e563e" type="VP" signalSourceId="System" name="ACC2_PC" active="true" />
+  </SignalSourceDeclarations>
+</SignalSourcesConfiguration>
