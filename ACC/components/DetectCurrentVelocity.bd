@@ -1,0 +1,117 @@
+classType components.DetectCurrentVelocity
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active {
+			connection_18, connection_22, connection_20
+		}
+	}
+	methodArgumentIdentifier calc.status at (201, 95) {
+		label at (0, -1)
+		outPin {
+			connection_13
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.v at (561, 195) {
+		label at (0, -1)
+		outPin {
+			connection_25
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	and at (411, 116) {
+		inPin connection_13 {
+			bendpoints (170, 0)
+		}
+		inPin connection_17 {
+			bendpoints (20, 0), (20, -20)
+		}
+		outPin {
+			connection_19
+		}
+	}
+	simpleIdentifier status_old at (201, 155) {
+		label at (0, -1)
+		inPin outPin {
+			connection_16
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	not at (321, 151) {
+		inPin connection_16
+		outPin {
+			connection_17
+		}
+	}
+	ifElse at (551, 121) {
+		inPin connection_19
+		ifControlFlowOutPin {
+			connection_24
+		}
+		elseControlFlowOutPin {
+			connection_27
+		}
+		sequenceCall {
+			inPin connection_18
+		}
+	}
+	return at (791, 195) {
+		label at (0, 0)
+		inPin connection_26
+		sequenceCall {
+			inPin connection_20
+		}
+	}
+	simpleIdentifier status_old at (631, 385) {
+		label at (0, -1)
+		inPin connection_23
+		outPin sequenceCall at (10, -24) {
+			inPin connection_22
+		}
+	}
+	methodArgumentIdentifier calc.status at (381, 385) {
+		label at (0, -1)
+		outPin {
+			connection_23
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier v_buffer at (671, 195) {
+		label at (0, -1)
+		inPin connection_25
+		outPin {
+			connection_26
+		}
+		sequenceCall {
+			inPin connection_24 {
+				bendpoints (30, 0), (30, 50)
+			}
+		}
+	}
+	simpleIdentifier v_buffer at (511, 295) {
+		label at (0, -1)
+		inPin outPin {
+			connection_28
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (631, 295) {
+		label at (0, 0)
+		inPin connection_28
+		sequenceCall {
+			inPin connection_27 {
+				bendpoints (-60, 0), (-60, 120)
+			}
+		}
+	}
+}

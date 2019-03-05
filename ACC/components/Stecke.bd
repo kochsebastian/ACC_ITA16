@@ -340,11 +340,9 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	return at (741, 325) {
+	return at (741, 345) {
 		label at (0, 0)
-		inPin connection_76 {
-			bendpoints (20, 0), (20, -20)
-		}
+		inPin connection_76
 		sequenceCall {
 			inPin connection_68
 		}
