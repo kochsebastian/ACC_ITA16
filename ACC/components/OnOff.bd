@@ -5,19 +5,19 @@ blockdiagramSpecification Main {
 			connection_8, connection_16
 		}
 	}
-	greater at (221, 206) {
+	greater at (221, 66) {
 		inPin connection_7
 		inPin connection_2
 		outPin {
 			connection_9
 		}
 	}
-	literal Numeric "0.0" at (151, 223) size (49, 0) {
+	literal Numeric "0.0" at (151, 83) size (49, 0) {
 		outPin {
 			connection_2
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (341, 325) {
+	simpleIdentifier components.Globals.acc_status at (341, 185) {
 		label at (0, -1)
 		inPin connection_15
 		outPin sequenceCall {
@@ -26,7 +26,7 @@ blockdiagramSpecification Main {
 			}
 		}
 	}
-	methodArgumentIdentifier onoff.v at (51, 205) {
+	methodArgumentIdentifier onoff.v at (51, 65) {
 		label at (0, -1)
 		outPin {
 			connection_7
@@ -35,7 +35,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	methodArgumentIdentifier onoff.request at (461, 265) {
+	methodArgumentIdentifier onoff.request at (461, 125) {
 		label at (0, -1)
 		outPin {
 			connection_13
@@ -44,7 +44,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	ifElse at (331, 231) {
+	ifElse at (331, 91) {
 		inPin connection_9 {
 			bendpoints (30, 0), (30, 20)
 		}
@@ -58,28 +58,28 @@ blockdiagramSpecification Main {
 			inPin connection_8
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (651, 265) {
+	simpleIdentifier components.Globals.acc_status at (651, 125) {
 		label at (0, -1)
 		inPin connection_13
-		outPin sequenceCall {
+		outPin sequenceCall at (-20, -14) {
 			inPin connection_12 {
-				bendpoints (130, 0), (130, 10)
+				bendpoints (130, 0), (130, 20)
 			}
 		}
 	}
-	literal Boolean "false" at (231, 323) size (49, 0) {
+	literal Boolean "false" at (231, 183) size (49, 0) {
 		outPin {
 			connection_15
 		}
 	}
-	return at (351, 435) {
+	return at (351, 295) {
 		label at (0, 0)
 		inPin connection_17
 		sequenceCall {
 			inPin connection_16
 		}
 	}
-	simpleIdentifier components.Globals.acc_status at (171, 435) {
+	simpleIdentifier components.Globals.acc_status at (171, 295) {
 		label at (0, -1)
 		inPin outPin {
 			connection_17
