@@ -2,7 +2,7 @@ classType components.Simulation
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_17, connection_13, connection_8, connection_26
+			connection_17, connection_13, connection_8, connection_26, connection_38
 		}
 	}
 	complexIdentifier Stecke_instance at (461, 161) size (14, 8) {
@@ -30,24 +30,6 @@ blockdiagramSpecification Main {
 		label at (0, -1)
 		inPin outPin {
 			connection_27, connection_4
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier interfaces.interfaces.brake at (771, 515) {
-		label at (0, -1)
-		outPin {
-			connection_22
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier interfaces.interfaces.power at (771, 555) {
-		label at (0, -1)
-		outPin {
-			connection_24
 		}
 		sequenceCall {
 			inPin
@@ -123,7 +105,7 @@ blockdiagramSpecification Main {
 	ifElse at (841, 271) {
 		inPin connection_18
 		ifControlFlowOutPin {
-			connection_21, connection_23
+			connection_40, connection_42
 		}
 		elseControlFlowOutPin {
 			connection_15, connection_19
@@ -132,12 +114,14 @@ blockdiagramSpecification Main {
 			inPin connection_17
 		}
 	}
-	simpleIdentifier brakeVal at (911, 515) {
+	simpleIdentifier brakeVal at (1111, 645) {
 		label at (-10, -1)
-		inPin connection_22
+		inPin connection_43 {
+			bendpoints (160, 0), (160, -2), (220, -2), (220, -1), (290, -1), (290, -2), (370, -2), (370, 0)
+		}
 		outPin sequenceCall at (-10, -24) {
-			inPin connection_21 {
-				bendpoints (10, 0)
+			inPin connection_42 {
+				bendpoints (160, 0), (160, 349), (80, 349), (80, 348), (140, 348), (140, 350)
 			}
 		}
 	}
@@ -150,12 +134,14 @@ blockdiagramSpecification Main {
 			}
 		}
 	}
-	simpleIdentifier powerVal at (911, 555) {
+	simpleIdentifier powerVal at (1121, 565) {
 		label at (0, -1)
-		inPin connection_24
+		inPin connection_41 {
+			bendpoints (120, 0), (120, -71)
+		}
 		outPin sequenceCall {
-			inPin connection_23 {
-				bendpoints (10, 0)
+			inPin connection_40 {
+				bendpoints (120, 0), (120, 269), (130, 269), (130, 270)
 			}
 		}
 	}
@@ -177,6 +163,78 @@ blockdiagramSpecification Main {
 			sequenceCall at (-50, -30) {
 				inPin connection_26
 			}
+		}
+	}
+	complexIdentifier ACC_Control_instance at (511, 631) size (14, 8) {
+		label at (0, 1)
+		methodCall components.ACC_Control.calc {
+			argumentPin v at (left, 0) connection_35 {
+				bendpoints (50, 0), (50, 50)
+			}
+			argumentPin power at (left, 1) connection_36 {
+				bendpoints (41, 0), (41, -8), (180, -8), (180, 0)
+			}
+			argumentPin brake at (left, 2) connection_37 {
+				bendpoints (80, 0), (80, -50)
+			}
+			argumentPin v_set at (left, 3) connection_39 {
+				bendpoints (30, 0), (30, -110)
+			}
+			sequenceCall at (-50, -30) {
+				inPin connection_38
+			}
+		}
+		methodCall components.ACC_Control.getPower {
+			returnPin at (right, 0) {
+				connection_41
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+		methodCall components.ACC_Control.getBrake {
+			returnPin at (right, 1) {
+				connection_43
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier components.Globals.v at (341, 585) {
+		label at (0, -1)
+		inPin outPin {
+			connection_35
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier powerVal at (241, 645) {
+		label at (0, -1)
+		inPin outPin {
+			connection_36
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier brakeVal at (281, 705) {
+		label at (0, -1)
+		inPin outPin {
+			connection_37
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier v_set at (401, 775) {
+		label at (0, -1)
+		outPin {
+			connection_39
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }

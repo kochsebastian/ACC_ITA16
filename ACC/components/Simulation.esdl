@@ -3,7 +3,7 @@ import interfaces.interfaces;
 
 static class Simulation
 reads interfaces.brake, interfaces.power
-writes interfaces.v {
+writes interfaces.v, interfaces.power {
 	Stecke Stecke_instance;
 	OnOff OnOff_instance;
 	characteristic real brakePadel = 0.0;
@@ -11,13 +11,15 @@ writes interfaces.v {
 	real brakeVal;
 	real powerVal;
 	AccFeedback AccFeedback_instance;
+	ACC_Control ACC_Control_instance;
+	characteristic real v_set = 0.0;
 
 	@generated("blockdiagram")
 	@thread
 	public void calc() {
 		if (OnOff_instance.onoff(Stecke_instance.getV(), Globals.acc_status_request)) {
-			brakeVal = interfaces.brake; // Main/calc 1/if-then 1
-			powerVal = interfaces.power; // Main/calc 1/if-then 2
+			powerVal = ACC_Control_instance.getPower(); // Main/calc 1/if-then 1
+			brakeVal = ACC_Control_instance.getBrake(); // Main/calc 1/if-then 2
 		} else {
 			brakeVal = brakePadel; // Main/calc 1/if-else 1
 			powerVal = gasPadel; // Main/calc 1/if-else 2
@@ -25,5 +27,6 @@ writes interfaces.v {
 		Stecke_instance.vCar(brakeVal, powerVal, Globals.d_T); // Main/calc 2
 		interfaces.v = Stecke_instance.getV(); // Main/calc 3
 		AccFeedback_instance.calc(Globals.d_T); // Main/calc 4
+		ACC_Control_instance.calc(Globals.v, powerVal, brakeVal, v_set); // Main/calc 5
 	}
 }
