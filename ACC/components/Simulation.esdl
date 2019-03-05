@@ -12,8 +12,8 @@ writes interfaces.v, interfaces.power {
 	real powerVal;
 	AccFeedback AccFeedback_instance;
 	ACC_Control ACC_Control_instance;
-	characteristic real v_set = 0.0;
 	DetectCurrentVelocity DetectCurrentVelocity_instance;
+	FuSi FuSi_instance;
 
 	@generated("blockdiagram")
 	@thread

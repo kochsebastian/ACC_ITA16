@@ -1,8 +1,8 @@
 package components;
 import interfaces.interfaces;
 
-static class FuSi
-reads interfaces.crash_detected {
+class FuSi
+{
 	@generated("blockdiagram")
 	public boolean crash_calc(boolean inout acc_status, boolean in crash_detected) {
 		if (crash_detected) {
