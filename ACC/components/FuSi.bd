@@ -5,22 +5,13 @@ blockdiagramSpecification Main {
 			connection_12, connection_22
 		}
 	}
-	simpleIdentifier interfaces.interfaces.crash_detected at (51, 85) {
-		label at (0, -1)
-		outPin {
-			connection_13
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	literal Boolean "false" at (341, 103) size (49, 0) {
 		outPin {
 			connection_19
 		}
 	}
 	ifElse at (191, 81) {
-		inPin connection_13
+		inPin connection_29
 		ifControlFlowOutPin {
 			connection_18
 		}
@@ -55,15 +46,26 @@ blockdiagramSpecification Main {
 		outPin {
 			connection_23
 		}
-		sequenceCall {
-			inPin connection_18
+		sequenceCall at (-10, -14) {
+			inPin connection_18 {
+				bendpoints (220, 0)
+			}
 		}
 	}
 	return at (591, 105) {
 		label at (-30, 0)
 		inPin connection_23
-		sequenceCall {
+		sequenceCall at (-10, -14) {
 			inPin connection_22
+		}
+	}
+	methodArgumentIdentifier crash_calc.crash_detected at (91, 85) {
+		label at (0, -1)
+		outPin {
+			connection_29
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }
