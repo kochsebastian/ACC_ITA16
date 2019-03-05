@@ -73,15 +73,6 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier components.Globals.d_T at (191, 555) {
-		label at (0, -1)
-		inPin outPin {
-			connection_38
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	simpleIdentifier duration at (451, 565) {
 		label at (0, -1)
 		inPin connection_40
@@ -95,7 +86,9 @@ blockdiagramSpecification Main {
 		}
 	}
 	addition at (341, 556) {
-		inPin connection_38
+		inPin connection_52 {
+			bendpoints (60, 0), (60, 10)
+		}
 		inPin connection_41 {
 			bendpoints (0, 40), (-160, 40)
 		}
@@ -174,6 +167,15 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin connection_49
+		}
+	}
+	methodArgumentIdentifier calc.my_dT at (171, 545) {
+		label at (-50, 19)
+		outPin {
+			connection_52
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }

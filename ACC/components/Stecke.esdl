@@ -25,10 +25,10 @@ class Stecke {
 		s = (ds + s); // Main/vCar 4
 		dh = (h - Landscape.getAt(s)); // Main/vCar 5
 		h = Landscape.getAt(s); // Main/vCar 6
-		Globals.v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(Globals.v) + (9.81 * (dh / ds))) * my_dT) + Globals.v); // Main/vCar 7
 		if (Globals.v < 0.0) {
-			Globals.v = 0.0; // Main/vCar 8/if-then 1
-		} // Main/vCar 8
+			Globals.v = 0.0; // Main/vCar 7/if-then 1
+		} // Main/vCar 7
+		Globals.v = ((3.6 * (BrakeMomentum.getAt(brakeCtrl) + momentum + AirFriction.getAt(Globals.v) + (9.81 * (dh / ds))) * my_dT) + Globals.v); // Main/vCar 8
 	}
 
 	@generated("blockdiagram")
