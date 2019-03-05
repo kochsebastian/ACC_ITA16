@@ -2,7 +2,7 @@ classType components.Simulation
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_17, connection_13, connection_8
+			connection_17, connection_13, connection_8, connection_26
 		}
 	}
 	complexIdentifier Stecke_instance at (461, 161) size (14, 8) {
@@ -29,7 +29,7 @@ blockdiagramSpecification Main {
 	simpleIdentifier components.Globals.d_T at (141, 295) {
 		label at (0, -1)
 		inPin outPin {
-			connection_4
+			connection_27, connection_4
 		}
 		sequenceCall {
 			inPin
@@ -166,6 +166,17 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin
+		}
+	}
+	complexIdentifier AccFeedback_instance at (311, 431) size (14, 8) {
+		label at (0, 1)
+		methodCall components.AccFeedback.calc {
+			argumentPin my_dT at (left, 0) connection_27 {
+				bendpoints (30, 0), (30, 70), (110, 70)
+			}
+			sequenceCall at (-50, -30) {
+				inPin connection_26
+			}
 		}
 	}
 }

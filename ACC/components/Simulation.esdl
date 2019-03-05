@@ -10,6 +10,7 @@ writes interfaces.v {
 	characteristic real gasPadel = 0.0;
 	real brakeVal;
 	real powerVal;
+	AccFeedback AccFeedback_instance;
 
 	@generated("blockdiagram")
 	@thread
@@ -23,5 +24,6 @@ writes interfaces.v {
 		} // Main/calc 1
 		Stecke_instance.vCar(brakeVal, powerVal, Globals.d_T); // Main/calc 2
 		interfaces.v = Stecke_instance.getV(); // Main/calc 3
+		AccFeedback_instance.calc(Globals.d_T); // Main/calc 4
 	}
 }
