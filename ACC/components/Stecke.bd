@@ -2,7 +2,7 @@ classType components.Stecke
 blockdiagramSpecification Main {
 	methodBody vCar {
 		outPin active {
-			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_59, connection_31
+			connection_38, connection_7, connection_48, connection_53, connection_16, connection_20, connection_31, connection_73
 		}
 	}
 	methodBody getV {
@@ -84,8 +84,8 @@ blockdiagramSpecification Main {
 	simpleIdentifier EngineMomentum at (301, 151) {
 		label at (0, 1)
 		inPin connection_3
-		inPin connection_57 {
-			bendpoints (110, 0), (110, -30)
+		inPin connection_71 {
+			bendpoints (60, 0), (60, -40)
 		}
 		outPin {
 			connection_8
@@ -96,8 +96,8 @@ blockdiagramSpecification Main {
 	}
 	simpleIdentifier AirFriction at (301, 221) {
 		label at (0, 1)
-		inPin connection_58 {
-			bendpoints (110, 0), (110, 30)
+		inPin connection_72 {
+			bendpoints (50, 0), (50, 10), (130, 10)
 		}
 		outPin {
 			connection_11
@@ -196,11 +196,11 @@ blockdiagramSpecification Main {
 	}
 	addition at (711, 156) {
 		inPin connection_25
-		inPin connection_61 {
-			bendpoints (10, 0), (10, 30), (-120, 30)
+		inPin connection_75 {
+			bendpoints (0, 70), (-150, 70)
 		}
 		outPin {
-			connection_60
+			connection_74
 		}
 	}
 	literal Numeric "0.0" at (711, 623) size (49, 0) {
@@ -209,7 +209,9 @@ blockdiagramSpecification Main {
 		}
 	}
 	less at (821, 586) {
-		inPin connection_63
+		inPin connection_78 {
+			bendpoints (40, 0), (40, 10)
+		}
 		inPin connection_30 {
 			bendpoints (30, 0), (30, -20)
 		}
@@ -277,9 +279,11 @@ blockdiagramSpecification Main {
 		}
 	}
 	multiplication at (171, 526) {
-		inPin connection_62
-		inPin connection_56 {
-			bendpoints (20, 0), (20, -30)
+		inPin connection_77 {
+			bendpoints (20, 0), (20, 10)
+		}
+		inPin connection_70 {
+			bendpoints (20, 0), (20, -10)
 		}
 		outPin {
 			connection_46
@@ -318,54 +322,8 @@ blockdiagramSpecification Main {
 			inPin connection_53
 		}
 	}
-	simpleIdentifier components.Globals.d_T at (71, 575) {
-		label at (0, -1)
-		inPin outPin {
-			connection_56
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.Globals.v at (101, 205) {
-		label at (0, -1)
-		inPin outPin {
-			connection_58, connection_57
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.Globals.v at (781, 165) {
-		label at (0, -1)
-		inPin connection_60
-		outPin {
-			connection_61
-		}
-		sequenceCall {
-			inPin connection_59
-		}
-	}
-	simpleIdentifier components.Globals.v at (71, 525) {
-		label at (0, -1)
-		inPin outPin {
-			connection_62
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	simpleIdentifier components.Globals.v at (701, 585) {
-		label at (0, -1)
-		inPin outPin {
-			connection_63
-		}
-		sequenceCall {
-			inPin
-		}
-	}
 	simpleIdentifier components.Globals.v at (981, 625) {
-		label at (0, -1)
+		label at (0, 9)
 		inPin connection_66
 		outPin sequenceCall {
 			inPin connection_65 {
@@ -384,17 +342,63 @@ blockdiagramSpecification Main {
 	}
 	return at (741, 325) {
 		label at (0, 0)
-		inPin connection_69 {
-			bendpoints (10, 0), (10, -10)
+		inPin connection_76 {
+			bendpoints (20, 0), (20, -20)
 		}
 		sequenceCall {
 			inPin connection_68
 		}
 	}
-	simpleIdentifier components.Globals.v at (661, 335) {
+	methodArgumentIdentifier vCar.my_dT at (81, 555) {
+		label at (0, -1)
+		outPin {
+			connection_70
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (121, 215) {
 		label at (0, -1)
 		inPin outPin {
-			connection_69
+			connection_72, connection_71
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (811, 165) {
+		label at (0, -1)
+		inPin connection_74
+		outPin {
+			connection_75
+		}
+		sequenceCall {
+			inPin connection_73
+		}
+	}
+	simpleIdentifier components.Globals.v at (651, 345) {
+		label at (0, -1)
+		inPin outPin {
+			connection_76
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (81, 515) {
+		label at (0, -1)
+		inPin outPin {
+			connection_77
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.v at (691, 575) {
+		label at (0, -1)
+		inPin outPin {
+			connection_78
 		}
 		sequenceCall {
 			inPin

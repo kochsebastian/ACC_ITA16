@@ -1,0 +1,392 @@
+classType components.ACC_Control
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin {
+			connection_5
+		}
+	}
+	methodBody getPower {
+		outPin {
+			connection_60
+		}
+	}
+	methodBody getBrake {
+		outPin active {
+			connection_62
+		}
+	}
+	greater at (341, 136) {
+		inPin connection_20
+		inPin connection_59 {
+			bendpoints (50, 0), (50, -20)
+		}
+		outPin {
+			connection_6
+		}
+	}
+	ifElse at (411, 141) {
+		inPin connection_6
+		ifControlFlowOutPin {
+			connection_9
+		}
+		elseControlFlowOutPin {
+			connection_47, connection_51
+		}
+		sequenceCall {
+			inPin connection_5
+		}
+	}
+	greater at (701, 146) {
+		inPin connection_21
+		inPin connection_8 {
+			bendpoints (40, 0), (40, -40)
+		}
+		outPin {
+			connection_10
+		}
+	}
+	simpleIdentifier fuenf at (581, 205) {
+		label at (0, -1)
+		outPin {
+			connection_8
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	ifElse at (791, 151) {
+		inPin connection_10
+		ifControlFlowOutPin {
+			connection_30
+		}
+		elseControlFlowOutPin {
+			connection_32, connection_43
+		}
+		sequenceCall {
+			inPin connection_9 {
+				bendpoints (0, -40), (300, -40), (300, -10)
+			}
+		}
+	}
+	simpleIdentifier decrease_power at (891, 205) {
+		label at (-30, -1)
+		outPin {
+			connection_17
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	subtraction at (991, 146) {
+		inPin connection_22 {
+			bendpoints (0, 70)
+		}
+		inPin connection_17 {
+			bendpoints (10, 0), (10, -40)
+		}
+		outPin {
+			connection_31
+		}
+	}
+	methodArgumentIdentifier calc.v at (191, 135) {
+		label at (0, -1)
+		outPin {
+			connection_20
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.power at (601, 145) {
+		label at (-50, -1)
+		outPin {
+			connection_21
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.power at (891, 75) {
+		label at (0, -1)
+		outPin {
+			connection_22
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier power_return at (1071, 155) {
+		label at (0, -1)
+		inPin connection_31
+		outPin sequenceCall {
+			inPin connection_30 {
+				bendpoints (40, 0), (40, -20)
+			}
+		}
+	}
+	simpleIdentifier power_return at (1071, 275) {
+		label at (0, -1)
+		inPin connection_33
+		outPin sequenceCall {
+			inPin connection_32 {
+				bendpoints (0, 70)
+			}
+		}
+	}
+	simpleIdentifier zero at (971, 275) {
+		label at (-60, 9)
+		outPin {
+			connection_33
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier brake_return at (1071, 425) {
+		label at (0, -1)
+		inPin connection_37 {
+			bendpoints (20, 0), (20, -20)
+		}
+		outPin sequenceCall {
+			inPin connection_36 {
+				bendpoints (100, 0), (100, 30)
+			}
+		}
+	}
+	methodArgumentIdentifier calc.brake at (851, 435) {
+		label at (0, -1)
+		outPin {
+			connection_34
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	addition at (991, 436) {
+		inPin connection_34
+		inPin connection_35 {
+			bendpoints (50, 0), (50, -30)
+		}
+		outPin {
+			connection_37
+		}
+	}
+	simpleIdentifier fuenf at (851, 485) {
+		label at (0, -1)
+		outPin {
+			connection_35
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.brake at (711, 335) {
+		label at (-70, -31)
+		outPin {
+			connection_40
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	greater at (771, 336) {
+		inPin connection_40
+		inPin connection_41
+		outPin {
+			connection_44
+		}
+	}
+	simpleIdentifier fuenfundneunzig at (711, 355) {
+		label at (-70, -1)
+		outPin {
+			connection_41
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	ifElse at (841, 341) {
+		inPin connection_44
+		ifControlFlowOutPin {
+			connection_45
+		}
+		elseControlFlowOutPin {
+			connection_36
+		}
+		sequenceCall {
+			inPin connection_43 {
+				bendpoints (0, 100), (20, 100)
+			}
+		}
+	}
+	simpleIdentifier brake_return at (1071, 355) {
+		label at (0, -1)
+		inPin connection_46
+		outPin sequenceCall {
+			inPin connection_45 {
+				bendpoints (80, 0), (80, -10)
+			}
+		}
+	}
+	simpleIdentifier hundert at (991, 355) {
+		label at (0, -1)
+		outPin {
+			connection_46
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier brake_return at (581, 535) {
+		label at (20, 9)
+		inPin connection_48
+		outPin sequenceCall {
+			inPin connection_47 {
+				bendpoints (40, 0), (40, 340)
+			}
+		}
+	}
+	simpleIdentifier zero at (521, 535) {
+		label at (-60, -1)
+		outPin {
+			connection_48
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier power_return at (761, 715) {
+		label at (0, -1)
+		inPin connection_54
+		outPin sequenceCall {
+			inPin connection_53
+		}
+	}
+	methodArgumentIdentifier calc.power at (461, 665) {
+		label at (-50, -1)
+		outPin {
+			connection_49
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier fuenfundneunzig at (461, 705) {
+		label at (-70, -1)
+		outPin {
+			connection_50
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	greater at (571, 686) {
+		inPin connection_49 {
+			bendpoints (30, 0), (30, 20)
+		}
+		inPin connection_50
+		outPin {
+			connection_52
+		}
+	}
+	ifElse at (641, 691) {
+		inPin connection_52
+		ifControlFlowOutPin {
+			connection_53
+		}
+		elseControlFlowOutPin {
+			connection_57
+		}
+		sequenceCall {
+			inPin connection_51 {
+				bendpoints (40, 0), (40, 410), (200, 410)
+			}
+		}
+	}
+	simpleIdentifier hundert at (701, 715) {
+		label at (0, -1)
+		outPin {
+			connection_54
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.power at (551, 815) {
+		label at (-50, -1)
+		outPin {
+			connection_56
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier fuenf at (551, 775) {
+		label at (0, -1)
+		outPin {
+			connection_55
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	addition at (671, 796) {
+		inPin connection_55 {
+			bendpoints (40, 0), (40, 20)
+		}
+		inPin connection_56
+		outPin {
+			connection_58
+		}
+	}
+	simpleIdentifier power_return at (751, 805) {
+		label at (0, -1)
+		inPin connection_58
+		outPin sequenceCall {
+			inPin connection_57 {
+				bendpoints (40, 0), (40, 60)
+			}
+		}
+	}
+	methodArgumentIdentifier calc.v_set at (191, 175) {
+		label at (0, -1)
+		outPin {
+			connection_59
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (1101, 595) {
+		label at (0, 0)
+		inPin connection_61
+		sequenceCall {
+			inPin connection_60
+		}
+	}
+	simpleIdentifier power_return at (1001, 595) {
+		label at (0, -1)
+		inPin outPin {
+			connection_61
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (1091, 665) {
+		label at (0, 0)
+		inPin connection_63
+		sequenceCall {
+			inPin connection_62
+		}
+	}
+	simpleIdentifier brake_return at (1001, 665) {
+		label at (0, -1)
+		inPin outPin {
+			connection_63
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+}

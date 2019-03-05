@@ -1,40 +1,71 @@
 classType components.FuSi
 blockdiagramSpecification Main {
-	methodBody calc {
+	methodBody crash_calc {
 		outPin active {
-			connection_1
+			connection_12, connection_22
 		}
 	}
-	simpleIdentifier interfaces.interfaces.crash_detected at (181, 275) {
-		label at (0, -1)
+	literal Boolean "false" at (341, 103) size (49, 0) {
 		outPin {
-			connection_2
+			connection_19
+		}
+	}
+	ifElse at (191, 81) {
+		inPin connection_29
+		ifControlFlowOutPin {
+			connection_18
+		}
+		elseControlFlowOutPin {
+			connection_16
+		}
+		sequenceCall {
+			inPin connection_12
+		}
+	}
+	methodArgumentIdentifier crash_calc.acc_status at (121, 185) {
+		label at (-40, -1)
+		inPin outPin {
+			connection_17
 		}
 		sequenceCall {
 			inPin
 		}
 	}
-	if at (371, 271) {
-		inPin connection_2
-		ifControlFlowOutPin {
-			connection_3
-		}
-		sequenceCall {
-			inPin connection_1
-		}
-	}
-	simpleIdentifier components.Globals.acc_status at (511, 345) {
-		label at (0, -1)
-		inPin connection_4
+	methodArgumentIdentifier crash_calc.acc_status at (351, 185) {
+		label at (-40, -1)
+		inPin connection_17
 		outPin sequenceCall {
-			inPin connection_3 {
-				bendpoints (40, 0), (40, 50)
+			inPin connection_16 {
+				bendpoints (0, 50)
 			}
 		}
 	}
-	literal Boolean "false" at (361, 343) size (49, 0) {
+	methodArgumentIdentifier crash_calc.acc_status at (471, 105) {
+		label at (-70, -1)
+		inPin connection_19
 		outPin {
-			connection_4
+			connection_23
+		}
+		sequenceCall at (-10, -14) {
+			inPin connection_18 {
+				bendpoints (220, 0)
+			}
+		}
+	}
+	return at (591, 105) {
+		label at (-30, 0)
+		inPin connection_23
+		sequenceCall at (-10, -14) {
+			inPin connection_22
+		}
+	}
+	methodArgumentIdentifier crash_calc.crash_detected at (91, 85) {
+		label at (0, -1)
+		outPin {
+			connection_29
+		}
+		sequenceCall {
+			inPin
 		}
 	}
 }
