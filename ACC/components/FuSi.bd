@@ -2,7 +2,7 @@ classType components.FuSi
 blockdiagramSpecification Main {
 	methodBody crash_calc {
 		outPin active {
-			connection_12, connection_22
+			connection_12
 		}
 	}
 	literal Boolean "false" at (341, 103) size (49, 0) {
@@ -10,53 +10,22 @@ blockdiagramSpecification Main {
 			connection_19
 		}
 	}
-	ifElse at (191, 81) {
+	if at (191, 81) {
 		inPin connection_29
 		ifControlFlowOutPin {
 			connection_18
-		}
-		elseControlFlowOutPin {
-			connection_16
 		}
 		sequenceCall {
 			inPin connection_12
 		}
 	}
-	methodArgumentIdentifier crash_calc.acc_status at (121, 185) {
-		label at (-40, -1)
-		inPin outPin {
-			connection_17
-		}
-		sequenceCall {
-			inPin
-		}
-	}
-	methodArgumentIdentifier crash_calc.acc_status at (351, 185) {
-		label at (-40, -1)
-		inPin connection_17
-		outPin sequenceCall {
-			inPin connection_16 {
-				bendpoints (0, 50)
-			}
-		}
-	}
 	methodArgumentIdentifier crash_calc.acc_status at (471, 105) {
 		label at (-70, -1)
 		inPin connection_19
-		outPin {
-			connection_23
-		}
-		sequenceCall at (-10, -14) {
+		outPin sequenceCall at (-10, -14) {
 			inPin connection_18 {
 				bendpoints (220, 0)
 			}
-		}
-	}
-	return at (591, 105) {
-		label at (-30, 0)
-		inPin connection_23
-		sequenceCall at (-10, -14) {
-			inPin connection_22
 		}
 	}
 	methodArgumentIdentifier crash_calc.crash_detected at (91, 85) {

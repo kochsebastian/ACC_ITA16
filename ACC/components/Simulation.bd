@@ -2,7 +2,7 @@ classType components.Simulation
 blockdiagramSpecification Main {
 	methodBody calc {
 		outPin active {
-			connection_17, connection_13, connection_8, connection_26, connection_38
+			connection_17, connection_13, connection_8, connection_26, connection_44, connection_55
 		}
 	}
 	complexIdentifier Stecke_instance at (461, 161) size (14, 8) {
@@ -50,7 +50,7 @@ blockdiagramSpecification Main {
 			}
 			argumentPin request at (left, 4) connection_25
 			returnPin at (right, 0) {
-				connection_18
+				connection_46, connection_18
 			}
 			sequenceCall {
 				inPin
@@ -177,11 +177,11 @@ blockdiagramSpecification Main {
 			argumentPin brake at (left, 2) connection_37 {
 				bendpoints (80, 0), (80, -50)
 			}
-			argumentPin v_set at (left, 3) connection_39 {
-				bendpoints (30, 0), (30, -110)
+			argumentPin v_set at (left, 3) connection_45 {
+				bendpoints (10, 0), (10, -150)
 			}
 			sequenceCall at (-50, -30) {
-				inPin connection_38
+				inPin connection_44
 			}
 		}
 		methodCall components.ACC_Control.getPower {
@@ -228,10 +228,59 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier v_set at (401, 775) {
+	complexIdentifier DetectCurrentVelocity_instance at (311, 811) size (14, 8) {
+		label at (0, 1)
+		methodCall components.DetectCurrentVelocity.calc {
+			argumentPin status at (left, 0) connection_46 {
+				bendpoints (20, 0), (20, 490), (-550, 490), (-550, 540)
+			}
+			argumentPin v at (left, 1) connection_47 {
+				bendpoints (80, 0)
+			}
+			returnPin at (right, 0) {
+				connection_45
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier components.Globals.v at (171, 855) {
+		label at (0, -1)
+		inPin outPin {
+			connection_47
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier components.Globals.acc_status at (671, 805) {
+		label at (0, -1)
+		inPin outPin {
+			connection_54
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier FuSi_instance at (941, 781) size (14, 8) {
+		label at (0, 1)
+		methodCall components.FuSi.crash_calc {
+			argumentPin acc_status at (left, 0) connection_54 {
+				bendpoints (0, -20)
+			}
+			argumentPin crash_detected at (left, 1) connection_56 {
+				bendpoints (180, 0)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_55
+			}
+		}
+	}
+	simpleIdentifier crash at (711, 855) {
 		label at (0, -1)
 		outPin {
-			connection_39
+			connection_56
 		}
 		sequenceCall {
 			inPin
