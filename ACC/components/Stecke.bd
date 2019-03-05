@@ -248,20 +248,11 @@ blockdiagramSpecification Main {
 	}
 	greater at (191, 786) {
 		inPin connection_36
-		inPin connection_37 {
-			bendpoints (20, 0), (20, -20)
+		inPin connection_82 {
+			bendpoints (20, 0), (20, -40)
 		}
 		outPin {
 			connection_39
-		}
-	}
-	simpleIdentifier TrackSize at (111, 825) {
-		label at (0, -1)
-		outPin {
-			connection_37
-		}
-		sequenceCall {
-			inPin
 		}
 	}
 	if at (281, 791) {
@@ -397,6 +388,15 @@ blockdiagramSpecification Main {
 		label at (0, -1)
 		inPin outPin {
 			connection_78
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier TrackSize at (101, 845) {
+		label at (0, -1)
+		inPin outPin {
+			connection_82
 		}
 		sequenceCall {
 			inPin
