@@ -12,7 +12,8 @@ writes interfaces.v, interfaces.power {
 	real powerVal;
 	AccFeedback AccFeedback_instance;
 	ACC_Control ACC_Control_instance;
-	characteristic real v_set = 0.0;
+	DetectCurrentVelocity DetectCurrentVelocity_instance;
+	FuSi FuSi_instance;
 
 	@generated("blockdiagram")
 	@thread
@@ -27,6 +28,6 @@ writes interfaces.v, interfaces.power {
 		Stecke_instance.vCar(brakeVal, powerVal, Globals.d_T); // Main/calc 2
 		interfaces.v = Stecke_instance.getV(); // Main/calc 3
 		AccFeedback_instance.calc(Globals.d_T); // Main/calc 4
-		ACC_Control_instance.calc(Globals.v, powerVal, brakeVal, v_set); // Main/calc 5
+		ACC_Control_instance.calc(Globals.v, powerVal, brakeVal, DetectCurrentVelocity_instance.calc(OnOff_instance.onoff(Stecke_instance.getV(), Globals.acc_status_request), Globals.v)); // Main/calc 5
 	}
 }

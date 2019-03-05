@@ -41,7 +41,7 @@
     </item>
   </signalMappings>
   <signalGenerators xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorListType">
-    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorType" id="IDa002b27b-2236-408e-b7ae-e437954a6267" instanceId="0" name="SignalGenerator" startTime="0" stopBehaviour="ModelValue">
+    <item xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorType" id="IDa002b27b-2236-408e-b7ae-e437954a6267" instanceId="0" name="SignalGenerator" startTime="0" stopBehaviour="ModelValue" enabled="false">
       <mapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalGeneratorMappingContainerType" mappingChange="Dynamically">
         <signalMapping xsi:type="ETAS.EE.Data.SignalGenerator.SignalMappingRefType" idRef="ID75169d20-be1a-481b-ae63-2eb0378081dc" />
       </mapping>
