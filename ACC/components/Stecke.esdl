@@ -35,4 +35,8 @@ class Stecke {
 	public real getV() {
 		return Globals.v; // Main/getV 1
 	}
+	
+	public real getHeight(real at){
+		return this.Landscape.getAt(at);
+	}
 }
