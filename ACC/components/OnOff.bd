@@ -7,14 +7,9 @@ blockdiagramSpecification Main {
 	}
 	greater at (221, 66) {
 		inPin connection_7
-		inPin connection_2
+		inPin connection_18
 		outPin {
-			connection_9
-		}
-	}
-	literal Numeric "0.0" at (151, 83) size (49, 0) {
-		outPin {
-			connection_2
+			connection_20
 		}
 	}
 	simpleIdentifier components.Globals.acc_status at (341, 185) {
@@ -29,7 +24,7 @@ blockdiagramSpecification Main {
 	methodArgumentIdentifier onoff.v at (51, 65) {
 		label at (0, -1)
 		outPin {
-			connection_7
+			connection_21, connection_7
 		}
 		sequenceCall {
 			inPin
@@ -45,9 +40,7 @@ blockdiagramSpecification Main {
 		}
 	}
 	ifElse at (331, 91) {
-		inPin connection_9 {
-			bendpoints (30, 0), (30, 20)
-		}
+		inPin connection_19
 		ifControlFlowOutPin {
 			connection_12
 		}
@@ -83,6 +76,44 @@ blockdiagramSpecification Main {
 		label at (0, -1)
 		inPin outPin {
 			connection_17
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier interfaces.Limits_Config.minSpeed at (151, 85) {
+		label at (0, -1)
+		outPin {
+			connection_18
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	and at (281, 86) {
+		inPin connection_20 {
+			bendpoints (20, 0)
+		}
+		inPin connection_23 {
+			bendpoints (40, 0), (40, -30)
+		}
+		outPin {
+			connection_19
+		}
+	}
+	less at (161, 126) {
+		inPin connection_21 {
+			bendpoints (40, 0), (40, 60)
+		}
+		inPin connection_22
+		outPin {
+			connection_23
+		}
+	}
+	simpleIdentifier interfaces.Limits_Config.maxSpeed at (81, 145) {
+		label at (0, -1)
+		outPin {
+			connection_22
 		}
 		sequenceCall {
 			inPin
