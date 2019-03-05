@@ -5,15 +5,15 @@ blockdiagramSpecification Main {
 			connection_3
 		}
 	}
-	simpleIdentifier components.Globals.v at (651, 245) {
+	simpleIdentifier components.Globals.v at (871, 275) {
 		label at (0, -1)
-		inPin connection_7
+		inPin connection_19
 		outPin {
 			connection_8
 		}
 		sequenceCall {
-			inPin connection_6 {
-				bendpoints (100, 0), (100, 30)
+			inPin connection_18 {
+				bendpoints (210, 0), (210, 30), (430, 30)
 			}
 		}
 	}
@@ -29,7 +29,7 @@ blockdiagramSpecification Main {
 	if at (381, 191) {
 		inPin connection_9
 		ifControlFlowOutPin {
-			connection_6
+			connection_18
 		}
 		sequenceCall {
 			inPin connection_3
@@ -38,10 +38,10 @@ blockdiagramSpecification Main {
 	addition at (591, 236) {
 		inPin connection_10
 		inPin connection_8 {
-			bendpoints (20, 0), (20, 40), (-120, 40), (-120, 10)
+			bendpoints (0, 180), (-390, 180), (-390, -20)
 		}
 		outPin {
-			connection_7
+			connection_14
 		}
 	}
 	simpleIdentifier components.Globals.z at (461, 235) {
@@ -51,6 +51,44 @@ blockdiagramSpecification Main {
 		}
 		sequenceCall {
 			inPin
+		}
+	}
+	simpleIdentifier interfaces.Limits_Config.minSpeed at (621, 275) {
+		label at (0, -1)
+		outPin {
+			connection_15
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	maximum at (701, 246) {
+		inPin connection_14
+		inPin connection_15 {
+			bendpoints (0, -10)
+		}
+		outPin {
+			connection_17
+		}
+	}
+	simpleIdentifier interfaces.Limits_Config.maxSpeed at (641, 345) {
+		label at (0, -1)
+		outPin {
+			connection_16
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	minimum at (791, 266) {
+		inPin connection_17 {
+			bendpoints (50, 0)
+		}
+		inPin connection_16 {
+			bendpoints (70, 0), (70, -60)
+		}
+		outPin {
+			connection_19
 		}
 	}
 }
