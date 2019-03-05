@@ -4,7 +4,7 @@ When the car is driving in the model there must not be an end of the course.
 The test driver should drive the car to the end of the driving cycle. When the test driver reaches the end of the driving cycle he must immediately start a new cycle to not end the course.
 
 ## Hills and Valleys
-Add some faeture to the course such that calibratable hills and valleys with at most 20 supporting points within a characteristic line (a.k.a. table) for the height of the course such that start and end point of the course match. The slope shall not exceed the OEM prescribed typical range (here we define this to be 20%).
+Add some feature to the course such that calibratable hills and valleys with at most 20 supporting points within a characteristic line (a.k.a. table) for the height of the course such that start and end point of the course match [Author's note: cannot be tested]. The slope shall not exceed the OEM prescribed typical range (here we define this to be 20%).
 ### Test
 Demonstrate that there is a continuous movement over the hills and valleys also passing the end of the course.
 
