@@ -1,10 +1,10 @@
 package components;
 
 class AccFeedback {
-	characteristic real c = 0.0;
-	boolean acc_status_old;
-	boolean feedback;
-	real duration;
+	characteristic real c = 0.0;  //not used
+	boolean acc_status_old = false;
+	boolean feedback; //not used
+	real duration = 0.0;
 
 	@generated("blockdiagram")
 	public void calc(real in my_dT) {
