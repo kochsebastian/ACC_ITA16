@@ -31,6 +31,6 @@ static class OnOffTest{
 	public void testOffFailure(){
 		
 		Globals.acc_status = true;
-		Assert.assertFalse(_OnOff.onoff(0.0, False));
+		Assert.assertFalse(_OnOff.onoff(0.0, false));
 	}
 }
