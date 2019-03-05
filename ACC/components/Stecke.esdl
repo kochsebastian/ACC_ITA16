@@ -5,7 +5,7 @@ type Kennfeld is table real, real -> real;
 
 class Stecke {
 	real h;
-	real s;
+	public real s;
 	real ds;
 	real momentum;
 	characteristic Kennlinie BrakeMomentum = {{0.0, 1.0, 40.0, 60.0, 80.0, 100.0}, {0.0, 0.0, -1.0, -2.0, -3.0, -4.0}};
@@ -13,7 +13,7 @@ class Stecke {
 	characteristic Kennlinie AirFriction = {{0.0, 30.0, 60.0, 90.0, 120.0, 150.0}, {0.0, -0.1, -0.2, -0.4, -0.8, -1.6}};
 	real dh;
 	characteristic Kennlinie Landscape = {{0.0, 100.0, 145.5657, 202.53, 221.52, 240.0, 259.49, 300.0, 350.0, 400.0, 450.0, 500.0, 600.0, 700.0, 750.0, 800.0, 810.0, 850.0, 900.0, 1000.0}, {0.0, 4.0, 7.125, 10.375, 10.75, 10.5, 9.0, 5.375, 2.625, 0.625, 1.25, 0.625, 0.0, 0.0, 1.375, 0.75, 0.375, 0.625, 0.0, 0.0}};
-	characteristic real TrackSize = 1000.0;
+	public real TrackSize = 0.0;
 
 	@generated("blockdiagram")
 	public void vCar(real in brakeCtrl, real in powerCtrl, real in my_dT) {

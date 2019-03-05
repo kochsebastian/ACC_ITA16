@@ -14,6 +14,7 @@ writes interfaces.v, interfaces.power {
 	ACC_Control ACC_Control_instance;
 	DetectCurrentVelocity DetectCurrentVelocity_instance;
 	FuSi FuSi_instance;
+	characteristic boolean crash = false;
 
 	@generated("blockdiagram")
 	@thread
@@ -29,5 +30,6 @@ writes interfaces.v, interfaces.power {
 		interfaces.v = Stecke_instance.getV(); // Main/calc 3
 		AccFeedback_instance.calc(Globals.d_T); // Main/calc 4
 		ACC_Control_instance.calc(Globals.v, powerVal, brakeVal, DetectCurrentVelocity_instance.calc(OnOff_instance.onoff(Stecke_instance.getV(), Globals.acc_status_request), Globals.v)); // Main/calc 5
+		FuSi_instance.crash_calc(Globals.acc_status, crash); // Main/calc 6
 	}
 }

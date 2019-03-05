@@ -128,15 +128,16 @@
 			/end IF_DATA
 		/end CHARACTERISTIC
 
-		/begin CHARACTERISTIC components.Simulation.v_set
+		/begin CHARACTERISTIC components.Simulation.crash
 			/* long identifier    */ ""
 			/* type               */ VALUE
 			/* ecu address        */ 0x435168
-			/* record layout      */ STANDARD_VALUE_R32
+			/* record layout      */ STANDARD_VALUE_U8
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
-			/* lower limit        */ -3.4028234663852886E+38
-			/* upper limit        */ 3.4028234663852886E+38
+			/* lower limit        */ 0
+			/* upper limit        */ 1
+			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    DP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 8
 			/end IF_DATA
@@ -756,7 +757,7 @@
 			/begin DEF_CHARACTERISTIC
 				components.Simulation.brakePadel
 				components.Simulation.gasPadel
-				components.Simulation.v_set
+				components.Simulation.crash
 			/end DEF_CHARACTERISTIC
 			/begin IN_MEASUREMENT
 				interfaces.interfaces.brake
@@ -776,6 +777,7 @@
 				components.Simulation.AccFeedback_instance
 				components.Simulation.ACC_Control_instance
 				components.Simulation.DetectCurrentVelocity_instance
+				components.Simulation.FuSi_instance
 			/end SUB_FUNCTION
 		/end FUNCTION
 		
@@ -840,6 +842,10 @@
 			/end LOC_MEASUREMENT
 		/end FUNCTION
 		
+		/begin FUNCTION components.Simulation.FuSi_instance
+			""
+		/end FUNCTION
+		
 		/begin RECORD_LAYOUT STANDARD_VALUE_U8
 			/* value              */ FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
 		/end RECORD_LAYOUT
@@ -890,7 +896,7 @@
 			/begin REF_CHARACTERISTIC
 				components.Simulation.brakePadel
 				components.Simulation.gasPadel
-				components.Simulation.v_set
+				components.Simulation.crash
 			/end REF_CHARACTERISTIC
 			/begin REF_MEASUREMENT
 				components.Simulation.brakeVal
@@ -902,6 +908,7 @@
 				components.Simulation.AccFeedback_instance
 				components.Simulation.ACC_Control_instance
 				components.Simulation.DetectCurrentVelocity_instance
+				components.Simulation.FuSi_instance
 			/end SUB_GROUP
 		/end GROUP
 		
@@ -964,6 +971,10 @@
 				components.Simulation.DetectCurrentVelocity_instance.status_old
 				components.Simulation.DetectCurrentVelocity_instance.v_buffer
 			/end REF_MEASUREMENT
+		/end GROUP
+		
+		/begin GROUP components.Simulation.FuSi_instance
+			""
 		/end GROUP
 		
 		/begin GROUP interfaces.interfaces
