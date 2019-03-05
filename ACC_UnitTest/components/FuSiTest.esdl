@@ -31,8 +31,5 @@ static class FuSiTest writes interfaces.crash_detected{
 		boolean ergebnis = true;
 		ergebnis = FuSi.crash_calc(ergebnis, true);
 		Assert.assertFalse(ergebnis);
-	}
-	
-	
-	
+	}	
 }
