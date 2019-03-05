@@ -17,4 +17,8 @@ class DetectCurrentVelocity {
 		
 		return v_buffer; // Main/calc 3
 	}
+	
+	public real getBuffer(){
+		return v_buffer;
+	}
 }
