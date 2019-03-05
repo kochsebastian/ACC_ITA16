@@ -134,7 +134,7 @@ blockdiagramSpecification Main {
 		}
 	}
 	simpleIdentifier zero at (971, 275) {
-		label at (-60, 9)
+		label at (-10, 9)
 		outPin {
 			connection_33
 		}
@@ -255,7 +255,7 @@ blockdiagramSpecification Main {
 			inPin
 		}
 	}
-	simpleIdentifier power_return at (761, 715) {
+	simpleIdentifier power_return at (821, 715) {
 		label at (0, -1)
 		inPin connection_54
 		outPin sequenceCall {
@@ -344,7 +344,7 @@ blockdiagramSpecification Main {
 		inPin connection_58
 		outPin sequenceCall {
 			inPin connection_57 {
-				bendpoints (40, 0), (40, 60)
+				bendpoints (10, 0), (10, 60)
 			}
 		}
 	}
