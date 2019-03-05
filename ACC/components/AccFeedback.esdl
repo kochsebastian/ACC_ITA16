@@ -5,6 +5,7 @@ class AccFeedback {
 	boolean acc_status_old;
 	boolean feedback;
 	real duration;
+	//djsf
 
 	@generated("blockdiagram")
 	public void calc(real in my_dT) {
