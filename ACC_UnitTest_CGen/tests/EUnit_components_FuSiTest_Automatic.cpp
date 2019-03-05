@@ -2,8 +2,8 @@
 #include <gtest/gtest.h>
 
 extern "C" {
-	#include "components_Globals_Automatic.h"
 	#include "components_FuSi_Automatic.h"
+	#include "components_Globals_Automatic.h"
 	#include "components_FuSiTest_Automatic.h"
 }
 
@@ -14,6 +14,7 @@ namespace {
 	};
 
 	TEST_F(components_FuSiTest_Automatic_SubClass, components_FuSiTest_Automatic_testFuSi) {
+		components_Globals_acc_status = true;
 		components_FuSi_Automatic_onCrash(true);
 		ASSERT_FALSE(components_Globals_acc_status);
 	}
