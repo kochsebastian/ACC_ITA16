@@ -56,7 +56,7 @@
 		        QP_BLOB 1
 		    /end SOURCE
 		    /begin TP_BLOB
-		         /* programm id */ 1300251643
+		         /* programm id */ 1300254771
 		         /* target id   */ 7
 		         /*             */ 0 2 0
 		    /end TP_BLOB
@@ -88,7 +88,7 @@
 		/begin CHARACTERISTIC components.Globals.acc_status_request
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x4530FC
+			/* ecu address        */ 0x45302C
 			/* record layout      */ STANDARD_VALUE_U8
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -103,7 +103,7 @@
 		/begin CHARACTERISTIC components.Simulation.brakePadel
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435160
+			/* ecu address        */ 0x435020
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -117,7 +117,7 @@
 		/begin CHARACTERISTIC components.Simulation.gasPadel
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435164
+			/* ecu address        */ 0x435024
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -131,7 +131,7 @@
 		/begin CHARACTERISTIC components.Simulation.crash
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435168
+			/* ecu address        */ 0x435028
 			/* record layout      */ STANDARD_VALUE_U8
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -146,7 +146,7 @@
 		/begin CHARACTERISTIC components.Simulation.Stecke_instance.BrakeMomentum
 			/* long identifier    */ ""
 			/* type               */ CURVE
-			/* ecu address        */ 0x4351C0
+			/* ecu address        */ 0x43507C
 			/* record layout      */ STANDARD_CURVE_R32R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -168,7 +168,7 @@
 		/begin CHARACTERISTIC components.Simulation.Stecke_instance.EngineMomentum
 			/* long identifier    */ ""
 			/* type               */ MAP
-			/* ecu address        */ 0x4351F4
+			/* ecu address        */ 0x4350B0
 			/* record layout      */ STANDARD_MAP_R32R32R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -198,7 +198,7 @@
 		/begin CHARACTERISTIC components.Simulation.Stecke_instance.AirFriction
 			/* long identifier    */ ""
 			/* type               */ CURVE
-			/* ecu address        */ 0x43518C
+			/* ecu address        */ 0x435048
 			/* record layout      */ STANDARD_CURVE_R32R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -220,7 +220,7 @@
 		/begin CHARACTERISTIC components.Simulation.Stecke_instance.Landscape
 			/* long identifier    */ ""
 			/* type               */ CURVE
-			/* ecu address        */ 0x4352B8
+			/* ecu address        */ 0x435174
 			/* record layout      */ STANDARD_CURVE_R32R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -239,24 +239,10 @@
 			/end IF_DATA
 		/end CHARACTERISTIC
 
-		/begin CHARACTERISTIC components.Simulation.Stecke_instance.TrackSize
-			/* long identifier    */ ""
-			/* type               */ VALUE
-			/* ecu address        */ 0x435188
-			/* record layout      */ STANDARD_VALUE_R32
-			/* max diff value     */ 0.0
-			/* conversion         */ esdl_ident
-			/* lower limit        */ -3.4028234663852886E+38
-			/* upper limit        */ 3.4028234663852886E+38
-			/begin IF_DATA E_TARGET
-			    DP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 9
-			/end IF_DATA
-		/end CHARACTERISTIC
-
 		/begin CHARACTERISTIC components.Simulation.AccFeedback_instance.c
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435184
+			/* ecu address        */ 0x435044
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -270,7 +256,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.fuenf
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435174
+			/* ecu address        */ 0x435034
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -284,7 +270,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.decrease_power
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435170
+			/* ecu address        */ 0x435030
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -298,7 +284,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.zero
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435180
+			/* ecu address        */ 0x435040
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -312,7 +298,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.c_2
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x43516C
+			/* ecu address        */ 0x43502C
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -326,7 +312,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.fuenfundneunzig
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x435178
+			/* ecu address        */ 0x435038
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -340,7 +326,7 @@
 		/begin CHARACTERISTIC components.Simulation.ACC_Control_instance.hundert
 			/* long identifier    */ ""
 			/* type               */ VALUE
-			/* ecu address        */ 0x43517C
+			/* ecu address        */ 0x43503C
 			/* record layout      */ STANDARD_VALUE_R32
 			/* max diff value     */ 0.0
 			/* conversion         */ esdl_ident
@@ -359,7 +345,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530FD
+			ECU_ADDRESS 0x45302D
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 0
@@ -374,10 +360,24 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530FE
+			ECU_ADDRESS 0x45302E
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 1
+			/end IF_DATA
+		/end MEASUREMENT
+
+		/begin MEASUREMENT components.Globals.TrackSize
+			/* long identifier    */ ""
+			/* datatype           */ FLOAT32_IEEE
+			/* conversion         */ esdl_ident
+			/* resolution         */ 1
+			/* accuracy           */ 100.0
+			/* lower limit        */ -3.4028234663852886E+38
+			/* upper limit        */ 3.4028234663852886E+38
+			ECU_ADDRESS 0x435000
+			/begin IF_DATA E_TARGET
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 3
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -389,9 +389,9 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530F8
+			ECU_ADDRESS 0x453028
 			/begin IF_DATA E_TARGET
-			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 3
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 4
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -403,9 +403,9 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530F4
+			ECU_ADDRESS 0x453024
 			/begin IF_DATA E_TARGET
-			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 4
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 0 1001 5
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -417,7 +417,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530A0
+			ECU_ADDRESS 0x453040
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 6
 			/end IF_DATA
@@ -431,7 +431,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530A4
+			ECU_ADDRESS 0x453044
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 1 1000 7
 			/end IF_DATA
@@ -445,7 +445,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530D0
+			ECU_ADDRESS 0x453074
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 0
 			/end IF_DATA
@@ -459,7 +459,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530D8
+			ECU_ADDRESS 0x45307C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 1
 			/end IF_DATA
@@ -473,7 +473,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530CC
+			ECU_ADDRESS 0x453070
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 2
 			/end IF_DATA
@@ -487,7 +487,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530D4
+			ECU_ADDRESS 0x453078
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 3
 			/end IF_DATA
@@ -501,9 +501,23 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530C8
+			ECU_ADDRESS 0x45306C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 7
+			/end IF_DATA
+		/end MEASUREMENT
+
+		/begin MEASUREMENT components.Simulation.Stecke_instance.TrackSize
+			/* long identifier    */ ""
+			/* datatype           */ FLOAT32_IEEE
+			/* conversion         */ esdl_ident
+			/* resolution         */ 1
+			/* accuracy           */ 100.0
+			/* lower limit        */ -3.4028234663852886E+38
+			/* upper limit        */ 3.4028234663852886E+38
+			ECU_ADDRESS 0x453068
+			/begin IF_DATA E_TARGET
+			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 0 1000 9
 			/end IF_DATA
 		/end MEASUREMENT
 
@@ -515,7 +529,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530BC
+			ECU_ADDRESS 0x45305C
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 1 1000 1
@@ -530,7 +544,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530BD
+			ECU_ADDRESS 0x45305D
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 1 1000 2
@@ -545,7 +559,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530B8
+			ECU_ADDRESS 0x453058
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 1 1000 3
 			/end IF_DATA
@@ -559,7 +573,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530B4
+			ECU_ADDRESS 0x453054
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 2 1000 0
 			/end IF_DATA
@@ -573,7 +587,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530B0
+			ECU_ADDRESS 0x453050
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 2 1000 2
 			/end IF_DATA
@@ -587,7 +601,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530AC
+			ECU_ADDRESS 0x45304C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 2 1000 4
 			/end IF_DATA
@@ -601,7 +615,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530A8
+			ECU_ADDRESS 0x453048
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 2 1000 6
 			/end IF_DATA
@@ -615,7 +629,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530C4
+			ECU_ADDRESS 0x453064
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 3 1000 0
@@ -630,7 +644,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530C5
+			ECU_ADDRESS 0x453065
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 3 1000 1
@@ -645,7 +659,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530C0
+			ECU_ADDRESS 0x453060
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 5 1001 0 1001 0 1001 1 1000 3 1000 2
 			/end IF_DATA
@@ -659,7 +673,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530E1
+			ECU_ADDRESS 0x453081
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1001 0
@@ -674,7 +688,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ 0
 			/* upper limit        */ 1
-			ECU_ADDRESS 0x4530E0
+			ECU_ADDRESS 0x453080
 			BIT_MASK 0x1
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1001 1
@@ -689,7 +703,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530EC
+			ECU_ADDRESS 0x45308C
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1001 2
 			/end IF_DATA
@@ -703,7 +717,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530E8
+			ECU_ADDRESS 0x453088
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1001 3
 			/end IF_DATA
@@ -717,7 +731,7 @@
 			/* accuracy           */ 100.0
 			/* lower limit        */ -3.4028234663852886E+38
 			/* upper limit        */ 3.4028234663852886E+38
-			ECU_ADDRESS 0x4530E4
+			ECU_ADDRESS 0x453084
 			/begin IF_DATA E_TARGET
 			    KP_BLOB 0xFFFFFFFF 0xFFFFFFFF 4 1001 0 1001 0 1001 2 1001 4
 			/end IF_DATA
@@ -745,6 +759,7 @@
 				components.Globals.acc_status_request
 			/end DEF_CHARACTERISTIC
 			/begin LOC_MEASUREMENT
+				components.Globals.TrackSize
 				components.Globals.acc_feedback
 				components.Globals.acc_status
 				components.Globals.v
@@ -788,9 +803,9 @@
 				components.Simulation.Stecke_instance.EngineMomentum
 				components.Simulation.Stecke_instance.AirFriction
 				components.Simulation.Stecke_instance.Landscape
-				components.Simulation.Stecke_instance.TrackSize
 			/end DEF_CHARACTERISTIC
 			/begin LOC_MEASUREMENT
+				components.Simulation.Stecke_instance.TrackSize
 				components.Simulation.Stecke_instance.dh
 				components.Simulation.Stecke_instance.ds
 				components.Simulation.Stecke_instance.h
@@ -884,6 +899,7 @@
 				components.Globals.acc_status_request
 			/end REF_CHARACTERISTIC
 			/begin REF_MEASUREMENT
+				components.Globals.TrackSize
 				components.Globals.acc_feedback
 				components.Globals.acc_status
 				components.Globals.v
@@ -919,9 +935,9 @@
 				components.Simulation.Stecke_instance.EngineMomentum
 				components.Simulation.Stecke_instance.AirFriction
 				components.Simulation.Stecke_instance.Landscape
-				components.Simulation.Stecke_instance.TrackSize
 			/end REF_CHARACTERISTIC
 			/begin REF_MEASUREMENT
+				components.Simulation.Stecke_instance.TrackSize
 				components.Simulation.Stecke_instance.dh
 				components.Simulation.Stecke_instance.ds
 				components.Simulation.Stecke_instance.h
